@@ -1,0 +1,4 @@
+##
+my_node_classes:
+- 'yum'
+- 'yum_autoupdate'

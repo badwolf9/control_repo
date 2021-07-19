@@ -1,0 +1,22 @@
+127.0.0.1	localhost
+127.0.1.1	mf-x1c01    mf-x1c01.home
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+192.168.100.8	mf-mm02.mjfox.ch mf-mm02
+192.168.100.4	mf-mm03.home mf-mm03
+192.168.100.12  mf-mm01.home mf-mm01
+192.168.100.42	mf-rpi02
+192.168.100.43	mf-rpi03
+192.168.100.222	mf-printer01
+192.168.100.223 mf-printer02
+192.168.100.50 mf-cisco
+192.168.100.68 mf-imac01
+192.168.100.60 mf-router42
+192.168.100.22	mf-nas01
+192.168.100.21	mf-nas02

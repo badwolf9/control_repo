@@ -1,0 +1,9 @@
+my_node_classes:
+- 'os_linux'
+- 'os_linux_debian'
+- 'os_linux_ubuntu'
+- 'os_linux_ubuntu_workstation'
+- 'os_linux_ubuntu_allow_upgrade'
+- 'service_puppet'
+- 'icinga2'
+- 'defaultnode'

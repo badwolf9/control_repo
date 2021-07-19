@@ -1,0 +1,3 @@
+Package: *
+Pin: release o=LP-PPA-remmina-ppa-team-remmina-next
+Pin-Priority: 1000

@@ -1,0 +1,83 @@
+#
+#	This is the BSSE smb.conf controlled by puppet.
+#
+[global]
+   workgroup = D
+   server string = <%= @hostname %>
+   security = ads
+   hosts allow = 129.132.27.0/24 195.176.122.0/24 129.132.128.64/26 129.132.123.32/27 172.31.53.64/26 127. 129.132.228.0/23 172.31.52.129/25 82.130.87.224/28
+   load printers = no
+   cups options = raw
+   log file = /var/log/samba/%m.log
+   max log size = 50
+   password server = d.ethz.ch
+   realm = D.ETHZ.CH
+<% if @operatingsystem =~ /Fedora|Ubuntu/ then %> kerberos method = secrets and keytab
+<% else %> use kerberos keytab = true <% end %>
+   dns proxy = no 
+
+#============================ Share Definitions ==============================
+
+[local0]
+   comment = Local space for data share
+   path = /local0
+   valid users = @su-user <% @my_groups.each do |h| %> @<%= h %>-user<% end %>
+   wite list = @su-user <% @my_groups.each do |h| %> @<%= h %>-user<% end %>
+   writable = yes
+   printable = no
+   create mask = 0660
+   directory mask = 0770
+   force create mode = 0660
+   force directory mode = 0770
+
+[tmp]
+   comment = Temporary file space
+   path = /local0/scratch
+   valid users = @su-user <% @my_groups.each do |h| %> @<%= h %>-user<% end %>
+   write list = @su-user <% @my_groups.each do |h| %> @<%= h %>-user<% end %>
+   read only = no
+   public = yes
+   browsable = no
+<% if @hostname == "bs-apptest02" then %>
+[opt]
+   comment = OFBiz
+   path = /opt
+   browseable = yes
+   writable = yes
+   valid users = @it-user
+<% end %>
+<% if @hostname == "bs-lamp06" then %>
+[web]
+   comment = WebServer
+   path = /local0/htdocs
+   browseable = yes
+   writable = yes
+   valid users = @mf-user @it-user root
+<% end %>
+<% if @hostname == "bs-dsvr06" then %>
+[rawdata]
+   comment = Raw data storage for Stelling group
+   path = /net/bs-ssvr02/array0/stelling
+   browseable = yes
+   writable = yes
+   valid users = @stelling-user @it-user
+   force group = +bsse-stelling
+<% end %>
+<% if @hostname == "bs-dsvr09" then %>
+[rawdata]
+   comment = Raw data storage for Paro group
+   path = /net/bs-ssvr05/array0/paro
+   browseable = yes
+   writable = yes
+   valid users = @paro-user @it-user
+   force group = +bsse-paro
+<% end %>
+<% if @hostname =~ /bs-dsvr07|bs-dsvr09/ then %>
+[dsudata]
+   comment = DSF share from ssvr01
+   path =  /net/bs-ssvr01/array0/bsse/bsse-dsf
+   read only = yes
+   public = no
+   writeable = no
+   valid users = root @beerenwinkel-user @iber-user @it-user @dsf-user @paro-user
+<% end %>

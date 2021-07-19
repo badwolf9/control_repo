@@ -1,0 +1,9 @@
+#
+# Copyright 1991 Sun Microsystems, Inc.  All rights reserved.
+# Use is subject to license terms.
+#
+#pragma ident	"%Z%%M%	%I%	%E% SMI"
+
+CRONLOG=YES
+PATH=/root/bin:/opt/csw/bin:/opt/csw/sbin:/usr/sbin:/usr/bin:/usr/local/itsc/solaris/bin
+SUPATH=/root/bin:/opt/csw/bin:/opt/csw/sbin:/usr/sbin:/usr/bin:/usr/local/itsc/solaris/bin

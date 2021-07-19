@@ -1,0 +1,10 @@
+View DOC: |antiword %p
+UUView: uudeview -p /dev/null -i %F 2>/dev/null|cut --delimiter="'" -f 2 >
+Print all: lpr "%s"
+Getprintmp: cat %f > /home/martin/tmp.prn
+print: /home/martin/.sylpheed-claws/sylprint1.pl %s
+TNEF: xterm -e /local/spare/apps/sylphinstall/tnef-claws.txt %p
+Show_att: /home/martin/scripts/substheader "%F"
+Xtract_Att: uudeview -p /home/martin/Documents/iteco/Admin/itc -i +a "%f"
+Play sound: /usr/bin/wavplay /home/martin/tmp/unshade.wav
+Mairix: >/home/martin/.claws-mail/mairix.sh /home/martin/.config/mairix/.mairixrc

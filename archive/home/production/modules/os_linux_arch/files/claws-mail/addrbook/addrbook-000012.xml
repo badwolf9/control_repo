@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<address-book name="BSSE" >
+  <person uid="428318475" first-name="" last-name="" nick-name="" cn="Garbellini  Laura" >
+    <address-list>
+      <address uid="428318476" alias="" email="laura.garbellini@lernende.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428318477" first-name="" last-name="" nick-name="" cn="Horn  Thomas" >
+    <address-list>
+      <address uid="428318478" alias="" email="thomas.horn@bsse.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428318479" first-name="" last-name="" nick-name="" cn="Jecklin  Andreas" >
+    <address-list>
+      <address uid="428318480" alias="" email="andreas.jecklin@bsse.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428318485" first-name="" last-name="" nick-name="" cn="Jäggin  Verena" >
+    <address-list>
+      <address uid="428318486" alias="" email="verena.jaeggin@bsse.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428318489" first-name="" last-name="" nick-name="" cn="Marino Bottacin" >
+    <address-list>
+      <address uid="428318490" alias="" email="marino.bottacin@lernende.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428318483" first-name="" last-name="" nick-name="" cn="John Ryan" >
+    <address-list>
+      <address uid="428318484" alias="" email="john.ryan@bsse.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428318473" first-name="" last-name="" nick-name="" cn="Fox  Martin" >
+    <address-list>
+      <address uid="428318474" alias="" email="martin.fox@bsse.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428318487" first-name="" last-name="" nick-name="" cn="Kenneth Staub" >
+    <address-list>
+      <address uid="428318488" alias="" email="kenneth@kstb.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428318491" first-name="" last-name="" nick-name="" cn="Placzek  Christian Longin" >
+    <address-list>
+      <address uid="428318492" alias="" email="christian.placzek@bsse.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300529" first-name="" last-name="" nick-name="" cn="Interdiscount" >
+    <address-list>
+      <address uid="488300530" alias="" email="online@interdiscount.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428318471" first-name="" last-name="" nick-name="" cn="Bailey  Vernon" >
+    <address-list>
+      <address uid="428318472" alias="" email="vernon.bailey@bsse.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428318481" first-name="" last-name="" nick-name="" cn="Brunner  Markus" >
+    <address-list>
+      <address uid="428318482" alias="" email="markus.brunner@bsse.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+</address-book>

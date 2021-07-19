@@ -1,0 +1,5 @@
+my_node_classes:
+- 'os_linux'
+- 'os_linux_arch'
+- 'service_puppet'
+- 'defaultnode'

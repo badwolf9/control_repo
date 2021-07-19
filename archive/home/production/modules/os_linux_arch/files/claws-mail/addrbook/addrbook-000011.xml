@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<address-book name="z_Deutsch" >
+  <person uid="396978221" first-name="" last-name="" nick-name="" cn="soufleros@gmail.com" >
+    <address-list>
+      <address uid="396978222" alias="" email="soufleros@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396978223" first-name="" last-name="" nick-name="" cn="amin.poukila@hispeed.ch" >
+    <address-list>
+      <address uid="396978224" alias="" email="amin.poukila@hispeed.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396978215" first-name="" last-name="" nick-name="" cn="branimir.barac@bluewin.ch" >
+    <address-list>
+      <address uid="396978216" alias="" email="branimir.barac@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396978217" first-name="" last-name="" nick-name="" cn="k-tanya79@yahoo.com" >
+    <address-list>
+      <address uid="396978218" alias="" email="k-tanya79@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396978225" first-name="" last-name="" nick-name="" cn="lnoemi2087@gmx.ch" >
+    <address-list>
+      <address uid="396978226" alias="" email="lnoemi2087@gmx.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396978219" first-name="" last-name="" nick-name="" cn="mavrodieva.antoaneta@gmail.com" >
+    <address-list>
+      <address uid="396978220" alias="" email="mavrodieva.antoaneta@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396978227" first-name="" last-name="" nick-name="" cn="rigikstar@ukr.net" >
+    <address-list>
+      <address uid="396978228" alias="" email="rigikstar@ukr.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396978229" first-name="" last-name="" nick-name="" cn="rbrmariz@yahoo.com" >
+    <address-list>
+      <address uid="396978230" alias="" email="rbrmariz@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396978231" first-name="" last-name="" nick-name="" cn="resaj_21@hotmail.com" >
+    <address-list>
+      <address uid="396978232" alias="" email="resaj_21@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <group uid="396978233" name="Deutsch_MigrosB2_1" remarks="" >
+    <member-list>
+      <member pid="396978223" eid="396978224" />
+      <member pid="396978215" eid="396978216" />
+      <member pid="396978217" eid="396978218" />
+      <member pid="396978225" eid="396978226" />
+      <member pid="396978219" eid="396978220" />
+      <member pid="396978229" eid="396978230" />
+      <member pid="396978231" eid="396978232" />
+      <member pid="396978227" eid="396978228" />
+      <member pid="396978221" eid="396978222" />
+    </member-list>
+  </group>
+</address-book>

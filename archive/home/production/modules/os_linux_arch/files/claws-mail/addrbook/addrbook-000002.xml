@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<address-book name="Personal address" >
+  <person uid="224097572" first-name="" last-name="" nick-name="" cn="花花弄影" >
+    <address-list>
+      <address uid="224097573" alias="" email="jssqwjh8@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="36867739" first-name="" last-name="" nick-name="bf" cn="baarer_fox" >
+    <address-list>
+      <address uid="36867740" alias="bf" email="baarer_fox@yahoo.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="224097574" first-name="" last-name="" nick-name="" cn="liaolan3049" >
+    <address-list>
+      <address uid="224097575" alias="" email="liaolan3049@126.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34290081" first-name="" last-name="" nick-name="" cn="Wythes Brian" >
+    <address-list>
+      <address uid="34290082" alias="" email="b_wythes@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34290083" first-name="" last-name="" nick-name="" cn="Howard Hughes" >
+    <address-list>
+      <address uid="34290084" alias="" email="howard.hughes@ampfp.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="252402496" first-name="" last-name="" nick-name="" cn="Sabine Wythes" >
+    <address-list>
+      <address uid="252402497" alias="" email="sabine@garran.kouvelis.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="252402498" first-name="" last-name="" nick-name="" cn="Rosanne Vaughan" >
+    <address-list>
+      <address uid="252402499" alias="" email="blossom.babe@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="54117884" first-name="Susannah Pitfield" last-name="" nick-name="sooz" cn="Susannah Pitfield" >
+    <address-list>
+      <address uid="187770468" alias="" email="sjpitfield@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="class" >person</attribute>
+      <attribute uid="" name="class" >top</attribute>
+      <attribute uid="" name="name" >cn=Susannah Pitfield,mail=susannah_pitfield@hotmail.com</attribute>
+      <attribute uid="" name="other" >FALSE</attribute>
+      <attribute uid="" name="time" >20020920060356Z</attribute>
+    </attribute-list>
+  </person>
+  <person uid="170496403" first-name="" last-name="" nick-name="" cn="Beat Zaugg" >
+    <address-list>
+      <address uid="170496404" alias="" email="bzaugg@intergga.ch" remarks="new since 7.04" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="54117886" first-name="Urs Wegmuller" last-name="" nick-name="urs" cn="Urs Wegmuller" >
+    <address-list>
+      <address uid="54117887" alias="" email="ursweg@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="name" >cn=Urs Wegmuller,mail=ursweg@bluewin.ch</attribute>
+      <attribute uid="" name="time" >20020920060356Z</attribute>
+      <attribute uid="" name="other" >FALSE</attribute>
+      <attribute uid="" name="class" >top</attribute>
+      <attribute uid="" name="class" >person</attribute>
+    </attribute-list>
+  </person>
+  <person uid="54117888" first-name="silvia" last-name="furter" nick-name="silvia" cn="Silvia Furter" >
+    <address-list>
+      <address uid="54117889" alias="" email="s.fu@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="223138681" first-name="" last-name="" nick-name="" cn="Judith A" >
+    <address-list>
+      <address uid="223138682" alias="" email="iday_ppdo@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="156529789" first-name="" last-name="" nick-name="" cn="Simone Fasel" >
+    <address-list>
+      <address uid="156529790" alias="" email="simone.fasel@rega-sense.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="152951763" first-name="" last-name="" nick-name="" cn="Claudia Willi" >
+    <address-list>
+      <address uid="152951764" alias="" email="claudia.willi@knellwolf.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34290091" first-name="" last-name="" nick-name="" cn="Ursula Niederberger" >
+    <address-list>
+      <address uid="34290092" alias="" email="ursula_niederberger@gmx.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="216801037" first-name="" last-name="" nick-name="" cn="kjva new July 08" >
+    <address-list>
+      <address uid="216801038" alias="" email="kjva@westoznet.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34290095" first-name="" last-name="" nick-name="sabine" cn="Sabine Wythes" >
+    <address-list>
+      <address uid="34290096" alias="" email="A_Wythes@bigpond.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="220173642" first-name="" last-name="" nick-name="" cn="杨福雄/商务管理部 电话0472-5332819" >
+    <address-list>
+      <address uid="220173643" alias="" email="yangfuxiong@shcto.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="270712071" first-name="" last-name="" nick-name="" cn="Sabine Wythes" >
+    <address-list>
+      <address uid="270712072" alias="" email="sabine@garran.kouvelis.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="56804602" first-name="" last-name="" nick-name="" cn="Ernie Botkin" >
+    <address-list>
+      <address uid="56804603" alias="" email="ebotkin@balcab.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950346" first-name="" last-name="" nick-name="" cn="Hilpert, Christine" >
+    <address-list>
+      <address uid="208950347" alias="" email="christine.hilpert@huefingen.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="231927510" first-name="" last-name="" nick-name="" cn="Marika K" >
+    <address-list>
+      <address uid="231927511" alias="" email="marihyt@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="287219124" first-name="" last-name="" nick-name="" cn="Praxede Binggeli" >
+    <address-list>
+      <address uid="287219125" alias="" email="praxede@gmx.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="233485049" first-name="" last-name="" nick-name="" cn="Jean Hollis Weber" >
+    <address-list>
+      <address uid="233485050" alias="" email="jeanweber@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="264985635" first-name="" last-name="" nick-name="" cn="Miss Conn" >
+    <address-list>
+      <address uid="264985636" alias="" email="miss_connn@yahoo.com.ph" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="269861530" first-name="" last-name="" nick-name="" cn="Patrick Hehenberger" >
+    <address-list>
+      <address uid="269861531" alias="" email="phehenberger@pmg-ing.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="228681347" first-name="" last-name="" nick-name="" cn="Annie" >
+    <address-list>
+      <address uid="228681348" alias="" email="anni_in.china@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950352" first-name="" last-name="" nick-name="" cn="Zhang Yie" >
+    <address-list>
+      <address uid="208950353" alias="" email="zhangyie2003@yahoo.com.cn" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950354" first-name="" last-name="" nick-name="" cn="Wang Xuehong" >
+    <address-list>
+      <address uid="208950355" alias="" email="wxuehong@163.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="355514665" first-name="" last-name="" nick-name="" cn="Andreas Muelhaupt" >
+    <address-list>
+      <address uid="355514666" alias="" email="amuelhaupt@gmx.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="326119730" first-name="" last-name="" nick-name="" cn="Cairn-Energie" >
+    <address-list>
+      <address uid="326119731" alias="" email="cairn-energie@gmx.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="233485051" first-name="" last-name="" nick-name="" cn="John (Sid) MacGregor" >
+    <address-list>
+      <address uid="233485052" alias="" email="editor@southern-cross-group.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="354698653" first-name="" last-name="" nick-name="" cn="Hümbeli H" >
+    <address-list>
+      <address uid="354698654" alias="" email="hildegard.huembeli@rav.zg.ch" remarks="RAV Beraterin" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="233485055" first-name="" last-name="" nick-name="" cn="dannidannli" >
+    <address-list>
+      <address uid="233485056" alias="" email="danni440@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="233485053" first-name="" last-name="" nick-name="" cn="Wolfgang Uhlig" >
+    <address-list>
+      <address uid="233485054" alias="" email="w.uhlig@planet.nl" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="233485057" first-name="" last-name="" nick-name="" cn="Lotus cheng" >
+    <address-list>
+      <address uid="233485058" alias="" email="lotusjqzy@yahoo.com.cn" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="290745975" first-name="" last-name="" nick-name="" cn="Jo Fox" >
+    <address-list>
+      <address uid="290745976" alias="" email="foxtole@bigpond.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="233485059" first-name="" last-name="" nick-name="" cn="philomiia" >
+    <address-list>
+      <address uid="233485060" alias="" email="philomiia@126.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950356" first-name="" last-name="" nick-name="" cn="Liao, Li" >
+    <address-list>
+      <address uid="208950357" alias="" email="LLiao@ene.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000095" first-name="" last-name="" nick-name="" cn="G. Scheidegger-Brunner" >
+    <address-list>
+      <address uid="349000096" alias="" email="gscheidegger@sporthundemedizin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="251458847" first-name="" last-name="" nick-name="" cn="John Minchin" >
+    <address-list>
+      <address uid="251458848" alias="" email="John.Minchin@hydro.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="251458849" first-name="" last-name="" nick-name="" cn="Cynthia Lee" >
+    <address-list>
+      <address uid="251458850" alias="" email="clee@solnet.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="251458845" first-name="" last-name="" nick-name="" cn="howard.hughes" >
+    <address-list>
+      <address uid="251458846" alias="" email="howard@advicesolutions.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="163851693" first-name="Helen" last-name="Fox" nick-name="hmf" cn="Helen Fox" >
+    <address-list>
+      <address uid="163851694" alias="" email="hmfox@netspace.net.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="233485061" first-name="" last-name="" nick-name="" cn="Susannah Pitfield" >
+    <address-list>
+      <address uid="233485062" alias="" email="Susannah.Pitfield@semf.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="180615519" first-name="" last-name="" nick-name="" cn="Heike" >
+    <address-list>
+      <address uid="180615520" alias="" email="webmaster@cairn-energie.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="287951367" first-name="" last-name="" nick-name="" cn="service@paypal.ch" >
+    <address-list>
+      <address uid="287951368" alias="" email="service@paypal.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="348972303" first-name="" last-name="" nick-name="" cn="Martin Lüönd" >
+    <address-list>
+      <address uid="348972304" alias="" email="Martin.Luond@zg.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="326038410" first-name="" last-name="" nick-name="" cn="Heike Westermann" >
+    <address-list>
+      <address uid="326038411" alias="" email="cairnenergie@googlemail.com" remarks="Latest address" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="334415210" first-name="" last-name="" nick-name="" cn="Froi Angeles" >
+    <address-list>
+      <address uid="334415211" alias="" email="hard.woman@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="111685650" first-name="" last-name="" nick-name="" cn="Colin Doran" >
+    <address-list>
+      <address uid="111685651" alias="" email="colindoran@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="168780567" first-name="" last-name="" nick-name="" cn="Rosanne Vaughan" >
+    <address-list>
+      <address uid="168780568" alias="" email="blossom.babe@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="83874437" first-name="" last-name="" nick-name="" cn="Snowy Secretariat" >
+    <address-list>
+      <address uid="83874438" alias="" email="snowysec@acr.net.au" remarks="Rileys" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="324122975" first-name="" last-name="" nick-name="" cn="KEELY MCFARLAND" >
+    <address-list>
+      <address uid="324122976" alias="" email="keelyrae333@rogers.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="270387358" first-name="" last-name="" nick-name="" cn="Judith Alpuerto" >
+    <address-list>
+      <address uid="270387359" alias="" email="iday_ppdo@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="290375797" first-name="" last-name="" nick-name="" cn="Jo &amp; Doug" >
+    <address-list>
+      <address uid="290375798" alias="" email="jodoug@bigpond.net.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="54117868" first-name="Dad" last-name="" nick-name="" cn="Dad" >
+    <address-list>
+      <address uid="54117869" alias="" email="pjfox@optusnet.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="name" >cn=Dad,mail=pjfox@optusnet.com.au</attribute>
+      <attribute uid="" name="time" >20020920060356Z</attribute>
+      <attribute uid="" name="other" >FALSE</attribute>
+      <attribute uid="" name="class" >top</attribute>
+      <attribute uid="" name="class" >person</attribute>
+    </attribute-list>
+  </person>
+  <person uid="54117870" first-name="Dani Zaugg" last-name="" nick-name="dani" cn="Dani Zaugg" >
+    <address-list>
+      <address uid="54117871" alias="" email="dzaugg@datacomm.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="name" >cn=Dani Zaugg,mail=dzaugg@datacomm.ch</attribute>
+      <attribute uid="" name="time" >20020920060356Z</attribute>
+      <attribute uid="" name="other" >FALSE</attribute>
+      <attribute uid="" name="class" >top</attribute>
+      <attribute uid="" name="class" >person</attribute>
+    </attribute-list>
+  </person>
+  <person uid="54117872" first-name="Gabrielle" last-name="" nick-name="gaz" cn="Gabrielle" >
+    <address-list>
+      <address uid="54117873" alias="gaz" email="butibum@yahoo.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="class" >top</attribute>
+      <attribute uid="" name="class" >person</attribute>
+      <attribute uid="" name="name" >cn=Gabrielle,mail=butibum@yahoo.com.au</attribute>
+      <attribute uid="" name="other" >FALSE</attribute>
+      <attribute uid="" name="time" >20020920060356Z</attribute>
+    </attribute-list>
+  </person>
+  <person uid="34290079" first-name="" last-name="" nick-name="bme" cn="Michele and Brian Edmondson" >
+    <address-list>
+      <address uid="34290080" alias="" email="beme72@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="39895387" first-name="John" last-name="Andrews" nick-name="ja" cn="Andrews, John and Kelly" >
+    <address-list>
+      <address uid="39895388" alias="" email="andrewsjohn@bigpond.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <group uid="167242605" name="CCards" remarks="" >
+    <member-list>
+      <member pid="39895387" eid="39895388" />
+      <member pid="228681347" eid="228681348" />
+      <member pid="111685650" eid="111685651" />
+      <member pid="54117870" eid="54117871" />
+      <member pid="56804602" eid="56804603" />
+      <member pid="163851693" eid="163851694" />
+      <member pid="208950346" eid="208950347" />
+      <member pid="223138681" eid="223138682" />
+      <member pid="216801037" eid="216801038" />
+      <member pid="208950356" eid="208950357" />
+      <member pid="231927510" eid="231927511" />
+      <member pid="34290079" eid="34290080" />
+      <member pid="168780567" eid="168780568" />
+      <member pid="34290095" eid="34290096" />
+      <member pid="83874437" eid="83874438" />
+      <member pid="54117884" eid="187770468" />
+      <member pid="34290091" eid="34290092" />
+      <member pid="54117886" eid="54117887" />
+      <member pid="208950354" eid="208950355" />
+      <member pid="34290081" eid="34290082" />
+      <member pid="208950352" eid="208950353" />
+      <member pid="220173642" eid="220173643" />
+    </member-list>
+  </group>
+</address-book>

@@ -1,0 +1,64 @@
+# Common.yaml
+#
+##
+my_networks: 
+  homeNet: ["192.168.100.0/24"]
+  specialServerNets: ["172.31.45.0/24"]
+  nonroutableServerNets: ["10.20.8.0/22", "172.31.27.128/26", "172.31.92.0/24"]
+  routableServerNets: ["129.132.27.0/25","129.132.151.0/26","195.176.122.0/24","129.132.76.128/26", "2001:67c:10ec:2643::/118"]
+  dockNets: ["129.132.228.0/23","129.132.128.64/26","129.132.97.128/25","129.132.42.0/25","129.132.151.192/26"]
+  specNets:  ["172.31.52.128/25","172.31.72.128/25"]
+  dmzNets:  ["129.132.14.128/26","129.132.0.192/28","2001:67c:10ec:3c42::/118"]
+  idNets: ["129.132.178.128/27", "129.132.199.16/28", "129.132.77.96/27", "129.132.168.224/27"]
+
+my_project: "badwolf"
+my_puppet_server: "mf-mm02.mjfox.ch"
+dns_servers: ["129.132.98.12","129.132.250.2"]
+domain: ["home", "mjfox.ch"]
+searchpath:  ['home', 'mjfox.ch']
+syslog_servers: ["10.20.8.169"]
+rsyslog_servers: ["10.20.8.169"]
+my_timezone: "Europe/Zurich"
+my_ntp_server: "time.ethz.ch"
+my_update: "yes"
+my_monitor: ""
+mfscripts::mfscriptbin: "/root/bin"
+rootgroup: "root"
+roothome: "/root"
+shallIdebug: "yes"
+
+ssh::keys:
+  mafox:
+    ensure: present
+    user: root
+    type: rsa
+    key:  AAAAB3NzaC1yc2EAAAABIwAAAQEA2s1UuCvlUdzvzzwbZJOLx9xK0J+4zeZp7k62ZIzsDJ896rA5jDV3mYCTYwlyUVZnsBDiXfxE0Fdxe6Cx4tXgj2wqUqYcc47kKe5CtM0J9ajO/mHDK0XuNjiBnhRatkdIkYTfgx3X2x/Z4v40tYoBW2e9oC4JQ0vAcQheKN9HfkdrS1UkGf5hjA3rVzf+AOY2cWysKaV+INR6iIjZdewolxTnYjg+pdRmRQhTvPdqbyYKkXhuM36Mzo79K6mOqpgZIphU96r2hK0DPdmvIoHQ487HHN8OCQblshjWPF/wxSxBjkHuQh38CcQ+VHjuTpf8jdgFr/gSha87n9kh/qNC3w==
+
+hosts::entries:
+  '192.168.100.4':
+    - 'mf-mm03.home'
+    - 'mf-mm03'
+  '192.168.100.8':
+    - 'mf-mm02.mjfox.ch'
+    - 'mf-mm02'
+  '192.168.100.12':
+    - 'mf-mm01.home' 
+    - 'mf-mm01'
+  '192.168.100.42':
+    - 'mf-rpi02'
+  '192.168.100.43':
+    - 'mf-rpi03'
+  '192.168.100.222':
+    - 'mf-printer01'
+  '192.168.100.223':
+    - 'mf-printer02'
+  '192.168.100.50':
+    - 'mf-cisco'
+  '192.168.100.68':
+    - 'mf-imac01'
+  '192.168.100.60':
+    - 'mf-router42'
+  '192.168.100.22':
+    - 'mf-nas01'
+  '192.168.100.21':
+    - 'mf-nas02'

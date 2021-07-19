@@ -1,0 +1,60 @@
+# Managed by puppet module hosts.
+
+<%
+# Calculate the amount of tabs needed for alignment
+def tabs(str)
+  count = ( 31 - str.length ) / 8
+  return " " if count < 1
+  return "\t" * count
+end
+
+# Create a hash of addrs in hosts::entries to be able to exclude it
+# from entries for loopback or primary.
+explicit = Hash.new
+@entries.each_pair do |key, val|
+  if val.is_a?(Hash)
+    val.each_pair do |ip, names|
+      explicit[ip] = 1
+    end
+  else
+    explicit[key] = 1
+  end
+end
+-%>
+# Loopback
+<% if @enable_ipv4 -%>
+<%   @loopback_ipv4.reject{|elt| !elt || elt.to_s == 'undef' || explicit.key?(elt) }.each do |ip| -%>
+<%=    ip %><%= tabs(ip) %><%= @lo_names.join(' ') %>
+<%   end -%>
+<% end -%>
+<% if @enable_ipv6 -%>
+<%   @loopback_ipv6.reject{|elt| !elt || elt.to_s == 'undef' || explicit.key?(elt) }.each do |ip| -%>
+<%=    ip %><%= tabs(ip) %><%= @lo_names.join(' ') %>
+<%   end -%>
+<% end -%>
+
+# Primary address
+<% if @enable_ipv4 -%>
+<%   @pri_ipv4.reject{|elt| !elt || elt.to_s == 'undef' || elt.to_s == '' || explicit.key?(elt) }.each do |ip| -%>
+<%=    ip %><%= tabs(ip) %><%= @primary_names.join(' ') %>
+<%   end -%>
+<% end -%>
+<% if @enable_ipv6 -%>
+<%   @pri_ipv6.reject{|elt| !elt || elt.to_s == 'undef' || elt.to_s == '' || explicit.key?(elt) }.each do |ip| -%>
+<%=   ip %><%= tabs(ip) %><%= @primary_names.join(' ') %>
+<%   end -%>
+<% end -%>
+
+# Additional entries (use hosts::entries to add)
+<% @entries_output.each_pair do |key, val| -%>
+<% if val.is_a?(Hash) -%>
+
+# <%= key %>
+<% val.each_pair do |ip, names| -%>
+<%= ip %><%= tabs(ip) %><%= names.join(' ') %>
+<% end -%>
+
+<% else -%>
+<%= key %><%= tabs(key) %><%= val.join(' ') %>
+<% end -%>
+<% end -%>

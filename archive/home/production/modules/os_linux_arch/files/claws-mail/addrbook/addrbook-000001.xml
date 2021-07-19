@@ -1,0 +1,1883 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<address-book name="ITECO MJF version" >
+  <person uid="186560500" first-name="Samuel" last-name="Zimmermann" nick-name="sz" cn="Samuel Zimmermann" >
+    <address-list>
+      <address uid="186560501" alias="" email="samirzimmermann@hotmail.com" remarks="" />
+      <address uid="291801612" alias="" email="szimmermann@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="186560504" first-name="" last-name="" nick-name="" cn="Daniel.Streit@bafu.admin.ch" >
+    <address-list>
+      <address uid="186560505" alias="" email="Daniel.Streit@bafu.admin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="185525532" first-name="" last-name="" nick-name="" cn="LE GUYADER, Valerie" >
+    <address-list>
+      <address uid="185525533" alias="" email="valerie.le-guyader@egis.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191211" first-name="" last-name="" nick-name="" cn="tomkova@tulum-consult.com" >
+    <address-list>
+      <address uid="183191212" alias="" email="tomkova@tulum-consult.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191213" first-name="" last-name="" nick-name="" cn="antonia.schaeli@seco.admin.ch" >
+    <address-list>
+      <address uid="183191214" alias="" email="antonia.schaeli@seco.admin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="88085486" first-name="" last-name="" nick-name="" cn="Juerg Christen" >
+    <address-list>
+      <address uid="88085487" alias="" email="juerg.christen@skat.ch" remarks="skat" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191215" first-name="" last-name="" nick-name="" cn="marlise topham" >
+    <address-list>
+      <address uid="183191216" alias="" email="topham@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="284154970" first-name="" last-name="" nick-name="" cn="postmaster@iteco-solutions.ch" >
+    <address-list>
+      <address uid="284154971" alias="" email="postmaster@iteco-solutions.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="71087620" first-name="" last-name="" nick-name="" cn="Barbara VanLogchem" >
+    <address-list>
+      <address uid="71087621" alias="" email="Barbara.VanLogchem@wfp.org" remarks="World Food Prog Nairobi" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="287823921" first-name="" last-name="" nick-name="" cn="Gian-Andri Tannò" >
+    <address-list>
+      <address uid="287823922" alias="" email="gtanno@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="273912707" first-name="" last-name="" nick-name="" cn="Ted Read" >
+    <address-list>
+      <address uid="273912708" alias="" email="ted@ohmex.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191225" first-name="" last-name="" nick-name="" cn="Bogoljub" >
+    <address-list>
+      <address uid="183191226" alias="" email="bog@EUnet.yu" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191227" first-name="" last-name="" nick-name="" cn="Goran Stojmirovic" >
+    <address-list>
+      <address uid="183191228" alias="" email="Goran.Stojmirovic@hydro.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="231355456" first-name="" last-name="" nick-name="" cn="Richard Staubli" >
+    <address-list>
+      <address uid="231355457" alias="" email="staubli@wasserbau.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="231355458" first-name="" last-name="" nick-name="" cn="Lukas Wohlwend (l.wohlwend@waelli.ch)" >
+    <address-list>
+      <address uid="231355459" alias="" email="l.wohlwend@waelli.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="107547297" first-name="" last-name="" nick-name="" cn="Dr. Sebastian Wolfgang Bauer" >
+    <address-list>
+      <address uid="107547298" alias="" email="sbauer@ADBalumni.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="271543501" first-name="" last-name="" nick-name="" cn="Ruzindana Robert Clement" >
+    <address-list>
+      <address uid="271543502" alias="" email="crruzindana@yahoo.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="107547299" first-name="" last-name="" nick-name="" cn="Thomas.Kohler@cde.unibe.ch" >
+    <address-list>
+      <address uid="107547300" alias="" email="Thomas.Kohler@cde.unibe.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="107547295" first-name="" last-name="" nick-name="" cn="Pierre Walther" >
+    <address-list>
+      <address uid="107547296" alias="" email="pw@walther-consulting.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="129493766" first-name="" last-name="" nick-name="" cn="Hanspeter Leutwiler" >
+    <address-list>
+      <address uid="129493767" alias="" email="hpleutwiler@gmx.ch" remarks="hpl on mission" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="129493768" first-name="" last-name="" nick-name="" cn="Thomas Gut" >
+    <address-list>
+      <address uid="129493769" alias="" email="thomas.gut@ewi.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="268421555" first-name="" last-name="" nick-name="" cn="vlisack@adb.org" >
+    <address-list>
+      <address uid="268421556" alias="" email="vlisack@adb.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191231" first-name="" last-name="" nick-name="" cn="ICTC  Nepal" >
+    <address-list>
+      <address uid="183191232" alias="" email="email@ictc.com.np" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="286008279" first-name="" last-name="" nick-name="" cn="eric ntagengerwa" >
+    <address-list>
+      <address uid="286008280" alias="" email="ericanto07@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191239" first-name="" last-name="" nick-name="" cn="Peter Gellner" >
+    <address-list>
+      <address uid="183191240" alias="" email="gellner@gitec-consult.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="285156801" first-name="" last-name="" nick-name="" cn="Josef Zimmermann" >
+    <address-list>
+      <address uid="285156802" alias="" email="josef.zimmermann@drspnepal.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="285156803" first-name="" last-name="" nick-name="" cn="chloe.milner@deza.admin.ch" >
+    <address-list>
+      <address uid="285156804" alias="" email="chloe.milner@deza.admin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="129493772" first-name="" last-name="" nick-name="" cn="Maarten Willemsen" >
+    <address-list>
+      <address uid="129493773" alias="" email="mwillemsen@hispeed.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="129493776" first-name="" last-name="" nick-name="" cn="spfaeffl@hsw.fhz.ch" >
+    <address-list>
+      <address uid="129493777" alias="" email="spfaeffl@hsw.fhz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="129493778" first-name="" last-name="" nick-name="" cn="iwillima@hsw.fhz.ch" >
+    <address-list>
+      <address uid="129493779" alias="" email="iwillima@hsw.fhz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="281303750" first-name="" last-name="" nick-name="" cn="peter mubanda" >
+    <address-list>
+      <address uid="281303751" alias="" email="mubanda1@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="281303754" first-name="" last-name="" nick-name="" cn="meme.kagga@kaggapartners.com" >
+    <address-list>
+      <address uid="281303755" alias="" email="meme.kagga@kaggapartners.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="281303752" first-name="" last-name="" nick-name="" cn="rita.nansubuga@kaggapartners.com" >
+    <address-list>
+      <address uid="281303753" alias="" email="rita.nansubuga@kaggapartners.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191241" first-name="" last-name="" nick-name="" cn="Engr. Mohammad Mozammel Ali, PEng." >
+    <address-list>
+      <address uid="183191242" alias="" email="emma@hbconsultants.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191243" first-name="" last-name="" nick-name="" cn="Waber Kurt" >
+    <address-list>
+      <address uid="183191244" alias="" email="Kurt.Waber@lu.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="87384377" first-name="" last-name="" nick-name="" cn="Felix Solca" >
+    <address-list>
+      <address uid="87384378" alias="" email="f.solca@frutiger.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="218963793" first-name="" last-name="" nick-name="" cn="Nadia Niwemugeni" >
+    <address-list>
+      <address uid="218963794" alias="" email="niwena@yahoo.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="167214199" first-name="" last-name="" nick-name="" cn="shunonghu@worldbank.org" >
+    <address-list>
+      <address uid="167214200" alias="" email="shunonghu@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="218963795" first-name="" last-name="" nick-name="" cn="Niwemugeni Nadia" >
+    <address-list>
+      <address uid="218963796" alias="" email="niwena@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="51191336" first-name="" last-name="" nick-name="" cn="Gamini Senanayake" >
+    <address-list>
+      <address uid="51191337" alias="" email="gaminisn@isb.lk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="271581933" first-name="" last-name="" nick-name="" cn="Frederick Ringo" >
+    <address-list>
+      <address uid="271581934" alias="" email="frederick.ringo@adeptchambers.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="54117903" first-name="Nunez, Rafaelita A." last-name="" nick-name="" cn="Nunez, Rafaelita A." >
+    <address-list>
+      <address uid="54117904" alias="" email="ranunez@unet.net.ph" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="54117907" first-name="Passera &amp; Pedretti" last-name="" nick-name="p&amp;p" cn="Passera &amp; Pedretti" >
+    <address-list>
+      <address uid="54117908" alias="" email="ppeng@ppeng.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="73069533" first-name="" last-name="" nick-name="" cn="ITECO Consult Tanzania" >
+    <address-list>
+      <address uid="73069534" alias="itecoconsult" email="morogoro@itecoconsult.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="274143466" first-name="" last-name="" nick-name="" cn="出国通出国通成都分公司" >
+    <address-list>
+      <address uid="274143467" alias="" email="uulux601@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="274143468" first-name="" last-name="" nick-name="" cn="James Reeves" >
+    <address-list>
+      <address uid="274143469" alias="" email="james.reeves@gifford.uk.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="73069535" first-name="Magnus" last-name="Opare-Asamoah" nick-name="intel" cn="Intel Consultancy Ltd, Ghana" >
+    <address-list>
+      <address uid="73069536" alias="intel" email="&quot;Magnus Opare Asamoah&quot; &lt;wagl@africaonline.com.gh&gt;" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211966873" first-name="" last-name="" nick-name="" cn="rudolf.strasser@bluewin.ch" >
+    <address-list>
+      <address uid="211966874" alias="" email="rudolf.strasser@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211966875" first-name="" last-name="" nick-name="" cn="Instructables - Eric Wilhelm" >
+    <address-list>
+      <address uid="211966876" alias="" email="coolprojects@instructables.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="266848407" first-name="" last-name="" nick-name="" cn="benon zaake" >
+    <address-list>
+      <address uid="266848408" alias="" email="bzaake@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="266848409" first-name="" last-name="" nick-name="" cn="Jean Karekezi" >
+    <address-list>
+      <address uid="266848410" alias="" email="jkarekezi@petrocom.rbo.rw" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="54117911" first-name="ROA" last-name="" nick-name="" cn="ROA" >
+    <address-list>
+      <address uid="54117912" alias="roa" email="iteco@asia.wlink.com.np" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="54117915" first-name="SDC Kathmandu" last-name="" nick-name="" cn="SDC Kathmandu" >
+    <address-list>
+      <address uid="54117916" alias="" email="kathmandu@sdc.net" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="54117917" first-name="Ashok" last-name="" nick-name="" cn="Kumar" >
+    <address-list>
+      <address uid="54117918" alias="" email="mrc@nda.vsnl.net.in" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="203106451" first-name="" last-name="" nick-name="" cn="Neil Peterson" >
+    <address-list>
+      <address uid="203106452" alias="" email="npeterson@opendesign.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="274143470" first-name="" last-name="" nick-name="" cn="Ted Read" >
+    <address-list>
+      <address uid="274143471" alias="" email="ted@ohmex.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="274143472" first-name="" last-name="" nick-name="" cn="Ron Allan" >
+    <address-list>
+      <address uid="274143473" alias="" email="ron@ron.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="274143474" first-name="" last-name="" nick-name="" cn="Huub Vrenken" >
+    <address-list>
+      <address uid="274143475" alias="" email="hvrenken@xs4all.nl" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="274143476" first-name="" last-name="" nick-name="" cn="Hilla kip" >
+    <address-list>
+      <address uid="274143477" alias="" email="hilochep@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191189" first-name="" last-name="" nick-name="" cn="Hsuzuki@worldbank.org" >
+    <address-list>
+      <address uid="183191190" alias="" email="Hsuzuki@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="164383408" first-name="" last-name="" nick-name="" cn="iteco Consult" >
+    <address-list>
+      <address uid="164383409" alias="" email="dariteco@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="193305834" first-name="" last-name="" nick-name="" cn="Kalyan Gyawali" >
+    <address-list>
+      <address uid="193305835" alias="" email="gyawalik@gmail.com" remarks="KG other" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="123089488" first-name="" last-name="" nick-name="" cn="ray.sengenge@itecoconsult.com" >
+    <address-list>
+      <address uid="123089489" alias="" email="ray.sengenge@itecoconsult.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191191" first-name="" last-name="" nick-name="" cn="wxuehong@163.com" >
+    <address-list>
+      <address uid="183191192" alias="" email="wxuehong@163.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="185612411" first-name="" last-name="" nick-name="" cn="Blunschi Mark" >
+    <address-list>
+      <address uid="185612412" alias="" email="Mark.Blunschi@steinag.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="103194036" first-name="" last-name="" nick-name="" cn="Marcus Wattam" >
+    <address-list>
+      <address uid="103194037" alias="" email="marcus.wattam@ittransport.co.uk" remarks="IT Transport UK" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="103194038" first-name="" last-name="" nick-name="" cn="James Ramsay" >
+    <address-list>
+      <address uid="103194039" alias="" email="jramsay@horizon.bc.ca" remarks="Environmental Spec" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="54117925" first-name="Waber Kurt" last-name="" nick-name="kw" cn="Waber Kurt" >
+    <address-list>
+      <address uid="54117926" alias="" email="jenny-waber@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="54117923" first-name="TIL" last-name="" nick-name="" cn="TIL" >
+    <address-list>
+      <address uid="54117924" alias="" email="syed.til@bdcom.com" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="304857817" first-name="" last-name="" nick-name="" cn="Eva Paul" >
+    <address-list>
+      <address uid="304857818" alias="" email="eva.paul@mininfra.gov.rw" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="54117929" first-name="" last-name="" nick-name="" cn="Sean Watson" >
+    <address-list>
+      <address uid="54117930" alias="" email="sean_watson1@yahoo.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="164383410" first-name="" last-name="" nick-name="" cn="dar@itecoconsult.com" >
+    <address-list>
+      <address uid="164383411" alias="" email="dar@itecoconsult.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191195" first-name="" last-name="" nick-name="" cn="张 烨" >
+    <address-list>
+      <address uid="183191196" alias="" email="zhangyie2003@yahoo.com.cn" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="123089490" first-name="" last-name="" nick-name="" cn="Shah, Ramesh" >
+    <address-list>
+      <address uid="123089491" alias="" email="Ramesh.Shah@snclavalin.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="123089492" first-name="" last-name="" nick-name="" cn="tognacca christian" >
+    <address-list>
+      <address uid="123089493" alias="" email="bti@fluvial.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="103194040" first-name="" last-name="" nick-name="" cn="Warth, Hermann Dr" >
+    <address-list>
+      <address uid="103194041" alias="" email="hdwarth@t-online.de" remarks="Social Specialist" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="151061852" first-name="" last-name="" nick-name="" cn="Bauer, Ariane" >
+    <address-list>
+      <address uid="151061853" alias="" email="ariane.bauer@sofi.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="151061854" first-name="" last-name="" nick-name="" cn="Renzo Pozzi" >
+    <address-list>
+      <address uid="151061855" alias="" email="r.pozzi@ruprecht-ingegneria.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="131106004" first-name="" last-name="" nick-name="" cn="Wennubst Pio" >
+    <address-list>
+      <address uid="131106005" alias="" email="pio.wennubst@sdc.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="94061664" first-name="" last-name="" nick-name="" cn="John Pitt" >
+    <address-list>
+      <address uid="94061665" alias="" email="jpitt@pittsh.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="180615519" first-name="" last-name="" nick-name="" cn="杨福雄 (Yang Fu Xiong)" >
+    <address-list>
+      <address uid="180615520" alias="" email="yangfuxiong@chengda.com" remarks="Norman" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="166029873" first-name="" last-name="" nick-name="" cn="T L Adhikari" >
+    <address-list>
+      <address uid="166029874" alias="" email="tuklal@gmx.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="54117864" first-name="Murray" last-name="Watson" nick-name="RMR" cn="RMR" >
+    <address-list>
+      <address uid="54117865" alias="" email="rmrasia@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="180615521" first-name="" last-name="" nick-name="" cn="norman yfx21" >
+    <address-list>
+      <address uid="180615522" alias="" email="yfx2000@21cn.com" remarks="interpreter Chengdu" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="77132340" first-name="" last-name="" nick-name="" cn="Jean-Luc Allemand" >
+    <address-list>
+      <address uid="77132341" alias="" email="jeanluc.allemand@logidys.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="77132342" first-name="" last-name="" nick-name="" cn="Marc Ruelle" >
+    <address-list>
+      <address uid="77132343" alias="" email="marc.ruelle@swde.be" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="197141818" first-name="" last-name="" nick-name="" cn="Gabriele Londero" >
+    <address-list>
+      <address uid="197141819" alias="" email="gabrielelon@libero.it" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="293276285" first-name="" last-name="" nick-name="" cn="Kelvin.Woods@ghd.com" >
+    <address-list>
+      <address uid="293276286" alias="" email="Kelvin.Woods@ghd.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="269750044" first-name="" last-name="" nick-name="" cn="Nienke Uil" >
+    <address-list>
+      <address uid="269750045" alias="" email="Nienke.Uil@ecorys.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283033886" first-name="Olivier" last-name="Bolliger" nick-name="" cn="Olivier Bolliger" >
+    <address-list>
+      <address uid="283033887" alias="" email="o.bolliger@dig-ing.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283033888" first-name="" last-name="" nick-name="" cn="thomas.gut@poyry.com" >
+    <address-list>
+      <address uid="283033889" alias="" email="thomas.gut@poyry.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="232560524" first-name="" last-name="" nick-name="" cn="Franz Fürfanger" >
+    <address-list>
+      <address uid="232560525" alias="" email="fuerfanger@web.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="54117883" first-name="Fooks, John (private)" last-name="" nick-name="" cn="Fooks, John (private)" >
+    <address-list>
+      <address uid="54117884" alias="" email="skoofy@indosat.net.id" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="224097572" first-name="" last-name="" nick-name="" cn="Kate.Molesworth@unibas.ch" >
+    <address-list>
+      <address uid="224097573" alias="" email="Kate.Molesworth@unibas.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283033890" first-name="" last-name="" nick-name="" cn="M. Diggelmann" >
+    <address-list>
+      <address uid="283033891" alias="" email="m.diggelmann@dig-ing.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="167242605" first-name="" last-name="" nick-name="" cn="Kaori Ikeda" >
+    <address-list>
+      <address uid="167242606" alias="" email="kikeda@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="167242607" first-name="" last-name="" nick-name="" cn="Naoko Kataoka" >
+    <address-list>
+      <address uid="167242608" alias="" email="nkataoka@worldbank.org" remarks="World Bank" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="167242609" first-name="" last-name="" nick-name="" cn="Inneke Herawati" >
+    <address-list>
+      <address uid="167242610" alias="" email="iherawati@worldbank.org" remarks="World Bank" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283033892" first-name="" last-name="" nick-name="" cn="K. RONO" >
+    <address-list>
+      <address uid="283033893" alias="" email="maiwahkr@yahoo.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34290103" first-name="" last-name="" nick-name="lita" cn="Rafaelita A. Nunez" >
+    <address-list>
+      <address uid="34290104" alias="" email="ranunez@unet.net.ph" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34290107" first-name="" last-name="" nick-name="" cn="Stuart Henderson (International)" >
+    <address-list>
+      <address uid="34290108" alias="" email="s1henderson@parkman.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283726588" first-name="" last-name="" nick-name="" cn="Jean-François Klein" >
+    <address-list>
+      <address uid="283726589" alias="" email="jfk@t-ingenierie.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283033894" first-name="" last-name="" nick-name="" cn="KUMAR Mukul" >
+    <address-list>
+      <address uid="283033895" alias="" email="m.kumar@csd.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="54117891" first-name="Jenni + Gottardi (E-Mail)" last-name="" nick-name="" cn="Jenni + Gottardi (E-Mail)" >
+    <address-list>
+      <address uid="54117892" alias="" email="gottardi@swissonline.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="204277604" first-name="" last-name="" nick-name="" cn="Arun Dhungana" >
+    <address-list>
+      <address uid="204277605" alias="" email="akdhungana@iteconepal.com" remarks="AKD" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="204277602" first-name="" last-name="" nick-name="" cn="Hans Ruff" >
+    <address-list>
+      <address uid="204277603" alias="" email="info@ruffengineering.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="54117895" first-name="Kumar, Arun" last-name="" nick-name="" cn="Kumar, Arun" >
+    <address-list>
+      <address uid="54117896" alias="" email="akumafah@iitr.ernet.in" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="54117897" first-name="Mahendra Raj" last-name="" nick-name="" cn="Mahendra Raj" >
+    <address-list>
+      <address uid="54117898" alias="" email="mrceci@vsnl.com" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="282207900" first-name="" last-name="" nick-name="" cn="Hammer, Cliff" >
+    <address-list>
+      <address uid="282207901" alias="" email="Cliff.Hammer@ebp.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="71142703" first-name="" last-name="" nick-name="" cn="Pierre-Alain Favre-Bulle" >
+    <address-list>
+      <address uid="71142704" alias="" email="pafavre@bluemail.ch" remarks="PAF rpivate" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="71142705" first-name="" last-name="" nick-name="" cn="Jean-Louis Walther" >
+    <address-list>
+      <address uid="71142706" alias="" email="jl_wal@csi.com" remarks="Address at CSI" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="71142707" first-name="Peter" last-name="Hunziker" nick-name="hunziker" cn="Hunziker Peter" >
+    <address-list>
+      <address uid="71142708" alias="hunziker" email="phu@hunzikerwater.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="137321579" first-name="" last-name="" nick-name="" cn="Remy Duiven" >
+    <address-list>
+      <address uid="137321580" alias="" email="Remy.Duiven@deza.admin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="180686829" first-name="" last-name="" nick-name="" cn="yfx21" >
+    <address-list>
+      <address uid="180686830" alias="" email="yfx2000@21cn.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211107588" first-name="" last-name="" nick-name="" cn="Roger.Pfammatter@ebp.ch" >
+    <address-list>
+      <address uid="211107589" alias="" email="Roger.Pfammatter@ebp.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="229285016" first-name="" last-name="" nick-name="" cn="hi5" >
+    <address-list>
+      <address uid="229285017" alias="" email="info@hi5.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258627722" first-name="" last-name="" nick-name="" cn="Navid Deewan" >
+    <address-list>
+      <address uid="258627723" alias="" email="navid.deewan@egen.com.bd" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211107590" first-name="" last-name="" nick-name="" cn="HMByrne@compuserve.com" >
+    <address-list>
+      <address uid="211107591" alias="" email="HMByrne@compuserve.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211107592" first-name="" last-name="" nick-name="" cn="Almir Ajanovic" >
+    <address-list>
+      <address uid="211107593" alias="" email="ajanovic@intrade.co.ba" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="106743688" first-name="" last-name="" nick-name="" cn="Benjamin.Karumuna@itecoconsult.com" >
+    <address-list>
+      <address uid="106743689" alias="" email="Benjamin.Karumuna@itecoconsult.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="160590375" first-name="" last-name="" nick-name="" cn="Nadia Bohli" >
+    <address-list>
+      <address uid="160590376" alias="" email="nadia.bohli@seco.admin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="218099365" first-name="" last-name="" nick-name="" cn="b.strasser@pakkatrade.ch" >
+    <address-list>
+      <address uid="218099366" alias="" email="b.strasser@pakkatrade.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="287219124" first-name="" last-name="" nick-name="" cn="Rono" >
+    <address-list>
+      <address uid="287219125" alias="" email="maiwahkr@yahoo.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="188029653" first-name="" last-name="" nick-name="" cn="Lukas Zimmermann" >
+    <address-list>
+      <address uid="188029654" alias="" email="lzimmermann@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="218099367" first-name="" last-name="" nick-name="" cn="Doru.Fabian@holcim.com" >
+    <address-list>
+      <address uid="218099368" alias="" email="Doru.Fabian@holcim.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="329562196" first-name="" last-name="" nick-name="" cn="Silvia Herren" >
+    <address-list>
+      <address uid="329562197" alias="" email="sherren@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="286107470" first-name="" last-name="" nick-name="" cn="zimconsult@zimconsult.ch" >
+    <address-list>
+      <address uid="286107471" alias="" email="zimconsult@zimconsult.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="184832813" first-name="" last-name="" nick-name="" cn="Fritschi Alfred DEZA FTI" >
+    <address-list>
+      <address uid="184832814" alias="" email="alfred.fritschi@deza.admin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="75376482" first-name="" last-name="" nick-name="" cn="West Africa Goldfields" >
+    <address-list>
+      <address uid="75376483" alias="" email="wagl@Africaonline.com.gh" remarks="Magnus" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="174558466" first-name="" last-name="" nick-name="" cn="Dr. Sebastian W. Bauer" >
+    <address-list>
+      <address uid="174558467" alias="" email="sebastian.bauer@a3.EPFL.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="174558464" first-name="" last-name="" nick-name="" cn="sbauer@ADBalumni.org" >
+    <address-list>
+      <address uid="174558465" alias="" email="sbauer@ADBalumni.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="218620144" first-name="" last-name="" nick-name="" cn="Ake Aurebekk" >
+    <address-list>
+      <address uid="218620145" alias="" email="aaurebekk@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="218620146" first-name="" last-name="" nick-name="" cn="Henderson &amp; Partners" >
+    <address-list>
+      <address uid="218620147" alias="" email="hfukiza@malawi.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258741407" first-name="" last-name="" nick-name="" cn="chantal umube" >
+    <address-list>
+      <address uid="258741408" alias="" email="chanyjo@yahoo.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="159525552" first-name="" last-name="" nick-name="" cn="Murtaza Nasser" >
+    <address-list>
+      <address uid="159525553" alias="" email="murtaza@mbn.co.tz" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="35458986" first-name="Walter" last-name="Zimmermann" nick-name="Zimmermann Walter" cn="Zimmermann Walter" >
+    <address-list>
+      <address uid="35458987" alias="zi" email="zimconsult@zimconsult.ch" remarks="" />
+      <address uid="291801611" alias="wz" email="wzimmermann@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258741409" first-name="Jean" last-name="Bigagaza" nick-name="Jean Bigagaza" cn="BIGAGAZA Jean" >
+    <address-list>
+      <address uid="258741410" alias="" email="bigagaza@yahoo.fr" remarks="" />
+      <address uid="271082067" alias="" email="jbigagaza@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="148215126" first-name="" last-name="" nick-name="" cn="blkarumuna@yahoo.co.uk" >
+    <address-list>
+      <address uid="148215127" alias="" email="blkarumuna@yahoo.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211459253" first-name="" last-name="" nick-name="" cn="rd.pfammatter@bluewin.ch" >
+    <address-list>
+      <address uid="211459254" alias="" email="rd.pfammatter@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="174558470" first-name="" last-name="" nick-name="" cn="Tuk Lal Adhikari" >
+    <address-list>
+      <address uid="174558471" alias="" email="tladhikari@iteconepal.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="122459622" first-name="" last-name="" nick-name="" cn="Ed Dotson" >
+    <address-list>
+      <address uid="122459623" alias="" email="Edotson@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="174558474" first-name="" last-name="" nick-name="" cn="AKD" >
+    <address-list>
+      <address uid="174558475" alias="" email="akdhungana@iteconepal.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="174558476" first-name="" last-name="" nick-name="" cn="Goran Stojmirovic" >
+    <address-list>
+      <address uid="174558477" alias="" email="Goran.Stojmirovic@hydro.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="57751564" first-name="" last-name="" nick-name="" cn="I B S P Ratnakumara" >
+    <address-list>
+      <address uid="57751565" alias="" email="ratnakumaras@isb.lk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="203279004" first-name="" last-name="" nick-name="" cn="Nina Prochazka" >
+    <address-list>
+      <address uid="203279005" alias="" email="Nina.Prochazka@cinfo.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="57751568" first-name="" last-name="" nick-name="" cn="Maksud Hasan" >
+    <address-list>
+      <address uid="57751569" alias="" email="hbcon2@bangla.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="57751566" first-name="" last-name="" nick-name="" cn="HB Consultants Ltd." >
+    <address-list>
+      <address uid="57751567" alias="" email="hbcon2@bangla.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="268054810" first-name="" last-name="" nick-name="" cn="solarbox@iteco.ch" >
+    <address-list>
+      <address uid="268054811" alias="" email="solarbox@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34290079" first-name="" last-name="" nick-name="" cn="ITECO Engineering Ltd." >
+    <address-list>
+      <address uid="34290080" alias="ich" email="iteco@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="308428340" first-name="" last-name="" nick-name="" cn="&apos;Paul Kurmann&apos;" >
+    <address-list>
+      <address uid="308428341" alias="" email="paul@kurmanns.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="308428342" first-name="" last-name="" nick-name="" cn="&apos;Pushpanjali Khanal&apos;" >
+    <address-list>
+      <address uid="308428343" alias="" email="pushpanjali.khanal@lrbpnepal.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="291801602" first-name="" last-name="" nick-name="" cn="Pierre J Frank" >
+    <address-list>
+      <address uid="291801603" alias="" email="pfrank@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="36147040" first-name="" last-name="" nick-name="" cn="Nick Bonvoisin" >
+    <address-list>
+      <address uid="36147041" alias="" email="nickbonvoisin@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="291801604" first-name="" last-name="" nick-name="" cn="Madeleine Dörig" >
+    <address-list>
+      <address uid="291801605" alias="" email="mdoerig@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="291801606" first-name="" last-name="" nick-name="" cn="Gian-Andri Tanno" >
+    <address-list>
+      <address uid="291801607" alias="" email="gtanno@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="291801609" first-name="Marlise" last-name="Topham" nick-name="mt" cn="Marlise Topham" >
+    <address-list>
+      <address uid="291801610" alias="mt" email="mtopham@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+      <attribute uid="" name="class" >person</attribute>
+      <attribute uid="" name="class" >top</attribute>
+      <attribute uid="" name="name" >cn=Marlise Topham,mail=mt@iteco.net</attribute>
+      <attribute uid="" name="other" >FALSE</attribute>
+    </attribute-list>
+  </person>
+  <person uid="258741411" first-name="" last-name="" nick-name="" cn="Gloriose BIGAGAZA" >
+    <address-list>
+      <address uid="258741412" alias="" email="kamutoto@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258741415" first-name="" last-name="" nick-name="" cn="Chanatal" >
+    <address-list>
+      <address uid="258741416" alias="" email="shanga.chantal@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="268054812" first-name="" last-name="" nick-name="" cn="Raisa Chowdhury" >
+    <address-list>
+      <address uid="268054813" alias="" email="raisa.chowdhury@egen.com.bd" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34290083" first-name="" last-name="" nick-name="hpl" cn="Hanspeter Leutwiler" >
+    <address-list>
+      <address uid="34290084" alias="" email="hpleutwiler@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258741413" first-name="" last-name="" nick-name="" cn="Nadia Niwemugeni" >
+    <address-list>
+      <address uid="258741414" alias="" email="niwena@yahoo.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34290087" first-name="" last-name="" nick-name="" cn="Imelda Yhr" >
+    <address-list>
+      <address uid="34290088" alias="" email="imelda@mail.tele.dk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="111685650" first-name="" last-name="" nick-name="" cn="Yukiko Uchiyama" >
+    <address-list>
+      <address uid="111685651" alias="" email="yukiy2u2000@yahoo.co.jp" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="111685652" first-name="" last-name="" nick-name="" cn="Hiro Suzuki" >
+    <address-list>
+      <address uid="111685653" alias="" email="Hsuzuki@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="111685656" first-name="" last-name="" nick-name="" cn="Rod Stickland" >
+    <address-list>
+      <address uid="111685657" alias="" email="rod@mos.com.np" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="111685658" first-name="" last-name="" nick-name="" cn="Sansom Richard" >
+    <address-list>
+      <address uid="111685659" alias="" email="rsansom@politecnica.it" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="174558472" first-name="" last-name="" nick-name="" cn="Druk Consultancy" >
+    <address-list>
+      <address uid="174558473" alias="" email="drukent@druknet.bt" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="270614792" first-name="" last-name="" nick-name="" cn="eric ntagengerwa" >
+    <address-list>
+      <address uid="270614793" alias="" email="ericanto07@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34290097" first-name="" last-name="" nick-name="" cn="Karma Jimba" >
+    <address-list>
+      <address uid="34290098" alias="" email="kjimba@druknet.bt" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34290099" first-name="" last-name="" nick-name="" cn="Muhammad Afzal" >
+    <address-list>
+      <address uid="34290100" alias="" email="muhammad.afzal@ecil.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="111685660" first-name="" last-name="" nick-name="" cn="Mike McEnery" >
+    <address-list>
+      <address uid="111685661" alias="" email="safi@eircom.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="111685662" first-name="" last-name="" nick-name="" cn="Edouard Motte" >
+    <address-list>
+      <address uid="111685663" alias="" email="Emotte@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="132313722" first-name="" last-name="" nick-name="" cn="Pestalozzi Urs" >
+    <address-list>
+      <address uid="132313723" alias="" email="U.Pestalozzi@hegu.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="111685664" first-name="" last-name="" nick-name="" cn="Paul Widmer" >
+    <address-list>
+      <address uid="111685665" alias="" email="paul.widmer@buero-widmer.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="111685666" first-name="" last-name="" nick-name="" cn="Qiang Liu" >
+    <address-list>
+      <address uid="111685667" alias="" email="qiang.liu@tsinghua.edu.cn" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="206615622" first-name="" last-name="" nick-name="" cn="madeleine.guyer@infras.ch" >
+    <address-list>
+      <address uid="206615623" alias="" email="madeleine.guyer@infras.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="282207898" first-name="" last-name="" nick-name="" cn="Andreas Beusch" >
+    <address-list>
+      <address uid="282207899" alias="" email="intech@abeusch.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="233485049" first-name="" last-name="" nick-name="" cn="nicole.north@infras.ch" >
+    <address-list>
+      <address uid="233485050" alias="" email="nicole.north@infras.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="159463434" first-name="" last-name="" nick-name="" cn="Exaud Mushi" >
+    <address-list>
+      <address uid="159463435" alias="" email="exaudmushi@norplantz.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="201771278" first-name="" last-name="" nick-name="" cn="Nina Prochazka" >
+    <address-list>
+      <address uid="201771279" alias="" email="Nina.Prochazka@cinfo.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="186906128" first-name="" last-name="" nick-name="" cn="Jochen Weiland - Typo3 Newsletter" >
+    <address-list>
+      <address uid="186906129" alias="" email="newsletter@jweiland.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="77113725" first-name="Urs" last-name="Schaffner" nick-name="ursschaffner" cn="Schaffner, Urs" >
+    <address-list>
+      <address uid="77113726" alias="ursschaffner" email="u.schaffner@swissonline.com" remarks="Tel 033 243 4973" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283421153" first-name="" last-name="" nick-name="" cn="Belser Eliane DEZA BAQ" >
+    <address-list>
+      <address uid="283421154" alias="" email="eliane.belser@deza.admin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="233485051" first-name="" last-name="" nick-name="" cn="Abed Ali" >
+    <address-list>
+      <address uid="233485052" alias="" email="abed@egen.com.bd" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="99483002" first-name="" last-name="" nick-name="" cn="Groeli Robert" >
+    <address-list>
+      <address uid="99483003" alias="" email="robert.groeli@sdc.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="152951763" first-name="" last-name="" nick-name="" cn="Roger Schmid" >
+    <address-list>
+      <address uid="152951764" alias="" email="roger.schmid@skat.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="167832823" first-name="" last-name="" nick-name="" cn="Adhikari ITECO Np" >
+    <address-list>
+      <address uid="167832824" alias="" email="tuklal@gmx.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="167832825" first-name="" last-name="" nick-name="" cn="josef zimmermann" >
+    <address-list>
+      <address uid="167832826" alias="" email="josef.zimmermann@drspnepal.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="123264308" first-name="" last-name="" nick-name="" cn="Ali" >
+    <address-list>
+      <address uid="123264309" alias="" email="ali@khybers.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="185092182" first-name="" last-name="" nick-name="" cn="Alessio Menegatti" >
+    <address-list>
+      <address uid="185092183" alias="" email="a.menegatti@csd.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="126275856" first-name="" last-name="" nick-name="" cn="w.haberlein@gmx.net" >
+    <address-list>
+      <address uid="126275857" alias="" email="w.haberlein@gmx.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="231526827" first-name="" last-name="" nick-name="" cn="Thomas Oesch" >
+    <address-list>
+      <address uid="231526828" alias="" email="t.oesch@oeplan.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="161334105" first-name="" last-name="" nick-name="" cn="nkataoka@worldbank.org" >
+    <address-list>
+      <address uid="161334106" alias="" email="nkataoka@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="202550854" first-name="" last-name="" nick-name="" cn="Kuempel Daniel" >
+    <address-list>
+      <address uid="202550855" alias="" email="Daniel.Kuempel@Zentras.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="123264312" first-name="Sam" last-name="Gelzer" nick-name="sam" cn="Sam Gelzer" >
+    <address-list>
+      <address uid="125162233" alias="sg" email="sgelzer@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="228681347" first-name="" last-name="" nick-name="" cn="juan.heredia@afconsult.com" >
+    <address-list>
+      <address uid="228681348" alias="" email="juan.heredia@afconsult.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="275513993" first-name="" last-name="" nick-name="" cn="Elisabeth Buehlmann" >
+    <address-list>
+      <address uid="275513994" alias="" email="elisabeth.buehlmann@buchertravel.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="276206503" first-name="" last-name="" nick-name="" cn="Kamal Pande" >
+    <address-list>
+      <address uid="276206504" alias="" email="erkrpande@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="64997746" first-name="" last-name="" nick-name="" cn="ITECO Nepal (P) Ltd." >
+    <address-list>
+      <address uid="64997747" alias="" email="iteco@mos.com.np" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="60434520" first-name="" last-name="" nick-name="sdc" cn="Singkeo SAYSOUK" >
+    <address-list>
+      <address uid="60964913" alias="sdc" email="sdcsld@laotel.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="139594982" first-name="" last-name="" nick-name="" cn="SUEP PMO Chengdu" >
+    <address-list>
+      <address uid="139594986" alias="" email="suep@mail.cninfo.cn.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="139594984" first-name="" last-name="" nick-name="" cn="Yang Li" >
+    <address-list>
+      <address uid="139594985" alias="" email="hsb.yl@163.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="80121189" first-name="" last-name="" nick-name="" cn="AB GEOAargau Netcare" >
+    <address-list>
+      <address uid="80121190" alias="" email="abernath@geoaargau.ch" remarks="Andre Bernath" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="89814830" first-name="" last-name="" nick-name="" cn="Srawan Shrestha" >
+    <address-list>
+      <address uid="89814831" alias="srawan ictc" email="srawan.shrestha@ictc.com.np" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="89814832" first-name="" last-name="" nick-name="" cn="srawan home" >
+    <address-list>
+      <address uid="89814833" alias="" email="srawan@info.com.np" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="34362165" first-name="Sebastian" last-name="Bauer" nick-name="swb" cn="Sebastian W. Bauer" >
+    <address-list>
+      <address uid="34362166" alias="" email="sebastian.bauer@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="107547301" first-name="" last-name="" nick-name="" cn="Thomas.Breu@cde.unibe.ch" >
+    <address-list>
+      <address uid="107547302" alias="" email="Thomas.Breu@cde.unibe.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="107547303" first-name="" last-name="" nick-name="" cn="Frank Haupt" >
+    <address-list>
+      <address uid="107547304" alias="" email="Frank.Haupt@cde.unibe.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="178383439" first-name="" last-name="" nick-name="" cn="Eddie Hum" >
+    <address-list>
+      <address uid="178383440" alias="" email="vocus@pacific.net.sg" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="81099731" first-name="" last-name="" nick-name="" cn="tsayreichert@aol.com" >
+    <address-list>
+      <address uid="81099732" alias="" email="tsayreichert@aol.com" remarks="Chris Reichert" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="107547307" first-name="" last-name="" nick-name="" cn="famfahrni@freesurf.ch" >
+    <address-list>
+      <address uid="107547308" alias="" email="famfahrni@freesurf.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="107547309" first-name="" last-name="" nick-name="" cn="Susan Wagner" >
+    <address-list>
+      <address uid="107547310" alias="" email="swagner@udsm.ac.tz" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="125162234" first-name="" last-name="" nick-name="" cn="Edward Wentink" >
+    <address-list>
+      <address uid="125162235" alias="" email="Edward.Wentink@ecorys.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258392827" first-name="" last-name="" nick-name="" cn="szimmermann@iteco.ch" >
+    <address-list>
+      <address uid="258392828" alias="" email="szimmermann@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="129148190" first-name="" last-name="" nick-name="" cn="HSW Dozenten" >
+    <address-list>
+      <address uid="129148191" alias="" email="spfaeffl@hsw.fhz.ch" remarks="Stefan Pfaeffli HSW" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="199988054" first-name="" last-name="" nick-name="" cn="Liao, Li" >
+    <address-list>
+      <address uid="199988055" alias="" email="LLiao@ene.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="207223802" first-name="" last-name="" nick-name="" cn="Pfammatter, Roger" >
+    <address-list>
+      <address uid="207223803" alias="" email="Roger.Pfammatter@ebp.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="207223804" first-name="Jörg" last-name="Hammer" nick-name="Jörg Hammer" cn="Jörg Hammer" >
+    <address-list>
+      <address uid="207223806" alias="" email="jhammer@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="199988056" first-name="" last-name="" nick-name="" cn="Zimconsult AG" >
+    <address-list>
+      <address uid="199988057" alias="" email="zimconsult@zimconsult.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="199988058" first-name="" last-name="" nick-name="" cn="zhangyie2003@yahoo.com.cn" >
+    <address-list>
+      <address uid="199988059" alias="" email="zhangyie2003@yahoo.com.cn" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="207223809" first-name="" last-name="" nick-name="" cn="Lothar Groschke (iteco)" >
+    <address-list>
+      <address uid="207223810" alias="" email="lgroschke@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="129148192" first-name="" last-name="" nick-name="" cn="Karma Jimba" >
+    <address-list>
+      <address uid="129148193" alias="" email="karmaj@unops.org.af" remarks="Karma Jimba Afghanistan" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="300634802" first-name="" last-name="" nick-name="" cn="L.B. Kassana" >
+    <address-list>
+      <address uid="300634803" alias="" email="leokassana@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="300634804" first-name="" last-name="" nick-name="" cn="Ntare Karitanyi" >
+    <address-list>
+      <address uid="300634805" alias="" email="ntarek@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="300634806" first-name="" last-name="" nick-name="" cn="Andrew Nyamvumba" >
+    <address-list>
+      <address uid="300634807" alias="" email="2andrewn@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="300634808" first-name="" last-name="" nick-name="" cn="Richard Ngendahayo" >
+    <address-list>
+      <address uid="300634809" alias="" email="ric_ngenda@yahoo.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="207223807" first-name="" last-name="" nick-name="" cn="Lothar Groschke" >
+    <address-list>
+      <address uid="207223808" alias="" email="iteco_likhu@gmx.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="160765495" first-name="" last-name="" nick-name="" cn="BURGY Janine - CSDFR" >
+    <address-list>
+      <address uid="160765496" alias="" email="j.burgy@csd.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="207223813" first-name="" last-name="" nick-name="" cn="leo.kassana@gtiea.org" >
+    <address-list>
+      <address uid="207223814" alias="" email="leo.kassana@gtiea.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="160765499" first-name="" last-name="" nick-name="" cn="MSP, Slobodan Krejakovic" >
+    <address-list>
+      <address uid="160765500" alias="" email="Slobodan.Krejakovic@msp.org.yu" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="207223811" first-name="Franz" last-name="Fürfanger" nick-name="ff" cn="Franz Fürfanger" >
+    <address-list>
+      <address uid="207223812" alias="" email="ffuerfanger@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="300634810" first-name="" last-name="" nick-name="" cn="K. RONO" >
+    <address-list>
+      <address uid="300634811" alias="" email="maiwahkr@yahoo.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="300634812" first-name="" last-name="" nick-name="" cn="NZABONIMANA RENE" >
+    <address-list>
+      <address uid="300634813" alias="" email="nrenejuly@yahoo.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="300634814" first-name="" last-name="" nick-name="" cn="adolphe" >
+    <address-list>
+      <address uid="300634815" alias="" email="adolphe80@yahoo.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="300634816" first-name="" last-name="" nick-name="" cn="niyonsaba ildephonse" >
+    <address-list>
+      <address uid="300634817" alias="" email="niyonsaba@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="300634818" first-name="" last-name="" nick-name="" cn="asaba_no@yahoo.com" >
+    <address-list>
+      <address uid="300634819" alias="" email="asaba_no@yahoo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="170496401" first-name="Wang" last-name="Xuehong" nick-name="wang" cn="Wang Xuehong" >
+    <address-list>
+      <address uid="170496402" alias="" email="wxuehong@163.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="195151498" first-name="" last-name="" nick-name="" cn="Schryber Therese" >
+    <address-list>
+      <address uid="195151499" alias="" email="SCT@colenco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="273438359" first-name="" last-name="" nick-name="" cn="Kabera Olivier" >
+    <address-list>
+      <address uid="273438360" alias="" email="olikab@yahoo.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="198669291" first-name="" last-name="" nick-name="" cn="Sulzer Peter DEZA SUP" >
+    <address-list>
+      <address uid="198669292" alias="" email="peter.sulzer@deza.admin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="198669293" first-name="" last-name="" nick-name="" cn="Erni Sandra DEZA ERS" >
+    <address-list>
+      <address uid="198669294" alias="" email="sandra.erni@deza.admin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="198669295" first-name="" last-name="" nick-name="Andreas Mülhaupt" cn="Andreas Mülhaupt" >
+    <address-list>
+      <address uid="198669296" alias="" email="amuelhaupt@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="198669297" first-name="" last-name="" nick-name="ITECO, Fürfanger Franz" cn="ITECO, Fürfanger Franz" >
+    <address-list>
+      <address uid="198669298" alias="" email="ffuerfanger@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="198669299" first-name="" last-name="" nick-name="" cn="Ronald Saravia" >
+    <address-list>
+      <address uid="198669300" alias="" email="rsaravia@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="161513661" first-name="" last-name="" nick-name="" cn="RIEDO Simone - CSDFR" >
+    <address-list>
+      <address uid="161513662" alias="" email="s.riedo@csd.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="282260439" first-name="" last-name="" nick-name="" cn="Andreas Beusch" >
+    <address-list>
+      <address uid="282260440" alias="" email="intech@abeusch.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="205689168" first-name="" last-name="" nick-name="" cn="Arun Dhungana" >
+    <address-list>
+      <address uid="205689169" alias="" email="dhungana2001@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="269782877" first-name="" last-name="" nick-name="" cn="Cameron Harvey" >
+    <address-list>
+      <address uid="269782878" alias="" email="charvey@alg-global.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="282260437" first-name="" last-name="" nick-name="" cn="Hammer, Cliff" >
+    <address-list>
+      <address uid="282260438" alias="" email="Cliff.Hammer@ebp.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="213978770" first-name="" last-name="" nick-name="" cn="roman.menz@holcim.com" >
+    <address-list>
+      <address uid="213978771" alias="" email="roman.menz@holcim.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="213978772" first-name="" last-name="" nick-name="" cn="iulia.anca@holcim.com" >
+    <address-list>
+      <address uid="213978773" alias="" email="iulia.anca@holcim.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="213978774" first-name="" last-name="" nick-name="" cn="Claudiu.Iorga@holcim.com" >
+    <address-list>
+      <address uid="213978775" alias="" email="Claudiu.Iorga@holcim.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="213978776" first-name="" last-name="" nick-name="" cn="Rudolf Strasser" >
+    <address-list>
+      <address uid="213978777" alias="" email="rudolf.strasser@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="223138681" first-name="" last-name="" nick-name="" cn="dmeuwly@worldbank.org" >
+    <address-list>
+      <address uid="223138682" alias="" email="dmeuwly@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="205689170" first-name="" last-name="" nick-name="" cn="pdornier@pcengines.ch" >
+    <address-list>
+      <address uid="205689171" alias="" email="pdornier@pcengines.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="223138685" first-name="" last-name="" nick-name="" cn="SCHMIDT Félix" >
+    <address-list>
+      <address uid="223138686" alias="" email="f.schmidt@csd.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="76075900" first-name="" last-name="" nick-name="" cn="Camenzind Computer AG" >
+    <address-list>
+      <address uid="76075901" alias="" email="info@camenzind-computer.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="223138683" first-name="" last-name="" nick-name="" cn="STAMPFLI Etienne" >
+    <address-list>
+      <address uid="223138684" alias="" email="e.stampfli@csd.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="89466657" first-name="" last-name="" nick-name="" cn="SCHEURER Laurent" >
+    <address-list>
+      <address uid="89466658" alias="" email="l.scheurer@csd.ch" remarks="Frisa" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="89466659" first-name="" last-name="" nick-name="" cn="Transport" >
+    <address-list>
+      <address uid="89466660" alias="" email="transport@gitec-consult.de" remarks="GITEC Consult" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="185525528" first-name="" last-name="" nick-name="" cn="KSTC \(P\) LTD" >
+    <address-list>
+      <address uid="185525529" alias="" email="kstc.bd@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191201" first-name="" last-name="" nick-name="" cn="Marco Vinicio Ochoa Galindo" >
+    <address-list>
+      <address uid="183191202" alias="" email="vinochoa100@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191203" first-name="" last-name="" nick-name="" cn="myamamichi@worldbank.org" >
+    <address-list>
+      <address uid="183191204" alias="" email="myamamichi@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191205" first-name="" last-name="" nick-name="" cn="transweb@skat.ch" >
+    <address-list>
+      <address uid="183191206" alias="" email="transweb@skat.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="183191207" first-name="" last-name="" nick-name="" cn="Edwin" >
+    <address-list>
+      <address uid="183191208" alias="" email="info@innovationgear.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="268819809" first-name="" last-name="" nick-name="" cn="zengt" >
+    <address-list>
+      <address uid="268819810" alias="" email="zengt@163.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+</address-book>

@@ -1,0 +1,62 @@
+{
+  "name": "chrekh-hosts",
+  "version": "2.3.1",
+  "author": "chrekh",
+  "summary": "A template-based module to manage /etc/hosts",
+  "license": "Apache-2.0",
+  "source": "git://github.com/chrekh/puppet-hosts",
+  "project_page": "https://github.com/chrekh/puppet-hosts",
+  "issues_url": "https://github.com/chrekh/puppet-hosts/issues",
+  "dependencies": [
+  
+  ],
+  "data_provider": null,
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.2.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Gentoo"
+    },
+    {
+      "operatingsystem": "RedHat"
+    },
+    {
+      "operatingsystem": "Debian"
+    },
+    {
+      "operatingsystem": "Ubuntu"
+    },
+    {
+      "operatingsystem": "CentOS"
+    },
+    {
+      "operatingsystem": "Solaris"
+    },
+    {
+      "operatingsystem": "SLES"
+    },
+    {
+      "operatingsystem": "SLED"
+    },
+    {
+      "operatingsystem": "FreeBSD"
+    },
+    {
+      "operatingsystem": "Darwin"
+    },
+    {
+      "operatingsystem": "AIX"
+    }
+  ],
+  "tags": [
+    "hosts"
+  ]
+}

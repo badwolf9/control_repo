@@ -1,0 +1,43 @@
+##PDK
+.git/
+.metadata
+.yardoc
+.yardwarns
+*.iml
+/.bundle/
+/.vagrant/
+/coverage/
+/bin/
+/doc/
+/junit/
+/log/
+/pkg/
+/spec/fixtures/manifests/
+/spec/fixtures/modules/
+/tmp/
+/vendor/
+/convert_report.txt
+/update_report.txt
+.project
+.envrc
+/inventory.yaml
+## editors
+/.idea/
+*~
+.DS_Store
+/.idea/
+.*.sw[op]
+settings.json
+
+## puppet
+.vagrant
+modules/
+spec/fixtures/
+pkg/
+
+## ruby
+/Gemfile.local
+/Gemfile.lock
+/.ruby-*
+.vendor/
+log/

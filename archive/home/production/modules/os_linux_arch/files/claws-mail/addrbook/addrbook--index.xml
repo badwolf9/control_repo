@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<addressbook>
+  <book_list>
+    <book name="Personal addresses" file="addrbook-000008.xml" />
+    <book name="ForSpamControl" file="addrbook-000009.xml" />
+    <book name="z_Deutsch" file="addrbook-000011.xml" />
+    <book name="BSSE" file="addrbook-000012.xml" />
+  </book_list>
+  <vcard_list>
+  </vcard_list>
+  <jpilot_list>
+  </jpilot_list>
+  <ldap_list>
+  </ldap_list>
+</addressbook>

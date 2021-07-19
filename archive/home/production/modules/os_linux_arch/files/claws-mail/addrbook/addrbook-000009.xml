@@ -1,0 +1,4245 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<address-book name="ForSpamControl" >
+  <person uid="370946641" first-name="" last-name="" nick-name="" cn="info@animaltrainer.ch" >
+    <address-list>
+      <address uid="370946642" alias="" email="info@animaltrainer.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300535" first-name="" last-name="" nick-name="" cn="AgileBits" >
+    <address-list>
+      <address uid="488300536" alias="" email="support@agilebits.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950368" first-name="" last-name="" nick-name="" cn="GfK GeoMarketing e-News" >
+    <address-list>
+      <address uid="208950369" alias="" email="news@gfk-geomarketing.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="543228864" first-name="" last-name="" nick-name="" cn="TechTicker von Conrad.de" >
+    <address-list>
+      <address uid="543228865" alias="" email="techticker@aktuell.conrad.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="375388275" first-name="" last-name="" nick-name="" cn="SBB Newsletter Aktuell" >
+    <address-list>
+      <address uid="375388276" alias="" email="sbb.newsletter@sbb.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="557701359" first-name="" last-name="" nick-name="" cn="SBB CFF FFS" >
+    <address-list>
+      <address uid="557701360" alias="" email="sbbclient@sbb.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946643" first-name="" last-name="" nick-name="" cn="noreply@microspot.ch" >
+    <address-list>
+      <address uid="370946644" alias="" email="noreply@microspot.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300537" first-name="" last-name="" nick-name="" cn="AMP" >
+    <address-list>
+      <address uid="488300538" alias="" email="newsandinsights@info.amp.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130511" first-name="" last-name="" nick-name="" cn="CVISION News" >
+    <address-list>
+      <address uid="323130512" alias="" email="marketing@news-cvisiontech.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300539" first-name="" last-name="" nick-name="" cn="AMP" >
+    <address-list>
+      <address uid="488300540" alias="" email="info@e.amp.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="245454196" first-name="" last-name="" nick-name="" cn="Zuger Kantonalbank" >
+    <address-list>
+      <address uid="245454197" alias="" email="zins-und-kapital@zugerkb.news-update.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="407002685" first-name="" last-name="" nick-name="" cn="STEG Electronics News" >
+    <address-list>
+      <address uid="407002686" alias="" email="noReply@steg-electronics.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="326143790" first-name="" last-name="" nick-name="" cn="socialhams | social network for ham radio operators" >
+    <address-list>
+      <address uid="326143791" alias="" email="admin@socialhams.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="288897115" first-name="" last-name="" nick-name="" cn="VirtualBox announcements" >
+    <address-list>
+      <address uid="288897116" alias="" email="vbox-announce@virtualbox.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130513" first-name="" last-name="" nick-name="" cn="Tom Davies" >
+    <address-list>
+      <address uid="323130514" alias="" email="tomdavies04@yahoo.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="326143792" first-name="" last-name="" nick-name="" cn="B&amp;W Verlagskontor" >
+    <address-list>
+      <address uid="326143793" alias="" email="newsletter@verlagskontor.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="263330190" first-name="" last-name="" nick-name="" cn="Office-World Newsletter" >
+    <address-list>
+      <address uid="263330191" alias="" email="newsletters@officeworld.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695211" first-name="" last-name="" nick-name="" cn="Sarah Parker" >
+    <address-list>
+      <address uid="430695212" alias="" email="Sarah@spinwellglobal.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="288897117" first-name="" last-name="" nick-name="" cn="Gprocurement@worldbank.org" >
+    <address-list>
+      <address uid="288897118" alias="" email="Gprocurement@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130515" first-name="" last-name="" nick-name="" cn="Dennis E. Hamilton" >
+    <address-list>
+      <address uid="323130516" alias="" email="dennis.hamilton@acm.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="376727250" first-name="" last-name="" nick-name="" cn="AutoScout24" >
+    <address-list>
+      <address uid="376727251" alias="" email="info@news.autoscout24.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="223138683" first-name="" last-name="" nick-name="" cn="RegSoft" >
+    <address-list>
+      <address uid="223138684" alias="" email="RegSoft@reply.digitalriver.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283033886" first-name="" last-name="" nick-name="" cn="Axigen News" >
+    <address-list>
+      <address uid="283033887" alias="" email="news@axigen.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300591" first-name="" last-name="" nick-name="" cn="VetShopAustralia" >
+    <address-list>
+      <address uid="488300592" alias="" email="info@vetshopaustralia.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="321996504" first-name="" last-name="" nick-name="" cn="Asian Development Bank Mailer" >
+    <address-list>
+      <address uid="321996505" alias="" email="adbprd_wf@adb.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016520" first-name="" last-name="" nick-name="" cn="Christine Durinx" >
+    <address-list>
+      <address uid="584016521" alias="" email="Christine.Durinx@sib.swiss" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="500396225" first-name="" last-name="" nick-name="" cn="AccorHotels" >
+    <address-list>
+      <address uid="500396226" alias="" email="Accorhotels@reservation.accor-mail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695213" first-name="" last-name="" nick-name="" cn="Pearson IT Certification" >
+    <address-list>
+      <address uid="430695214" alias="" email="imprints@e.informit.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="453246099" first-name="" last-name="" nick-name="" cn="Redbubble" >
+    <address-list>
+      <address uid="453246100" alias="" email="email@e.redbubble.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283033888" first-name="" last-name="" nick-name="" cn="Sophos" >
+    <address-list>
+      <address uid="283033889" alias="" email="security@sophos.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="376727252" first-name="" last-name="" nick-name="" cn="Canonical" >
+    <address-list>
+      <address uid="376727253" alias="" email="noreply@canonical.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300593" first-name="" last-name="" nick-name="" cn="Tecmint: Linux Howtos, Tutorials &amp; Guides" >
+    <address-list>
+      <address uid="488300594" alias="" email="admin@tecmint.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016522" first-name="" last-name="" nick-name="" cn="Stena Line Limited" >
+    <address-list>
+      <address uid="584016523" alias="" email="info.uk@stenaline.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695215" first-name="" last-name="" nick-name="" cn="MacPaw Team" >
+    <address-list>
+      <address uid="430695216" alias="" email="support@macpaw.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="500396227" first-name="" last-name="" nick-name="" cn="account-noreply@adobe.com" >
+    <address-list>
+      <address uid="500396228" alias="" email="account-noreply@adobe.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130519" first-name="" last-name="" nick-name="" cn="LinkedIn" >
+    <address-list>
+      <address uid="323130520" alias="" email="member@linkedin.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016470" first-name="" last-name="" nick-name="" cn="Humble Bundle" >
+    <address-list>
+      <address uid="584016471" alias="" email="contact@mailer.humblebundle.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="408900730" first-name="" last-name="" nick-name="" cn="Wunderlist" >
+    <address-list>
+      <address uid="408900731" alias="" email="wundermail@wunderlist.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428884162" first-name="" last-name="" nick-name="" cn="nixCraft: Linux Tips, Hacks, Tutorials, And Ideas In Blog Format" >
+    <address-list>
+      <address uid="428884163" alias="" email="noreply+feedproxy@google.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="288821273" first-name="" last-name="" nick-name="" cn="Skywards" >
+    <address-list>
+      <address uid="288821274" alias="" email="skywards@e.emirates.travel" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300595" first-name="" last-name="" nick-name="" cn="Team Mighty Mug" >
+    <address-list>
+      <address uid="488300596" alias="" email="getmighty@themightymug.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016524" first-name="" last-name="" nick-name="" cn="Warren Paulus" >
+    <address-list>
+      <address uid="584016525" alias="" email="warren.paulus@sib.swiss" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695217" first-name="" last-name="" nick-name="" cn="Expertise France" >
+    <address-list>
+      <address uid="430695218" alias="" email="communication@expertisefrance.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016472" first-name="" last-name="" nick-name="" cn="Sabine Österle" >
+    <address-list>
+      <address uid="584016473" alias="" email="sabine.oesterle@unibas.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="428884164" first-name="" last-name="" nick-name="" cn="Issuu" >
+    <address-list>
+      <address uid="428884165" alias="" email="no-reply@issuumail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="543225630" first-name="" last-name="" nick-name="" cn="Jobmail jobwinner.ch" >
+    <address-list>
+      <address uid="543225631" alias="" email="info@jobwinner.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283980361" first-name="" last-name="" nick-name="" cn="Markus Wernig" >
+    <address-list>
+      <address uid="283980362" alias="" email="markus.wernig@wilhelmtux.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="331633814" first-name="" last-name="" nick-name="" cn="eBay" >
+    <address-list>
+      <address uid="331633815" alias="" email="eBay@reply.ebay.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="223138689" first-name="" last-name="" nick-name="" cn="orders@pcengines.ch" >
+    <address-list>
+      <address uid="223138690" alias="" email="orders@pcengines.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300597" first-name="" last-name="" nick-name="" cn="Readdle Team" >
+    <address-list>
+      <address uid="488300598" alias="" email="team@readdlenews.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258741407" first-name="" last-name="" nick-name="" cn="Swiss International Air Lines SA" >
+    <address-list>
+      <address uid="258741408" alias="" email="DoNotReply@service.swiss.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016526" first-name="" last-name="" nick-name="" cn="SME.Contactcenter@bill.swisscom.com" >
+    <address-list>
+      <address uid="584016527" alias="" email="SME.Contactcenter@bill.swisscom.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="350041286" first-name="" last-name="" nick-name="" cn="link-jobs.ch - JobMail PRO" >
+    <address-list>
+      <address uid="350041287" alias="" email="info@link-jobs.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="404115437" first-name="" last-name="" nick-name="" cn="info@homegate.ch" >
+    <address-list>
+      <address uid="404115438" alias="" email="info@homegate.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016474" first-name="" last-name="" nick-name="" cn="Offres zooplus" >
+    <address-list>
+      <address uid="584016475" alias="" email="offres@service.zooplus.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="401786769" first-name="" last-name="" nick-name="" cn="openproject@openproject.org" >
+    <address-list>
+      <address uid="401786770" alias="" email="openproject@openproject.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="427713302" first-name="" last-name="" nick-name="" cn="Mac-Forums" >
+    <address-list>
+      <address uid="427713303" alias="" email="email@inetinteractive-email.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300599" first-name="" last-name="" nick-name="" cn="Raspberry Pi Weekly" >
+    <address-list>
+      <address uid="488300600" alias="" email="weekly@raspberrypi.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016528" first-name="" last-name="" nick-name="" cn="KLM" >
+    <address-list>
+      <address uid="584016529" alias="" email="noreply@ticket.klm.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695219" first-name="" last-name="" nick-name="" cn="CardnoConnect" >
+    <address-list>
+      <address uid="430695220" alias="" email="CardnoConnect@cardno.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="217527838" first-name="" last-name="" nick-name="" cn="eBay" >
+    <address-list>
+      <address uid="217527839" alias="" email="ebay@ebay.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="271416633" first-name="" last-name="" nick-name="" cn="mcscruz@adb.org" >
+    <address-list>
+      <address uid="271416634" alias="" email="mcscruz@adb.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016476" first-name="" last-name="" nick-name="" cn="PBJ Computer" >
+    <address-list>
+      <address uid="584016477" alias="" email="info@pbj.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396170500" first-name="" last-name="" nick-name="" cn="FutureLearn" >
+    <address-list>
+      <address uid="396170501" alias="" email="please.do.not.reply@futurelearn.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="397989424" first-name="" last-name="" nick-name="" cn="webresponse@experis.ch" >
+    <address-list>
+      <address uid="397989425" alias="" email="webresponse@experis.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="260179676" first-name="" last-name="" nick-name="" cn="International Road Federation" >
+    <address-list>
+      <address uid="260179677" alias="" email="newsletter@irfnet.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016478" first-name="" last-name="" nick-name="" cn="Vassilios Ioannidis" >
+    <address-list>
+      <address uid="584016479" alias="" email="vassilios.ioannidis@sib.swiss" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="395656031" first-name="" last-name="" nick-name="" cn="Riegger  Daniel" >
+    <address-list>
+      <address uid="395656032" alias="" email="driegger@student.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396170502" first-name="" last-name="" nick-name="" cn="Packt Publishing" >
+    <address-list>
+      <address uid="396170503" alias="" email="Packt-Publishing@snt3.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="397989426" first-name="" last-name="" nick-name="" cn="IQ PLUS AG" >
+    <address-list>
+      <address uid="397989427" alias="" email="info@iqplus.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="416343118" first-name="" last-name="" nick-name="" cn="order@microspot.ch" >
+    <address-list>
+      <address uid="416343119" alias="" email="order@microspot.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="270800660" first-name="" last-name="" nick-name="" cn="FLUENDO S.A." >
+    <address-list>
+      <address uid="270800661" alias="" email="FLUENDO_S.A@mail.vresp.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950420" first-name="" last-name="" nick-name="" cn="- ROCKET GERMAN: Paul Weber -" >
+    <address-list>
+      <address uid="208950421" alias="" email="news@rocketgerman.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="306571358" first-name="" last-name="" nick-name="" cn="Mobility-Journal" >
+    <address-list>
+      <address uid="306571359" alias="" email="journal@mobility.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="270712083" first-name="" last-name="" nick-name="" cn="Patrick Hehenberger" >
+    <address-list>
+      <address uid="270712084" alias="" email="phehenberger@pmg-ing.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942620" first-name="" last-name="" nick-name="" cn="Smashwords" >
+    <address-list>
+      <address uid="409942621" alias="" email="do-not-reply@smashwords.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="397989428" first-name="" last-name="" nick-name="" cn="MagicSIM" >
+    <address-list>
+      <address uid="397989429" alias="" email="hello@magic-sim.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="374181792" first-name="" last-name="" nick-name="" cn="Martin Joseph Fox" >
+    <address-list>
+      <address uid="374181793" alias="" email="mfox@innopark.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950422" first-name="" last-name="" nick-name="" cn="SugarCRM News" >
+    <address-list>
+      <address uid="208950423" alias="" email="sugarnews@sugarcrm.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000101" first-name="" last-name="" nick-name="" cn="Lenovo Deutschland" >
+    <address-list>
+      <address uid="349000102" alias="" email="Lenovo@enews.lenovo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942622" first-name="" last-name="" nick-name="" cn="PAYBACK Service" >
+    <address-list>
+      <address uid="409942623" alias="" email="service@payback.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="391961966" first-name="" last-name="" nick-name="" cn="Lehner Versand AG" >
+    <address-list>
+      <address uid="391961967" alias="" email="info@lehner-versand.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="286488453" first-name="" last-name="" nick-name="" cn="HORNBACH Newsletter" >
+    <address-list>
+      <address uid="286488454" alias="" email="service@newsletter.hornbach.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="276882732" first-name="" last-name="" nick-name="" cn="Travelodge Web Site" >
+    <address-list>
+      <address uid="276882733" alias="" email="webmaster@travelodge.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="557701361" first-name="" last-name="" nick-name="" cn="Paddle" >
+    <address-list>
+      <address uid="557701362" alias="" email="help@paddle.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000103" first-name="" last-name="" nick-name="" cn="contact.center@swisscom.com" >
+    <address-list>
+      <address uid="349000104" alias="" email="contact.center@swisscom.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950372" first-name="" last-name="" nick-name="" cn="info@lingua-uebersetzungen.ch" >
+    <address-list>
+      <address uid="208950373" alias="" email="info@lingua-uebersetzungen.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942624" first-name="" last-name="" nick-name="" cn="ibis.com" >
+    <address-list>
+      <address uid="409942625" alias="" email="news.ibis@accor-mail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="391961968" first-name="" last-name="" nick-name="" cn="Addic7ed.com - Subtitles, Tv Series and Movies Talk, Forum and more -" >
+    <address-list>
+      <address uid="391961969" alias="" email="robot@addic7ed.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000105" first-name="" last-name="" nick-name="" cn="info@offene-stellen.ch" >
+    <address-list>
+      <address uid="349000106" alias="" email="info@offene-stellen.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950426" first-name="" last-name="" nick-name="" cn="Tagged" >
+    <address-list>
+      <address uid="208950427" alias="" email="tagged@taggedmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942626" first-name="" last-name="" nick-name="" cn="TuneIn" >
+    <address-list>
+      <address uid="409942627" alias="" email="news@tunein.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="412239870" first-name="" last-name="" nick-name="" cn="Meneghetti  Sibylle" >
+    <address-list>
+      <address uid="412239871" alias="" email="sibylle.meneghetti@bsse.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300541" first-name="" last-name="" nick-name="" cn="AMP" >
+    <address-list>
+      <address uid="488300542" alias="" email="feedback@ampfeedback.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950374" first-name="" last-name="" nick-name="" cn="info@gtkp.com" >
+    <address-list>
+      <address uid="208950375" alias="" email="info@gtkp.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208427426" first-name="" last-name="" nick-name="" cn="GoConsultancy" >
+    <address-list>
+      <address uid="208427427" alias="" email="info@goconsultancy.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="401613397" first-name="" last-name="" nick-name="" cn="Pi Weekly" >
+    <address-list>
+      <address uid="401613398" alias="" email="newsletter@piweekly.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258392827" first-name="" last-name="" nick-name="" cn="Red Hat" >
+    <address-list>
+      <address uid="258392828" alias="" email="email-communications@redhat.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000107" first-name="" last-name="" nick-name="" cn="McAfee Labs" >
+    <address-list>
+      <address uid="349000108" alias="" email="mcafee@connect.mcafee.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950428" first-name="" last-name="" nick-name="" cn="Tech Essentials" >
+    <address-list>
+      <address uid="208950429" alias="" email="tech-essentials@enterpriseannounce.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="318001302" first-name="" last-name="" nick-name="" cn="Mobility-Newsletter" >
+    <address-list>
+      <address uid="318001303" alias="" email="newsletter@mobility.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300543" first-name="" last-name="" nick-name="" cn="AMP" >
+    <address-list>
+      <address uid="488300544" alias="" email="edocs@communications.amp.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="373540715" first-name="" last-name="" nick-name="" cn="Joel Madero" >
+    <address-list>
+      <address uid="373540716" alias="" email="jmadero.dev@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="260100866" first-name="" last-name="" nick-name="" cn="Windows Secrets" >
+    <address-list>
+      <address uid="260100867" alias="" email="Editor@WindowsSecrets.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="389695439" first-name="" last-name="" nick-name="" cn="SpiderOak" >
+    <address-list>
+      <address uid="389695440" alias="" email="support@spideroak.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="345595631" first-name="" last-name="" nick-name="" cn="Conrad Electronic AG" >
+    <address-list>
+      <address uid="345595632" alias="" email="newsletter@news.conrad.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="401613399" first-name="" last-name="" nick-name="" cn="The Mac Observer Express" >
+    <address-list>
+      <address uid="401613400" alias="" email="express@macobserver.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000109" first-name="" last-name="" nick-name="" cn="Digicomp dNews" >
+    <address-list>
+      <address uid="349000110" alias="" email="dnews@digicomp.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258392829" first-name="" last-name="" nick-name="" cn="BitDefender" >
+    <address-list>
+      <address uid="258392830" alias="" email="email@messages.bitdefender.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="373540717" first-name="" last-name="" nick-name="" cn="Sophie Gautier" >
+    <address-list>
+      <address uid="373540718" alias="" email="gautier.sophie@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870301" first-name="" last-name="" nick-name="" cn="AEW Ökostrombörse" >
+    <address-list>
+      <address uid="370870302" alias="" email="info@oekostromboerse.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300545" first-name="" last-name="" nick-name="" cn="AMP Bank" >
+    <address-list>
+      <address uid="488300546" alias="" email="noreply@ampbanking.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="437950521" first-name="" last-name="" nick-name="" cn="Tim Broom" >
+    <address-list>
+      <address uid="437950522" alias="" email="tim@itpro.tv" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950378" first-name="" last-name="" nick-name="" cn="HomeZone" >
+    <address-list>
+      <address uid="208950379" alias="" email="news@linux-discount.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942628" first-name="" last-name="" nick-name="" cn="customer-service@informit.com" >
+    <address-list>
+      <address uid="409942629" alias="" email="customer-service@informit.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="390527977" first-name="" last-name="" nick-name="" cn="Adetef - Assistance Technique France" >
+    <address-list>
+      <address uid="390527978" alias="" email="communication@adetef.fr" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="312716532" first-name="" last-name="" nick-name="" cn="Zuger Kantonalbank" >
+    <address-list>
+      <address uid="312716533" alias="" email="medienmitteilung@zugerkb.news-update.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870303" first-name="" last-name="" nick-name="" cn="Accorhotels.com" >
+    <address-list>
+      <address uid="370870304" alias="" email="news.accorhotels@accor-mail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300547" first-name="" last-name="" nick-name="" cn="amp@noreply.com.au" >
+    <address-list>
+      <address uid="488300548" alias="" email="amp@noreply.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="373540719" first-name="" last-name="" nick-name="" cn="d.schimkat@hispeed.ch" >
+    <address-list>
+      <address uid="373540720" alias="" email="d.schimkat@hispeed.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="340318714" first-name="" last-name="" nick-name="" cn="eSelection" >
+    <address-list>
+      <address uid="340318715" alias="" email="eSelection@ebrd.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283033890" first-name="" last-name="" nick-name="" cn="Frank Lüdtke" >
+    <address-list>
+      <address uid="283033891" alias="" email="luedtke@sh-systemtechnik.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="437950523" first-name="" last-name="" nick-name="" cn="BatteryUpgrade.ch" >
+    <address-list>
+      <address uid="437950524" alias="" email="info@BatteryUpgrade.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="306398784" first-name="" last-name="" nick-name="" cn="Wilhelm Tux Schweiz - Media" >
+    <address-list>
+      <address uid="306398785" alias="" email="media@wilhelmtux.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="307261237" first-name="" last-name="" nick-name="" cn="LibreOffice Documentation Team blog" >
+    <address-list>
+      <address uid="307261238" alias="" email="no-reply@wordpress.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130521" first-name="" last-name="" nick-name="" cn="Sunrise" >
+    <address-list>
+      <address uid="323130522" alias="" email="sunrise@newsletter.sunrise.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300549" first-name="" last-name="" nick-name="" cn="Apple" >
+    <address-list>
+      <address uid="488300550" alias="" email="no_reply@email.apple.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="389863537" first-name="" last-name="" nick-name="" cn="Anna Panek" >
+    <address-list>
+      <address uid="389863538" alias="" email="anna.panek@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130523" first-name="" last-name="" nick-name="" cn="Pastor Chris Rowney" >
+    <address-list>
+      <address uid="323130524" alias="" email="office@tcfnet.org.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870307" first-name="" last-name="" nick-name="" cn="austroads.roadwatch@infoservices.com.au" >
+    <address-list>
+      <address uid="370870308" alias="" email="austroads.roadwatch@infoservices.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="375951131" first-name="" last-name="" nick-name="" cn="Inc." >
+    <address-list>
+      <address uid="375951132" alias="" email="no-reply@bittorrent.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="302036113" first-name="" last-name="" nick-name="" cn="PedFast Technologies" >
+    <address-list>
+      <address uid="302036114" alias="" email="retbox@tbsnet.us" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="389863539" first-name="" last-name="" nick-name="" cn="gluehbirne.ch/gluehbirne.com" >
+    <address-list>
+      <address uid="389863540" alias="" email="info@gluehbirne.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695221" first-name="" last-name="" nick-name="" cn="AMP" >
+    <address-list>
+      <address uid="430695222" alias="" email="newsandinsights@amp.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="291369673" first-name="" last-name="" nick-name="" cn="Zuger Kantonalbank" >
+    <address-list>
+      <address uid="291369674" alias="" email="portfolio@zugerkb.news-update.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130525" first-name="" last-name="" nick-name="" cn="Clement Lefebvre" >
+    <address-list>
+      <address uid="323130526" alias="" email="root@linuxmint.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870309" first-name="" last-name="" nick-name="" cn="barbara.sutter@zg.ch" >
+    <address-list>
+      <address uid="370870310" alias="" email="barbara.sutter@zg.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016530" first-name="" last-name="" nick-name="" cn="KUNDENBENACHRICHTIGUNG@HORNBACH.COM" >
+    <address-list>
+      <address uid="584016531" alias="" email="KUNDENBENACHRICHTIGUNG@HORNBACH.COM" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130527" first-name="" last-name="" nick-name="" cn="DynDNS.com Donotreply" >
+    <address-list>
+      <address uid="323130528" alias="" email="donotreply@dyndns.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="420398391" first-name="" last-name="" nick-name="" cn="MacStories" >
+    <address-list>
+      <address uid="420398392" alias="" email="weekly@macstories.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="230372034" first-name="" last-name="" nick-name="" cn="&quot;TuxDistro.com&quot;" >
+    <address-list>
+      <address uid="230372035" alias="" email="news@tuxdistro.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="305794409" first-name="" last-name="" nick-name="" cn="hotel@travel.ch" >
+    <address-list>
+      <address uid="305794410" alias="" email="hotel@travel.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="434357203" first-name="" last-name="" nick-name="" cn="TechCrunch" >
+    <address-list>
+      <address uid="434357204" alias="" email="newsletter@techcrunch.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016532" first-name="" last-name="" nick-name="" cn="service-shop@deutschepost.de" >
+    <address-list>
+      <address uid="584016533" alias="" email="service-shop@deutschepost.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="397412240" first-name="" last-name="" nick-name="" cn="SpiderOak Team" >
+    <address-list>
+      <address uid="397412241" alias="" email="team@spideroak.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="379103836" first-name="" last-name="" nick-name="" cn="NTU Framework Contractor Team" >
+    <address-list>
+      <address uid="379103837" alias="" email="lot2@ntu.eu" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130529" first-name="" last-name="" nick-name="" cn="Naked Security - Sophos" >
+    <address-list>
+      <address uid="323130530" alias="" email="newsletter@sophos.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="230372036" first-name="" last-name="" nick-name="" cn="Downloads" >
+    <address-list>
+      <address uid="230372037" alias="" email="newsletters@techrepublic.online.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016480" first-name="" last-name="" nick-name="" cn="John Ryan" >
+    <address-list>
+      <address uid="584016481" alias="" email="john.ryan@internode.on.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="287047332" first-name="" last-name="" nick-name="" cn="Conrad News" >
+    <address-list>
+      <address uid="287047333" alias="" email="newsletter@news.conrad.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="434357205" first-name="" last-name="" nick-name="" cn="The Sync Team" >
+    <address-list>
+      <address uid="434357206" alias="" email="team@getsync.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="285594644" first-name="" last-name="" nick-name="" cn="eload24" >
+    <address-list>
+      <address uid="285594645" alias="" email="noreply@eload24.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="397412242" first-name="" last-name="" nick-name="" cn="SBB Info" >
+    <address-list>
+      <address uid="397412243" alias="" email="sbbinfo@sbb.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016534" first-name="" last-name="" nick-name="" cn="MAKERSHOP.DE" >
+    <address-list>
+      <address uid="584016535" alias="" email="info@makershop.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="230372038" first-name="" last-name="" nick-name="" cn="TechRepublic Daily Digest" >
+    <address-list>
+      <address uid="230372039" alias="" email="newsletters@techrepublic.online.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016482" first-name="" last-name="" nick-name="" cn="Santédiscount" >
+    <address-list>
+      <address uid="584016483" alias="" email="conseil@newsletter.santediscount.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="434357207" first-name="" last-name="" nick-name="" cn="Italo Vignoli" >
+    <address-list>
+      <address uid="434357208" alias="" email="italo@libreoffice.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="285594646" first-name="" last-name="" nick-name="" cn="nixCraft" >
+    <address-list>
+      <address uid="285594647" alias="" email="vivek@nixcraft.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="397412244" first-name="" last-name="" nick-name="" cn="Frank.Mehte@bs.ch" >
+    <address-list>
+      <address uid="397412245" alias="" email="Frank.Mehte@bs.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="287739408" first-name="" last-name="" nick-name="" cn="ZUG4YOU.ch" >
+    <address-list>
+      <address uid="287739409" alias="" email="welcome@zug4you.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="290776583" first-name="" last-name="" nick-name="" cn="no_reply@ksdot.org" >
+    <address-list>
+      <address uid="290776584" alias="" email="no_reply@ksdot.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="397989430" first-name="" last-name="" nick-name="" cn="TechRadar" >
+    <address-list>
+      <address uid="397989431" alias="" email="offers@techradar.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="304628834" first-name="" last-name="" nick-name="" cn="TEMPRO" >
+    <address-list>
+      <address uid="304628835" alias="" email="TEMPRO@dft.gsi.gov.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="289041229" first-name="" last-name="" nick-name="" cn="Tasha Barbour" >
+    <address-list>
+      <address uid="289041230" alias="" email="Tasha@advicesolutions.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="264985635" first-name="" last-name="" nick-name="" cn="Migros.ch Newsletter" >
+    <address-list>
+      <address uid="264985636" alias="" email="migros@nl.migros.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016484" first-name="" last-name="" nick-name="" cn="Martin Fox" >
+    <address-list>
+      <address uid="584016485" alias="" email="martin@mjfox.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="434357209" first-name="" last-name="" nick-name="" cn="Köpfli Beat" >
+    <address-list>
+      <address uid="434357210" alias="" email="beat.koepfli@wwz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="285594648" first-name="" last-name="" nick-name="" cn="H+H Software GmbH" >
+    <address-list>
+      <address uid="285594649" alias="" email="newsletter@hh-software.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016486" first-name="" last-name="" nick-name="" cn="Heinz Stockinger" >
+    <address-list>
+      <address uid="584016487" alias="" email="Heinz.Stockinger@sib.swiss" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="286397129" first-name="" last-name="" nick-name="" cn="Viseca Card Services SA" >
+    <address-list>
+      <address uid="286397130" alias="" email="e-statement@viseca.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="351535429" first-name="" last-name="" nick-name="" cn="Team CBA" >
+    <address-list>
+      <address uid="351535430" alias="" email="admin@cba.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="320913656" first-name="" last-name="" nick-name="" cn="Wunderlist" >
+    <address-list>
+      <address uid="320913657" alias="" email="info@wunderlist.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323337293" first-name="" last-name="" nick-name="" cn="service@paypal.de" >
+    <address-list>
+      <address uid="323337294" alias="" email="service@paypal.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="453246101" first-name="" last-name="" nick-name="" cn="Amazon.com" >
+    <address-list>
+      <address uid="453246102" alias="" email="digital-no-reply@amazon.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396111267" first-name="" last-name="" nick-name="" cn="Riegger  Daniel" >
+    <address-list>
+      <address uid="396111268" alias="" email="driegger@student.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016488" first-name="" last-name="" nick-name="" cn="Ron Appel" >
+    <address-list>
+      <address uid="584016489" alias="" email="ron.appel@sib.swiss" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349001332" first-name="" last-name="" nick-name="" cn="ALPHA.CH" >
+    <address-list>
+      <address uid="349001333" alias="" email="do-not-reply@alpha.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="453246103" first-name="" last-name="" nick-name="" cn="Pebble" >
+    <address-list>
+      <address uid="453246104" alias="" email="no_reply@pebble.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396111269" first-name="" last-name="" nick-name="" cn="a.riegger@bluemail.ch" >
+    <address-list>
+      <address uid="396111270" alias="" email="a.riegger@bluemail.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946603" first-name="" last-name="" nick-name="" cn="Apple" >
+    <address-list>
+      <address uid="370946604" alias="" email="noreply@insideicloud.icloud.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950430" first-name="" last-name="" nick-name="" cn="WORLD BANK AFRICA" >
+    <address-list>
+      <address uid="208950431" alias="" email="jracine@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="290745975" first-name="" last-name="" nick-name="" cn="Linux Journal Editors" >
+    <address-list>
+      <address uid="290745976" alias="" email="noreply@lists.linuxjournal.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="403798711" first-name="" last-name="" nick-name="" cn="Edward Jessel" >
+    <address-list>
+      <address uid="403798712" alias="" email="edwardj@msigroupltd.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942630" first-name="" last-name="" nick-name="" cn="DeutschlandCard Prämien" >
+    <address-list>
+      <address uid="409942631" alias="" email="praemien@reply.deutschlandcard.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349001334" first-name="" last-name="" nick-name="" cn="jobwinner.ch" >
+    <address-list>
+      <address uid="349001335" alias="" email="do-not-reply@jobwinner.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="266848407" first-name="" last-name="" nick-name="" cn="Ministry of Foreign Affairs of Denmark" >
+    <address-list>
+      <address uid="266848408" alias="" email="mailservice@umweb.dk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="453246105" first-name="" last-name="" nick-name="" cn="STEG Electronics" >
+    <address-list>
+      <address uid="453246106" alias="" email="news@steg-electronics.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="286008279" first-name="" last-name="" nick-name="" cn="Advice Solutions" >
+    <address-list>
+      <address uid="286008280" alias="" email="advice.solutions@ampfp.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000111" first-name="" last-name="" nick-name="" cn="O&apos;Reilly Media" >
+    <address-list>
+      <address uid="349000112" alias="" email="oreilly@post.oreilly.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258392831" first-name="" last-name="" nick-name="" cn="eFunda Announcements" >
+    <address-list>
+      <address uid="258392832" alias="" email="drfunda@efunda.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="207223802" first-name="" last-name="" nick-name="" cn="PMO" >
+    <address-list>
+      <address uid="207223803" alias="" email="gtiea@africaonline.co.ke" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946605" first-name="" last-name="" nick-name="" cn="Red Hat" >
+    <address-list>
+      <address uid="370946606" alias="" email="email@engage.redhat.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950432" first-name="" last-name="" nick-name="" cn="World Bank East Asia &amp; Pacific" >
+    <address-list>
+      <address uid="208950433" alias="" email="cgabarain@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942632" first-name="" last-name="" nick-name="" cn="CompTIA" >
+    <address-list>
+      <address uid="409942633" alias="" email="email@comptia.messages4.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349001336" first-name="" last-name="" nick-name="" cn="LIFT International Church of Zug" >
+    <address-list>
+      <address uid="349001337" alias="" email="lift.church@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488760503" first-name="" last-name="" nick-name="" cn="Amazon.com" >
+    <address-list>
+      <address uid="488760504" alias="" email="store-news@amazon.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950380" first-name="" last-name="" nick-name="" cn="iTWire UPDATE" >
+    <address-list>
+      <address uid="208950381" alias="" email="update@itwire.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="266848409" first-name="" last-name="" nick-name="" cn="Europe Registry" >
+    <address-list>
+      <address uid="266848410" alias="" email="bulletin@europeregistry.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="319656103" first-name="" last-name="" nick-name="" cn="Osec" >
+    <address-list>
+      <address uid="319656104" alias="" email="szbinden@osec.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="453246107" first-name="" last-name="" nick-name="" cn="LANDI Newsletter" >
+    <address-list>
+      <address uid="453246108" alias="" email="news@landi.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000113" first-name="" last-name="" nick-name="" cn="O&apos;Reilly Webcasts" >
+    <address-list>
+      <address uid="349000114" alias="" email="webcasts@oreilly.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950434" first-name="" last-name="" nick-name="" cn="World Bank East Asia &amp; Pacific" >
+    <address-list>
+      <address uid="208950435" alias="" email="eapnews@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="234092280" first-name="" last-name="" nick-name="" cn="service@2checkout.com" >
+    <address-list>
+      <address uid="234092281" alias="" email="service@2checkout.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942634" first-name="" last-name="" nick-name="" cn="jobnotification@noreply.jobs2web.com" >
+    <address-list>
+      <address uid="409942635" alias="" email="jobnotification@noreply.jobs2web.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488760505" first-name="" last-name="" nick-name="" cn="busuu" >
+    <address-list>
+      <address uid="488760506" alias="" email="teams@announce.busuu.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950382" first-name="" last-name="" nick-name="" cn="KnowledgeTree Community Manager" >
+    <address-list>
+      <address uid="208950383" alias="" email="info@knowledgetree.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="375027439" first-name="" last-name="" nick-name="" cn="YouTube" >
+    <address-list>
+      <address uid="375027440" alias="" email="noreply@youtube.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="411122227" first-name="" last-name="" nick-name="" cn="Fox, Martin [ITSCH Non J&amp;J]" >
+    <address-list>
+      <address uid="411122228" alias="" email="mfox28@ITS.JNJ.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000115" first-name="" last-name="" nick-name="" cn="Office World News" >
+    <address-list>
+      <address uid="349000116" alias="" email="mail@info.officeworld.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950436" first-name="" last-name="" nick-name="" cn="World Bank Europe Updates" >
+    <address-list>
+      <address uid="208950437" alias="" email="clakatos@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258392835" first-name="" last-name="" nick-name="" cn="webmaster@linuxformat.com" >
+    <address-list>
+      <address uid="258392836" alias="" email="webmaster@linuxformat.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946609" first-name="" last-name="" nick-name="" cn="LastPass" >
+    <address-list>
+      <address uid="370946610" alias="" email="support@lastpass.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946607" first-name="" last-name="" nick-name="" cn="SatOnline GmbH (Fuer Antwort noreply- aus Adresse loeschen)" >
+    <address-list>
+      <address uid="370946608" alias="" email="noreply-info@satonline.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="284540044" first-name="" last-name="" nick-name="" cn="Linux Counter" >
+    <address-list>
+      <address uid="284540045" alias="" email="errors@counter.li.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942636" first-name="" last-name="" nick-name="" cn="Deezer" >
+    <address-list>
+      <address uid="409942637" alias="" email="welcome@nl-international.deezer.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488760507" first-name="" last-name="" nick-name="" cn="Coop Bau+Hobby" >
+    <address-list>
+      <address uid="488760508" alias="" email="newsletter@nl.bauundhobby.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="207223806" first-name="" last-name="" nick-name="" cn="sysagent@chinadaily.com.cn" >
+    <address-list>
+      <address uid="207223807" alias="" email="sysagent@chinadaily.com.cn" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300551" first-name="" last-name="" nick-name="" cn="Backblaze Blog" >
+    <address-list>
+      <address uid="488300552" alias="" email="hello@backblaze.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="385080574" first-name="" last-name="" nick-name="" cn="Abed Ali" >
+    <address-list>
+      <address uid="385080575" alias="" email="ali.a@fec-fujiengineering.co.jp" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="376293885" first-name="" last-name="" nick-name="" cn="Landi Newsletter" >
+    <address-list>
+      <address uid="376293886" alias="" email="news@landiCH.news-update.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258392837" first-name="" last-name="" nick-name="" cn="husse@linuxmint.com" >
+    <address-list>
+      <address uid="258392838" alias="" email="husse@linuxmint.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="280961881" first-name="" last-name="" nick-name="" cn="Coop Aktionen" >
+    <address-list>
+      <address uid="280961882" alias="" email="coop.ak.return@coop.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300603" first-name="" last-name="" nick-name="" cn="PayPal" >
+    <address-list>
+      <address uid="488300604" alias="" email="paypal@mail.paypal.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="373540725" first-name="" last-name="" nick-name="" cn="StartCom CertMaster" >
+    <address-list>
+      <address uid="373540726" alias="" email="certmaster@startcom.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942638" first-name="" last-name="" nick-name="" cn="Samsung" >
+    <address-list>
+      <address uid="409942639" alias="" email="news@eu.my-samsung.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300553" first-name="" last-name="" nick-name="" cn="Benno Shop Newsletter" >
+    <address-list>
+      <address uid="488300554" alias="" email="news@benno-shop.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488760509" first-name="" last-name="" nick-name="" cn="Cybrary 0P3N" >
+    <address-list>
+      <address uid="488760510" alias="" email="donotreply@cybrary.it" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="320935371" first-name="" last-name="" nick-name="" cn="Hentzenwerke Publishing" >
+    <address-list>
+      <address uid="320935372" alias="" email="booksales@hentzenwerke.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950386" first-name="" last-name="" nick-name="" cn="Linux Magazine" >
+    <address-list>
+      <address uid="208950387" alias="" email="reply-4020@responses.linux-mag.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300607" first-name="" last-name="" nick-name="" cn="orders@yubico.com" >
+    <address-list>
+      <address uid="488300608" alias="" email="orders@yubico.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="321357930" first-name="" last-name="" nick-name="" cn="Emirates High Street" >
+    <address-list>
+      <address uid="321357931" alias="" email="emirateshighstreet@e.emirates.travel" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950384" first-name="" last-name="" nick-name="" cn="KrisFlyer" >
+    <address-list>
+      <address uid="208950385" alias="" email="SIANews@ecampaign.singaporeair.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300605" first-name="" last-name="" nick-name="" cn="Outgoing List" >
+    <address-list>
+      <address uid="488300606" alias="" email="admin@deprima.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950438" first-name="" last-name="" nick-name="" cn="World Bank News Bureau" >
+    <address-list>
+      <address uid="208950439" alias="" email="esvirina@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="373540723" first-name="" last-name="" nick-name="" cn="m.krsmanovic@bluewin.ch" >
+    <address-list>
+      <address uid="373540724" alias="" email="m.krsmanovic@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300555" first-name="" last-name="" nick-name="" cn="BookBub" >
+    <address-list>
+      <address uid="488300556" alias="" email="info@bookbub.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="320582652" first-name="" last-name="" nick-name="" cn="Remember The Milk Reminder" >
+    <address-list>
+      <address uid="320582653" alias="" email="remind@rememberthemilk.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300601" first-name="" last-name="" nick-name="" cn="Pocket Hits" >
+    <address-list>
+      <address uid="488300602" alias="" email="noreply@getpocket.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870311" first-name="" last-name="" nick-name="" cn="bibliothek@baar.ch" >
+    <address-list>
+      <address uid="370870312" alias="" email="bibliothek@baar.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="320935373" first-name="" last-name="" nick-name="" cn="StatCounter" >
+    <address-list>
+      <address uid="320935374" alias="" email="noreply@statcounter.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300609" first-name="" last-name="" nick-name="" cn="Nextcloud" >
+    <address-list>
+      <address uid="488300610" alias="" email="newsletter@nextcloud.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870313" first-name="" last-name="" nick-name="" cn="CodeWeavers Forums" >
+    <address-list>
+      <address uid="370870314" alias="" email="noreply@crossover.codeweavers.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="298228741" first-name="" last-name="" nick-name="" cn="Eric and Leslie Ludy RSS Connect" >
+    <address-list>
+      <address uid="298228742" alias="" email="info@ellerslie.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300557" first-name="" last-name="" nick-name="" cn="Code42" >
+    <address-list>
+      <address uid="488300558" alias="" email="noreply@code42.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="320935375" first-name="" last-name="" nick-name="" cn="Mindjet" >
+    <address-list>
+      <address uid="320935376" alias="" email="no_reply@mindjet.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="413803625" first-name="" last-name="" nick-name="" cn="Voyages-sncf.com" >
+    <address-list>
+      <address uid="413803626" alias="" email="noreply@voyages-sncf.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="318705628" first-name="" last-name="" nick-name="" cn="Dan and the Diaspora* team" >
+    <address-list>
+      <address uid="318705629" alias="" email="team@joindiaspora.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130531" first-name="" last-name="" nick-name="" cn="Dyn" >
+    <address-list>
+      <address uid="323130532" alias="" email="hello@dyn.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870315" first-name="" last-name="" nick-name="" cn="contact.center@bill.swisscom.com" >
+    <address-list>
+      <address uid="370870316" alias="" email="contact.center@bill.swisscom.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300559" first-name="" last-name="" nick-name="" cn="Citroën-DS Zufriedenheitsumfrage" >
+    <address-list>
+      <address uid="488300560" alias="" email="citroen@psa-surveys.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="328550468" first-name="" last-name="" nick-name="" cn="Amazon.de" >
+    <address-list>
+      <address uid="328550469" alias="" email="digital-no-reply@amazon.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="413803627" first-name="" last-name="" nick-name="" cn="confirmation@easyJet.com" >
+    <address-list>
+      <address uid="413803628" alias="" email="donotreply@easyjet.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="303228260" first-name="" last-name="" nick-name="" cn="RETScreen International" >
+    <address-list>
+      <address uid="303228261" alias="" email="retscreen2011@rncan.gc.ca" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="287661852" first-name="" last-name="" nick-name="" cn="Agnes Alvite" >
+    <address-list>
+      <address uid="287661853" alias="" email="journals@update.thomastelford.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870317" first-name="" last-name="" nick-name="" cn="dog-ibox Marketing" >
+    <address-list>
+      <address uid="370870318" alias="" email="support@dog-ibox.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870319" first-name="" last-name="" nick-name="" cn="Goodreads" >
+    <address-list>
+      <address uid="370870320" alias="" email="no-reply@mail.goodreads.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="203279002" first-name="" last-name="" nick-name="" cn="Parallels Team" >
+    <address-list>
+      <address uid="203279003" alias="" email="info@parallels.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="318757460" first-name="" last-name="" nick-name="" cn="Kate Stewart" >
+    <address-list>
+      <address uid="318757461" alias="" email="kate.stewart@ubuntu.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="289041231" first-name="" last-name="" nick-name="" cn="Micasa Newsletter" >
+    <address-list>
+      <address uid="289041232" alias="" email="news@nl.micasa.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="401613401" first-name="" last-name="" nick-name="" cn="Mobility-Journal" >
+    <address-list>
+      <address uid="401613402" alias="" email="noreply@mobility.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="233485051" first-name="" last-name="" nick-name="" cn="ocke.janssen@sun.com" >
+    <address-list>
+      <address uid="233485052" alias="" email="ocke.janssen@sun.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208600403" first-name="" last-name="" nick-name="" cn="info@mobility.ch" >
+    <address-list>
+      <address uid="208600404" alias="" email="info@mobility.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="306839114" first-name="" last-name="" nick-name="" cn="Frederik Hansen" >
+    <address-list>
+      <address uid="306839115" alias="" email="post@faldsled-strand-camping.dk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="270040860" first-name="" last-name="" nick-name="" cn="argvillasis@adb.org" >
+    <address-list>
+      <address uid="270040861" alias="" email="argvillasis@adb.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="285594650" first-name="" last-name="" nick-name="" cn="PrimoPDF Team" >
+    <address-list>
+      <address uid="285594651" alias="" email="primo_no-reply@newsletter.nitropdf.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="206615622" first-name="" last-name="" nick-name="" cn="World Bank" >
+    <address-list>
+      <address uid="206615623" alias="" email="mjones2@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="392280773" first-name="" last-name="" nick-name="" cn="David Lawrence" >
+    <address-list>
+      <address uid="392280774" alias="" email="dave@ini.uzh.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="392217482" first-name="" last-name="" nick-name="" cn="Stephan A. Rickauer" >
+    <address-list>
+      <address uid="392217483" alias="" email="stephan@rickauer.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="206526092" first-name="" last-name="" nick-name="" cn="Web Buyer&apos;s Guide White Paper Update" >
+    <address-list>
+      <address uid="206526093" alias="" email="wbg@enews.webbuyersguide.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="318757462" first-name="" last-name="" nick-name="" cn="Viseca-Newsletter" >
+    <address-list>
+      <address uid="318757463" alias="" email="newsletter@viseca.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="401613403" first-name="" last-name="" nick-name="" cn="Good e-Reader" >
+    <address-list>
+      <address uid="401613404" alias="" email="sales@goodereader.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208600405" first-name="" last-name="" nick-name="" cn="AutoScout24" >
+    <address-list>
+      <address uid="208600406" alias="" email="noreply@autoscout24.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="206615624" first-name="" last-name="" nick-name="" cn="info@cinfo.ch" >
+    <address-list>
+      <address uid="206615625" alias="" email="info@cinfo.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="285594652" first-name="" last-name="" nick-name="" cn="DynDNS Support" >
+    <address-list>
+      <address uid="285594653" alias="" email="support@dyndns.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="351535431" first-name="" last-name="" nick-name="" cn="Denner Aktionen" >
+    <address-list>
+      <address uid="351535432" alias="" email="newsletter@news.denner.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="233485053" first-name="" last-name="" nick-name="" cn="frank.schoenheit@sun.com" >
+    <address-list>
+      <address uid="233485054" alias="" email="frank.schoenheit@sun.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016490" first-name="" last-name="" nick-name="" cn="Pro Senectute Kanton Zug" >
+    <address-list>
+      <address uid="584016491" alias="" email="newsletter@zg.prosenectute.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="401613405" first-name="" last-name="" nick-name="" cn="SourceForge.net" >
+    <address-list>
+      <address uid="401613406" alias="" email="noreply-updater@sourceforge.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="285594654" first-name="" last-name="" nick-name="" cn="comparis.ch" >
+    <address-list>
+      <address uid="285594655" alias="" email="newsletter@comparis.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="351535433" first-name="" last-name="" nick-name="" cn="moneyhouse" >
+    <address-list>
+      <address uid="351535434" alias="" email="info@moneyhouse.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="290018207" first-name="" last-name="" nick-name="" cn="briefing@devex.com" >
+    <address-list>
+      <address uid="290018208" alias="" email="briefing@devex.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="224097572" first-name="" last-name="" nick-name="" cn="Linux Magazine" >
+    <address-list>
+      <address uid="224097573" alias="" email="noreply@linux-mag.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016492" first-name="" last-name="" nick-name="" cn="Amazon.de" >
+    <address-list>
+      <address uid="584016493" alias="" email="store-news@amazon.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396111271" first-name="" last-name="" nick-name="" cn="LastPass" >
+    <address-list>
+      <address uid="396111272" alias="" email="do-not-reply-support@lastpass.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="401613407" first-name="" last-name="" nick-name="" cn="Roche Careers" >
+    <address-list>
+      <address uid="401613408" alias="" email="noreply@invalidemail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="381914452" first-name="" last-name="" nick-name="" cn="sbbclient@sbb.ch" >
+    <address-list>
+      <address uid="381914453" alias="" email="sbbclient@sbb.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="351535435" first-name="" last-name="" nick-name="" cn="wilmaa.com" >
+    <address-list>
+      <address uid="351535436" alias="" email="wilmaa@wilmaa.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="351964584" first-name="" last-name="" nick-name="" cn="info@bletchleypark.org.uk" >
+    <address-list>
+      <address uid="351964585" alias="" email="info@bletchleypark.org.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="286008281" first-name="" last-name="" nick-name="" cn="RegNow" >
+    <address-list>
+      <address uid="286008282" alias="" email="regnow@reply.digitalriver.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="379748312" first-name="" last-name="" nick-name="" cn="The edX Team" >
+    <address-list>
+      <address uid="379748313" alias="" email="noreply@edx.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396111273" first-name="" last-name="" nick-name="" cn="PDFpen/Smile" >
+    <address-list>
+      <address uid="396111274" alias="" email="support@smilesoftware.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="381914454" first-name="" last-name="" nick-name="" cn="NewSoftwares.net" >
+    <address-list>
+      <address uid="381914455" alias="" email="no-reply@searchmarketinginn.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="376497775" first-name="" last-name="" nick-name="" cn="glocals - New Activity" >
+    <address-list>
+      <address uid="376497776" alias="" email="notifications@glocals.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="401613409" first-name="" last-name="" nick-name="" cn="noreply@icerecruit.com" >
+    <address-list>
+      <address uid="401613410" alias="" email="noreply@icerecruit.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016494" first-name="" last-name="" nick-name="" cn="IAPP Events" >
+    <address-list>
+      <address uid="584016495" alias="" email="events@iapp.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="351535437" first-name="" last-name="" nick-name="" cn="LinkedIn" >
+    <address-list>
+      <address uid="351535438" alias="" email="messages-noreply@linkedin.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="266848411" first-name="" last-name="" nick-name="" cn="A.T.U Newsletter" >
+    <address-list>
+      <address uid="266848412" alias="" email="newsletter@de.atu.eu" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="379748314" first-name="" last-name="" nick-name="" cn="moneyhouse" >
+    <address-list>
+      <address uid="379748315" alias="" email="newsletter@moneyhouse.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="266063701" first-name="" last-name="" nick-name="" cn="free-sms" >
+    <address-list>
+      <address uid="266063702" alias="" email="newsletter@b2cmail10.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="319451521" first-name="" last-name="" nick-name="" cn="NAVTEQ Map24 Newsletter" >
+    <address-list>
+      <address uid="319451522" alias="" email="newsletter@mymap24.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016496" first-name="" last-name="" nick-name="" cn="Jaroslaw Surkont" >
+    <address-list>
+      <address uid="584016497" alias="" email="jaroslaw.surkont@unibas.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396111275" first-name="" last-name="" nick-name="" cn="Billing Dept" >
+    <address-list>
+      <address uid="396111276" alias="" email="billing@privateinternetaccess.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="381914456" first-name="" last-name="" nick-name="" cn="o2 Team" >
+    <address-list>
+      <address uid="381914457" alias="" email="no-reply@news.o2.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="345709197" first-name="" last-name="" nick-name="" cn="jobmail@jobs.ch" >
+    <address-list>
+      <address uid="345709198" alias="" email="jobmail@jobs.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="266063703" first-name="" last-name="" nick-name="" cn="Orell Füssli Buchhandlungs AG" >
+    <address-list>
+      <address uid="266063704" alias="" email="newsletter@books.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="375027441" first-name="" last-name="" nick-name="" cn="Chris Szaday" >
+    <address-list>
+      <address uid="375027442" alias="" email="christopher.szaday@bluewin.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="418121834" first-name="" last-name="" nick-name="" cn="WorkFlowy" >
+    <address-list>
+      <address uid="418121835" alias="" email="help@workflowy.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396111277" first-name="" last-name="" nick-name="" cn="DeutschlandCard Aktionen" >
+    <address-list>
+      <address uid="396111278" alias="" email="aktionen@reply.deutschlandcard.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="381914458" first-name="" last-name="" nick-name="" cn="Free ITIL Training" >
+    <address-list>
+      <address uid="381914459" alias="" email="info@itiltrainingzone.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016498" first-name="" last-name="" nick-name="" cn="easyJet" >
+    <address-list>
+      <address uid="584016499" alias="" email="generationeasyJet@email.easyJet.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="205689168" first-name="" last-name="" nick-name="" cn="Snap Shots" >
+    <address-list>
+      <address uid="205689169" alias="" email="shotscustomerservice@snap.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946611" first-name="" last-name="" nick-name="" cn="W5KUB Broadcast" >
+    <address-list>
+      <address uid="370946612" alias="" email="wa5kub.video1@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="345709199" first-name="" last-name="" nick-name="" cn="eStudySource" >
+    <address-list>
+      <address uid="345709200" alias="" email="newsletter@estudysource.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="210932132" first-name="" last-name="" nick-name="" cn="Matrox Graphics Newsletter" >
+    <address-list>
+      <address uid="210932133" alias="" email="newsletter@matrox.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="399537614" first-name="" last-name="" nick-name="" cn="Riley, Max" >
+    <address-list>
+      <address uid="399537615" alias="" email="Max.Riley@smec.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396111279" first-name="" last-name="" nick-name="" cn="Do it + Garden Migros" >
+    <address-list>
+      <address uid="396111280" alias="" email="news@nl.doitgarden.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946613" first-name="" last-name="" nick-name="" cn="Vimentis Newsletter" >
+    <address-list>
+      <address uid="370946614" alias="" email="info@vimentis.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950440" first-name="" last-name="" nick-name="" cn="World Bank South Africa" >
+    <address-list>
+      <address uid="208950441" alias="" email="bcrow@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942640" first-name="" last-name="" nick-name="" cn="Wunderlist" >
+    <address-list>
+      <address uid="409942641" alias="" email="wundermail@wunderlist.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488760511" first-name="" last-name="" nick-name="" cn="digitec News" >
+    <address-list>
+      <address uid="488760512" alias="" email="News@digitecgalaxus.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="399537616" first-name="" last-name="" nick-name="" cn="elaineriley77@gmail.com" >
+    <address-list>
+      <address uid="399537617" alias="" email="elaineriley77@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="289167318" first-name="" last-name="" nick-name="" cn="ICE Publishing" >
+    <address-list>
+      <address uid="289167319" alias="" email="books@update.thomastelford.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946615" first-name="" last-name="" nick-name="" cn="Arch Linux Forums Mailer" >
+    <address-list>
+      <address uid="370946616" alias="" email="nobody@archlinux.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="322786319" first-name="" last-name="" nick-name="" cn="lyris-noreply@lists.worldbank.org" >
+    <address-list>
+      <address uid="322786320" alias="" email="lyris-noreply@lists.worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950442" first-name="" last-name="" nick-name="" cn="World Bank South Asia" >
+    <address-list>
+      <address uid="208950443" alias="" email="nvucenik@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="288774084" first-name="" last-name="" nick-name="" cn="Do it + Garden Migros" >
+    <address-list>
+      <address uid="288774085" alias="" email="aktuelles@nl.doit-garden-migros.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409942642" first-name="" last-name="" nick-name="" cn="The Box Team" >
+    <address-list>
+      <address uid="409942643" alias="" email="boxevents@box.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="405501215" first-name="" last-name="" nick-name="" cn="christopher.szaday@bluewin.ch [aussies-abroad]" >
+    <address-list>
+      <address uid="405501216" alias="" email="aussies-abroad@yahoogroups.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950390" first-name="" last-name="" nick-name="" cn="Lufthansa" >
+    <address-list>
+      <address uid="208950391" alias="" email="news@lh.lufthansa.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488760513" first-name="" last-name="" nick-name="" cn="Glenfis AG" >
+    <address-list>
+      <address uid="488760514" alias="" email="newsletter@glenfis.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946617" first-name="" last-name="" nick-name="" cn="Dropbox" >
+    <address-list>
+      <address uid="370946618" alias="" email="no-reply@dropboxmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300611" first-name="" last-name="" nick-name="" cn="Mike Vardy" >
+    <address-list>
+      <address uid="488300612" alias="" email="askmike@productivityist.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950444" first-name="" last-name="" nick-name="" cn="IKEA FAMILY Newsletter" >
+    <address-list>
+      <address uid="208950445" alias="" email="family.ch@memo.IKEA.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488760515" first-name="" last-name="" nick-name="" cn="o2 Team" >
+    <address-list>
+      <address uid="488760516" alias="" email="o2.Team@mi-pay.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="405501217" first-name="" last-name="" nick-name="" cn="Qantas Frequent Flyer" >
+    <address-list>
+      <address uid="405501218" alias="" email="qantasff@loyalty.qantas.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="287696443" first-name="" last-name="" nick-name="" cn="ARCHITRONIC.CH" >
+    <address-list>
+      <address uid="287696444" alias="" email="mailversand@brack.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950392" first-name="" last-name="" nick-name="" cn="Lufthansa" >
+    <address-list>
+      <address uid="208950393" alias="" email="newsletter@lh.lufthansa.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300613" first-name="" last-name="" nick-name="" cn="Migros Bank Newsletter" >
+    <address-list>
+      <address uid="488300614" alias="" email="news@migrosbank-newsletter.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950446" first-name="" last-name="" nick-name="" cn="Migros@m-infoline.ch" >
+    <address-list>
+      <address uid="208950447" alias="" email="Migros@m-infoline.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="318705630" first-name="" last-name="" nick-name="" cn="Golfpark Holzhäusern" >
+    <address-list>
+      <address uid="318705631" alias="" email="news_holzhaeusern@newsletter.golfparks.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946619" first-name="" last-name="" nick-name="" cn="Electoral Reform Services" >
+    <address-list>
+      <address uid="370946620" alias="" email="ice@electoralreform.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258392845" first-name="" last-name="" nick-name="" cn="noreply@interdiscount.ch" >
+    <address-list>
+      <address uid="258392846" alias="" email="noreply@interdiscount.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300561" first-name="" last-name="" nick-name="" cn="Canonical" >
+    <address-list>
+      <address uid="488300562" alias="" email="ubuntu-devices@canonical.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488760517" first-name="" last-name="" nick-name="" cn="Sync" >
+    <address-list>
+      <address uid="488760518" alias="" email="team@resilio.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950394" first-name="" last-name="" nick-name="" cn="Lufthansa Nice Price" >
+    <address-list>
+      <address uid="208950395" alias="" email="mailing@lufthansa-niceprice.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="328550470" first-name="" last-name="" nick-name="" cn="alerts@devex.com" >
+    <address-list>
+      <address uid="328550471" alias="" email="alerts@devex.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="372578419" first-name="" last-name="" nick-name="" cn="6Wunderkinder" >
+    <address-list>
+      <address uid="372578420" alias="" email="wundermail@6wunderkinder.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="405501219" first-name="" last-name="" nick-name="" cn="The Thomas DePrima Forum" >
+    <address-list>
+      <address uid="405501220" alias="" email="thomas@deprima.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="333368941" first-name="" last-name="" nick-name="" cn="bestellbestaetigung@amazon.de" >
+    <address-list>
+      <address uid="333368942" alias="" email="bestellbestaetigung@amazon.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300615" first-name="" last-name="" nick-name="" cn="MedicAnimal.de" >
+    <address-list>
+      <address uid="488300616" alias="" email="kontakt@medicanimal.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950448" first-name="" last-name="" nick-name="" cn="mikael.tornqvist@nynas.com" >
+    <address-list>
+      <address uid="208950449" alias="" email="mikael.tornqvist@nynas.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="241355322" first-name="" last-name="" nick-name="" cn="Martina Mias" >
+    <address-list>
+      <address uid="241355323" alias="" email="40.2@hcconline.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="371634107" first-name="" last-name="" nick-name="" cn="Ivo Studer" >
+    <address-list>
+      <address uid="371634108" alias="" email="ivo.studer@technologieforumzug.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="371634109" first-name="" last-name="" nick-name="" cn="Weiterbildung" >
+    <address-list>
+      <address uid="371634110" alias="" email="weiterbildung@innopark.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="411810282" first-name="" last-name="" nick-name="" cn="Meneghetti  Sibylle" >
+    <address-list>
+      <address uid="411810283" alias="" email="sibylle.meneghetti@bsse.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300563" first-name="" last-name="" nick-name="" cn="BusyMac" >
+    <address-list>
+      <address uid="488300564" alias="" email="info@busymac.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950396" first-name="" last-name="" nick-name="" cn="Linux-Onlineshop (Melanie Porzelt)" >
+    <address-list>
+      <address uid="208950397" alias="" email="linux@linux-onlineshop.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488760519" first-name="" last-name="" nick-name="" cn="X-Mirage" >
+    <address-list>
+      <address uid="488760520" alias="" email="x-mirage@x-mirage.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="376119406" first-name="" last-name="" nick-name="" cn="Mind Tools" >
+    <address-list>
+      <address uid="376119407" alias="" email="rdqnewsletter@mindtools-support.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300617" first-name="" last-name="" nick-name="" cn="MedicAnimal" >
+    <address-list>
+      <address uid="488300618" alias="" email="noreply@medicanimal.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="411584112" first-name="" last-name="" nick-name="" cn="nelsonzrh@gmail.com" >
+    <address-list>
+      <address uid="411584113" alias="" email="nelsonzrh@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="333368943" first-name="" last-name="" nick-name="" cn="Cron Daemon" >
+    <address-list>
+      <address uid="333368944" alias="" email="root@X201Mint12.badwolf.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="376119408" first-name="" last-name="" nick-name="" cn="Michael Topfer" >
+    <address-list>
+      <address uid="376119409" alias="" email="michael.topfer@bigpond.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="433110373" first-name="" last-name="" nick-name="" cn="W5KUB.com" >
+    <address-list>
+      <address uid="433110374" alias="" email="video1.w5kub@gmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300565" first-name="" last-name="" nick-name="" cn="BundleHunt" >
+    <address-list>
+      <address uid="488300566" alias="" email="newsletter@bundlehunt.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950398" first-name="" last-name="" nick-name="" cn="Miles &amp; More" >
+    <address-list>
+      <address uid="208950399" alias="" email="mail@e.milesandmore.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870321" first-name="" last-name="" nick-name="" cn="ICErecruit.com" >
+    <address-list>
+      <address uid="370870322" alias="" email="info@newsletter.icerecruit.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="395331553" first-name="" last-name="" nick-name="" cn="Johnny Hughes" >
+    <address-list>
+      <address uid="395331554" alias="" email="johnny@centos.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300619" first-name="" last-name="" nick-name="" cn="MedicAnimal" >
+    <address-list>
+      <address uid="488300620" alias="" email="noreply@medicanimal.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="411810284" first-name="" last-name="" nick-name="" cn="Adobe Systems" >
+    <address-list>
+      <address uid="411810285" alias="" email="email@mail.adobesystems.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870323" first-name="" last-name="" nick-name="" cn="IceWalkers.com" >
+    <address-list>
+      <address uid="370870324" alias="" email="noreply@icewalkers.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300567" first-name="" last-name="" nick-name="" cn="BitTorrent Now" >
+    <address-list>
+      <address uid="488300568" alias="" email="now@bittorrent.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="397469893" first-name="" last-name="" nick-name="" cn="infos@jobscout24.ch" >
+    <address-list>
+      <address uid="397469894" alias="" email="infos@jobscout24.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="219329021" first-name="" last-name="" nick-name="" cn="Conrad Electronic AG" >
+    <address-list>
+      <address uid="219329022" alias="" email="webmaster@conrad.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870325" first-name="" last-name="" nick-name="" cn="Italo Vignoli" >
+    <address-list>
+      <address uid="370870326" alias="" email="italo.vignoli@documentfoundation.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300569" first-name="" last-name="" nick-name="" cn="Backblaze Blog" >
+    <address-list>
+      <address uid="488300570" alias="" email="hello@backblaze.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="284938953" first-name="" last-name="" nick-name="" cn="Axigen Customer Care" >
+    <address-list>
+      <address uid="284938954" alias="" email="register@axigen.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="329601316" first-name="" last-name="" nick-name="" cn="gantthead Newsletter" >
+    <address-list>
+      <address uid="329601317" alias="" email="newsletter@reply.gantthead.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870327" first-name="" last-name="" nick-name="" cn="kontakt@medicanimal.com" >
+    <address-list>
+      <address uid="370870328" alias="" email="kontakt@medicanimal.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="308385799" first-name="" last-name="" nick-name="" cn="Beobachter" >
+    <address-list>
+      <address uid="308385800" alias="" email="newsletter@beobachter.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="320483977" first-name="" last-name="" nick-name="" cn="Linux Format Digital" >
+    <address-list>
+      <address uid="320483978" alias="" email="support@notification.zinio.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="333271622" first-name="" last-name="" nick-name="" cn="Justin Giles-Clark" >
+    <address-list>
+      <address uid="333271623" alias="" email="justingc@ozemail.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="289116690" first-name="" last-name="" nick-name="" cn="TechRepublic News &amp; Special Offers" >
+    <address-list>
+      <address uid="289116691" alias="" email="techrepublic@direct.cnet.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870329" first-name="" last-name="" nick-name="" cn="M-connect" >
+    <address-list>
+      <address uid="370870330" alias="" email="no-reply@m-connect.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="401613411" first-name="" last-name="" nick-name="" cn="XING" >
+    <address-list>
+      <address uid="401613412" alias="" email="mailrobot@xing.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323033993" first-name="" last-name="" nick-name="" cn="Instructables" >
+    <address-list>
+      <address uid="323033994" alias="" email="newsletter@instructables.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="398416335" first-name="" last-name="" nick-name="" cn="TonerPartner.ch" >
+    <address-list>
+      <address uid="398416336" alias="" email="verkauf@tonerpartner.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211107588" first-name="" last-name="" nick-name="" cn="Liselotte.Schai@swisscom.com" >
+    <address-list>
+      <address uid="211107589" alias="" email="Liselotte.Schai@swisscom.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="578819159" first-name="" last-name="" nick-name="" cn="Frank Karnauskas via ANS" >
+    <address-list>
+      <address uid="578819160" alias="" email="ans@amsat.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="301477635" first-name="" last-name="" nick-name="" cn="obi-news@obich.ch" >
+    <address-list>
+      <address uid="301477636" alias="" email="obi-news@obich.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="376640771" first-name="" last-name="" nick-name="" cn="Rob Weir" >
+    <address-list>
+      <address uid="376640772" alias="" email="robweir@apache.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="403339945" first-name="" last-name="" nick-name="" cn="Squiggly Swatch Watches" >
+    <address-list>
+      <address uid="403339946" alias="" email="mailing@squiggly.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="206120384" first-name="" last-name="" nick-name="" cn="kundendienst.shop@redIT.ch" >
+    <address-list>
+      <address uid="206120385" alias="" email="kundendienst.shop@redIT.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="376640773" first-name="" last-name="" nick-name="" cn="Livemocha" >
+    <address-list>
+      <address uid="376640774" alias="" email="email@email.livemocha.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="372937535" first-name="" last-name="" nick-name="" cn="jobs@pidas.com" >
+    <address-list>
+      <address uid="372937536" alias="" email="jobs@pidas.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="217002475" first-name="" last-name="" nick-name="" cn="Red Hat" >
+    <address-list>
+      <address uid="217002476" alias="" email="email@info.redhat.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="319451531" first-name="" last-name="" nick-name="" cn="Linuxaria" >
+    <address-list>
+      <address uid="319451532" alias="" email="admin@linuxaria.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="403339947" first-name="" last-name="" nick-name="" cn="Sandra Messer" >
+    <address-list>
+      <address uid="403339948" alias="" email="imsmesser@googlemail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="227711220" first-name="" last-name="" nick-name="" cn="Recipezaar Newsletter" >
+    <address-list>
+      <address uid="227711221" alias="" email="newsletter@recipezaar.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695199" first-name="" last-name="" nick-name="" cn="alerts@conradconsulting.co.uk" >
+    <address-list>
+      <address uid="430695200" alias="" email="alerts@conradconsulting.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950346" first-name="" last-name="" nick-name="" cn="admin@satforum.ch" >
+    <address-list>
+      <address uid="208950347" alias="" email="admin@satforum.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="272661282" first-name="" last-name="" nick-name="" cn="internet.ch IT AG" >
+    <address-list>
+      <address uid="272661283" alias="" email="info@internet.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="403339949" first-name="" last-name="" nick-name="" cn="BIOVEA" >
+    <address-list>
+      <address uid="403339950" alias="" email="kontakt-ch@biovea.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946621" first-name="" last-name="" nick-name="" cn="Evernote Team" >
+    <address-list>
+      <address uid="370946622" alias="" email="team@email.evernote.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="290375797" first-name="" last-name="" nick-name="" cn="JAM Software - TreeSize" >
+    <address-list>
+      <address uid="290375798" alias="" email="treesize@jam-software.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946623" first-name="" last-name="" nick-name="" cn="Groupe Mutuel" >
+    <address-list>
+      <address uid="370946624" alias="" email="promo@groupemutuel.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950450" first-name="" last-name="" nick-name="" cn="ricardo.ch" >
+    <address-list>
+      <address uid="208950451" alias="" email="kundendienst@ricardo.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="321650959" first-name="" last-name="" nick-name="" cn="Access Watch" >
+    <address-list>
+      <address uid="321650960" alias="" email="wow.robot@woodyswatch.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="290375799" first-name="" last-name="" nick-name="" cn="Linux Journal Services" >
+    <address-list>
+      <address uid="290375800" alias="" email="LinuxJournalServices@linuxjournalservices.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946625" first-name="" last-name="" nick-name="" cn="Innovation and Research Focus" >
+    <address-list>
+      <address uid="370946626" alias="" email="irf-news@venablesconsultancy.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950452" first-name="" last-name="" nick-name="" cn="World Bank" >
+    <address-list>
+      <address uid="208950453" alias="" email="vkanchi@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="230802607" first-name="" last-name="" nick-name="" cn="TechRepublic News &amp; Special Offers" >
+    <address-list>
+      <address uid="230802608" alias="" email="newsletters@techrepublic.online.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="419879462" first-name="" last-name="" nick-name="" cn="iFixit" >
+    <address-list>
+      <address uid="419879463" alias="" email="list@ifixit.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300621" first-name="" last-name="" nick-name="" cn="Malwarebytes" >
+    <address-list>
+      <address uid="488300622" alias="" email="noreply@malwarebytes.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946627" first-name="" last-name="" nick-name="" cn="Kaffeezentrale Schweiz" >
+    <address-list>
+      <address uid="370946628" alias="" email="al@gustus.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="258583724" first-name="" last-name="" nick-name="" cn="eBay" >
+    <address-list>
+      <address uid="258583725" alias="" email="ebay@ebay.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="346770157" first-name="" last-name="" nick-name="" cn="jobnotification@merck-jobs.com" >
+    <address-list>
+      <address uid="346770158" alias="" email="jobnotification@merck-jobs.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="419879464" first-name="" last-name="" nick-name="" cn="WordPress" >
+    <address-list>
+      <address uid="419879465" alias="" email="wordpress@animaltrainer.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946629" first-name="" last-name="" nick-name="" cn="Kaufland Newsletter" >
+    <address-list>
+      <address uid="370946630" alias="" email="info@newsletter.kaufland.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211966873" first-name="" last-name="" nick-name="" cn="DFID" >
+    <address-list>
+      <address uid="211966874" alias="" email="publicity@dfid.gov.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="306484736" first-name="" last-name="" nick-name="" cn="New Civil Engineer" >
+    <address-list>
+      <address uid="306484737" alias="" email="subscriptions@mail.nce.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300623" first-name="" last-name="" nick-name="" cn="Mac Observer Deals" >
+    <address-list>
+      <address uid="488300624" alias="" email="deals@mail.stackcommerce.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="375257579" first-name="" last-name="" nick-name="" cn="LibreOffice Documentation Team blog" >
+    <address-list>
+      <address uid="375257580" alias="" email="comment-reply@wordpress.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300571" first-name="" last-name="" nick-name="" cn="Benno Shop Newsletter" >
+    <address-list>
+      <address uid="488300572" alias="" email="news@benno-shop.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="419879466" first-name="" last-name="" nick-name="" cn="WordPress" >
+    <address-list>
+      <address uid="419879467" alias="" email="wordpress@blog.mjfox.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016500" first-name="" last-name="" nick-name="" cn="Katrin Crameri" >
+    <address-list>
+      <address uid="584016501" alias="" email="katrin.crameri@unibas.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="544996416" first-name="" last-name="" nick-name="" cn="Standard Notes" >
+    <address-list>
+      <address uid="544996417" alias="" email="hello@standardnotes.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300625" first-name="" last-name="" nick-name="" cn="MacAppware" >
+    <address-list>
+      <address uid="488300626" alias="" email="kyle@macappware.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="345709201" first-name="" last-name="" nick-name="" cn="NOOK by Barnes &amp; Noble" >
+    <address-list>
+      <address uid="345709202" alias="" email="BarnesandNoble@m.bn.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211966875" first-name="" last-name="" nick-name="" cn="Miles &amp; More" >
+    <address-list>
+      <address uid="211966876" alias="" email="newsletter@newsletter.milesandmore.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="386413699" first-name="" last-name="" nick-name="" cn="card@broadcast.ch" >
+    <address-list>
+      <address uid="386413700" alias="" email="card@broadcast.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300573" first-name="" last-name="" nick-name="" cn="comparis.ch" >
+    <address-list>
+      <address uid="488300574" alias="" email="newsletter@email.comparis.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="286190191" first-name="" last-name="" nick-name="" cn="Migros.ch Newsletter" >
+    <address-list>
+      <address uid="286190192" alias="" email="news@newsletter.migros.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="419879468" first-name="" last-name="" nick-name="" cn="WordPress" >
+    <address-list>
+      <address uid="419879469" alias="" email="wordpress@badwolf.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="345889300" first-name="" last-name="" nick-name="" cn="planova JobMail" >
+    <address-list>
+      <address uid="345889301" alias="" email="noreply@planova.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="544996418" first-name="" last-name="" nick-name="" cn="David VanDyke" >
+    <address-list>
+      <address uid="544996419" alias="" email="david.vandyke@davidvandykeauthor.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016502" first-name="" last-name="" nick-name="" cn="Leila Alexander" >
+    <address-list>
+      <address uid="584016503" alias="" email="leila.alexander@unibas.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300627" first-name="" last-name="" nick-name="" cn="jobs-noreply@ethz.ch" >
+    <address-list>
+      <address uid="488300628" alias="" email="jobs-noreply@ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="345709203" first-name="" last-name="" nick-name="" cn="Yubico Revoke Server" >
+    <address-list>
+      <address uid="345709204" alias="" email="support@yubico.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="436261470" first-name="" last-name="" nick-name="" cn="support@itpro.tv" >
+    <address-list>
+      <address uid="436261471" alias="" email="support@itpro.tv" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870331" first-name="" last-name="" nick-name="" cn="MeinVodafone" >
+    <address-list>
+      <address uid="370870332" alias="" email="meinvodafone@vodafone.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300575" first-name="" last-name="" nick-name="" cn="CodeWeavers" >
+    <address-list>
+      <address uid="488300576" alias="" email="store@codeweavers.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016504" first-name="" last-name="" nick-name="" cn="Robin Engler" >
+    <address-list>
+      <address uid="584016505" alias="" email="Robin.Engler@sib.swiss" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300629" first-name="" last-name="" nick-name="" cn="Interdiscount" >
+    <address-list>
+      <address uid="488300630" alias="" email="online@interdiscount.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="345709205" first-name="" last-name="" nick-name="" cn="René Dörig" >
+    <address-list>
+      <address uid="345709206" alias="" email="rene.doerig@furrer-solartechnik.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211966879" first-name="" last-name="" nick-name="" cn="World Bank Africa" >
+    <address-list>
+      <address uid="211966880" alias="" email="cwalsh@worldbank.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="209295523" first-name="" last-name="" nick-name="" cn="news.shop@redIT.ch" >
+    <address-list>
+      <address uid="209295524" alias="" email="news.shop@redIT.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870333" first-name="" last-name="" nick-name="" cn="Ökostrombörse Schweiz" >
+    <address-list>
+      <address uid="370870334" alias="" email="info@oekostromboerse-schweiz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="375915731" first-name="" last-name="" nick-name="" cn="Swiss Engineering STV" >
+    <address-list>
+      <address uid="375915732" alias="" email="info@swissengineering.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300577" first-name="" last-name="" nick-name="" cn="CompTIA" >
+    <address-list>
+      <address uid="488300578" alias="" email="noreplies@comptia.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="246221887" first-name="" last-name="" nick-name="" cn="www.podclub.ch" >
+    <address-list>
+      <address uid="246221888" alias="" email="admin@podclub.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016506" first-name="" last-name="" nick-name="" cn="Maffioletti  Sergio (ID SIS)" >
+    <address-list>
+      <address uid="584016507" alias="" email="sergio.maffioletti@id.ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211107590" first-name="" last-name="" nick-name="" cn="newsandtrends.shop@redIT.ch" >
+    <address-list>
+      <address uid="211107591" alias="" email="newsandtrends.shop@redIT.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="302687573" first-name="" last-name="" nick-name="" cn="Google Calendar" >
+    <address-list>
+      <address uid="302687574" alias="" email="calendar-notification@google.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870335" first-name="" last-name="" nick-name="" cn="order@microspot.ch" >
+    <address-list>
+      <address uid="370870336" alias="" email="order@microspot.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300579" first-name="" last-name="" nick-name="" cn="Archäologische Bodenforschung Basel-Stadt" >
+    <address-list>
+      <address uid="488300580" alias="" email="arch.bodenforschung@bs.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="246221889" first-name="" last-name="" nick-name="" cn="danni440@hotmail.com" >
+    <address-list>
+      <address uid="246221890" alias="" email="member-4493819@shtyle.fm" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016508" first-name="" last-name="" nick-name="" cn="info@distrelec.com" >
+    <address-list>
+      <address uid="584016509" alias="" email="info@distrelec.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="321868612" first-name="" last-name="" nick-name="" cn="Full Circle Magazine" >
+    <address-list>
+      <address uid="321868613" alias="" email="lists@fullcirclemagazine.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="211107592" first-name="" last-name="" nick-name="" cn="info@server.gtkp.com" >
+    <address-list>
+      <address uid="211107593" alias="" email="info@server.gtkp.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870337" first-name="" last-name="" nick-name="" cn="rezept medicanimal" >
+    <address-list>
+      <address uid="370870338" alias="" email="rezept@medicanimal.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="339192351" first-name="" last-name="" nick-name="" cn="Facebook" >
+    <address-list>
+      <address uid="339192352" alias="" email="notification+kr4mbsxaknqa@facebookmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="388567242" first-name="" last-name="" nick-name="" cn="Martin Fox" >
+    <address-list>
+      <address uid="388567243" alias="" email="mjfox@gmx.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="299793069" first-name="" last-name="" nick-name="" cn="Patrick Hehenberger" >
+    <address-list>
+      <address uid="299793070" alias="" email="mail@hehenberger.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="403599920" first-name="" last-name="" nick-name="" cn="ImmoScout24" >
+    <address-list>
+      <address uid="403599921" alias="" email="info@immoscout24.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409240597" first-name="" last-name="" nick-name="" cn="BBC Good Food" >
+    <address-list>
+      <address uid="409240598" alias="" email="newsletter@bbcgoodfood.bbc.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950400" first-name="" last-name="" nick-name="" cn="Mindjet GmbH" >
+    <address-list>
+      <address uid="208950401" alias="" email="servicecenter@mindjet.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="212757992" first-name="" last-name="" nick-name="" cn="About.com" >
+    <address-list>
+      <address uid="212757993" alias="" email="newsletters@about.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="407402083" first-name="" last-name="" nick-name="" cn="Smile" >
+    <address-list>
+      <address uid="407402084" alias="" email="no-reply@smilesoftware.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="324158838" first-name="" last-name="" nick-name="" cn="Distrelec News Schweiz" >
+    <address-list>
+      <address uid="324158839" alias="" email="news@distrelec.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950402" first-name="" last-name="" nick-name="" cn="Mindjet GmbH" >
+    <address-list>
+      <address uid="208950403" alias="" email="mindjetdownloads-noreply@mindjet.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="403339951" first-name="" last-name="" nick-name="" cn="Migros Photo Service" >
+    <address-list>
+      <address uid="403339952" alias="" email="migros@photoprintit.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="383824664" first-name="" last-name="" nick-name="" cn="jobmail@fhnw.ch" >
+    <address-list>
+      <address uid="383824665" alias="" email="jobmail@fhnw.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950350" first-name="" last-name="" nick-name="" cn="bestellung@printer.ch" >
+    <address-list>
+      <address uid="208950351" alias="" email="bestellung@printer.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="321778188" first-name="" last-name="" nick-name="" cn="TechRadar" >
+    <address-list>
+      <address uid="321778189" alias="" email="techradar@futuremail.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950404" first-name="" last-name="" nick-name="" cn="Mindjet GmbH - Peter Ottiger" >
+    <address-list>
+      <address uid="208950405" alias="" email="info@mindjet.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="403339953" first-name="" last-name="" nick-name="" cn="Lehner Versand AG" >
+    <address-list>
+      <address uid="403339954" alias="" email="noreply@lehner-versand.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="383824666" first-name="" last-name="" nick-name="" cn="Tumblr" >
+    <address-list>
+      <address uid="383824667" alias="" email="no-reply@tumblr.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950352" first-name="" last-name="" nick-name="" cn="ARP" >
+    <address-list>
+      <address uid="208950353" alias="" email="onlineshop@arp.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="416215970" first-name="" last-name="" nick-name="" cn="Grenzpaket" >
+    <address-list>
+      <address uid="416215971" alias="" email="info@grenzpaket.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950406" first-name="" last-name="" nick-name="" cn="NEC Contracts" >
+    <address-list>
+      <address uid="208950407" alias="" email="ttlnec@update.neccontract.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="403339955" first-name="" last-name="" nick-name="" cn="Apple Developer" >
+    <address-list>
+      <address uid="403339956" alias="" email="developer@insideapple.apple.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="416215972" first-name="" last-name="" nick-name="" cn="MacRumors" >
+    <address-list>
+      <address uid="416215973" alias="" email="newsletter@macrumors.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950354" first-name="" last-name="" nick-name="" cn="ClearMyMail" >
+    <address-list>
+      <address uid="208950355" alias="" email="support@clearmymail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000834" first-name="" last-name="" nick-name="" cn="publications@cinfo.ch" >
+    <address-list>
+      <address uid="349000835" alias="" email="publications@cinfo.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950408" first-name="" last-name="" nick-name="" cn="Newsletter CASH" >
+    <address-list>
+      <address uid="208950409" alias="" email="newsletter@cash.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="403339957" first-name="" last-name="" nick-name="" cn="IFTTT Newsletter" >
+    <address-list>
+      <address uid="403339958" alias="" email="newsletter@ifttt.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950356" first-name="" last-name="" nick-name="" cn="Channel Watch" >
+    <address-list>
+      <address uid="208950357" alias="" email="channel_watch@eseminars-zannounce.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000836" first-name="" last-name="" nick-name="" cn="edocs@amp.com.au" >
+    <address-list>
+      <address uid="349000837" alias="" email="edocs@amp.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="411265544" first-name="" last-name="" nick-name="" cn="Pillai, Uthandy [ITSMY Non-J&amp;J]" >
+    <address-list>
+      <address uid="411265545" alias="" email="upillai@ITS.JNJ.COM" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946631" first-name="" last-name="" nick-name="" cn="Manpower" >
+    <address-list>
+      <address uid="370946632" alias="" email="info-mp@manpower.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="331374280" first-name="" last-name="" nick-name="" cn="IceWalkers@icenboxes.com" >
+    <address-list>
+      <address uid="331374281" alias="" email="IceWalkers@icenboxes.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950358" first-name="" last-name="" nick-name="" cn="CommercialInfo@Eng-Tips.com" >
+    <address-list>
+      <address uid="208950359" alias="" email="CommercialInfo@Eng-Tips.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="396300454" first-name="" last-name="" nick-name="" cn="iTunes Store" >
+    <address-list>
+      <address uid="396300455" alias="" email="do_not_reply@itunes.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000838" first-name="" last-name="" nick-name="" cn="digitec@digitec.ch" >
+    <address-list>
+      <address uid="349000839" alias="" email="digitec@digitec.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="411265546" first-name="" last-name="" nick-name="" cn="Sooriyakumar, Aineswaran [ITSCH Non-J&amp;J]" >
+    <address-list>
+      <address uid="411265547" alias="" email="asooriya@ITS.JNJ.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="404291979" first-name="" last-name="" nick-name="" cn="hochstrasser.gerda@ch.sika.com" >
+    <address-list>
+      <address uid="404291980" alias="" email="Enterprise@trm.brassring.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="286613152" first-name="" last-name="" nick-name="" cn="Singapore Airlines News" >
+    <address-list>
+      <address uid="286613153" alias="" email="ch_feedback@singaporeair.com.sg" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="255447956" first-name="" last-name="" nick-name="" cn="howard.hughes" >
+    <address-list>
+      <address uid="255447957" alias="" email="howard@advicesolutions.com.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="331374282" first-name="" last-name="" nick-name="" cn="EALerts@icenboxes.com" >
+    <address-list>
+      <address uid="331374283" alias="" email="EALerts@icenboxes.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946633" first-name="" last-name="" nick-name="" cn="PayPal" >
+    <address-list>
+      <address uid="370946634" alias="" email="paypal@e.paypal.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="292254740" first-name="" last-name="" nick-name="" cn="Sabine Roloff" >
+    <address-list>
+      <address uid="292254741" alias="" email="ThinkPad4You@web.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="411265548" first-name="" last-name="" nick-name="" cn="Abad, Joel [ITSPH Non-J&amp;J]" >
+    <address-list>
+      <address uid="411265549" alias="" email="jabad3@ITS.JNJ.COM" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323111700" first-name="" last-name="" nick-name="" cn="Devex" >
+    <address-list>
+      <address uid="323111701" alias="" email="info@devex.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300529" first-name="" last-name="" nick-name="" cn="1st Art Gallery" >
+    <address-list>
+      <address uid="488300530" alias="" email="service@1st-art-gallery.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946635" first-name="" last-name="" nick-name="" cn="Newsletter Interio" >
+    <address-list>
+      <address uid="370946636" alias="" email="newsletter@interio.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="267695269" first-name="" last-name="" nick-name="" cn="mfox_reise@iteco.ch" >
+    <address-list>
+      <address uid="267695270" alias="" email="mfox_reise@iteco.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="321112319" first-name="" last-name="" nick-name="" cn="Delticom AG News" >
+    <address-list>
+      <address uid="321112320" alias="" email="newsletter@news.delti.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323111702" first-name="" last-name="" nick-name="" cn="devex-alerts-noreply@devex.com" >
+    <address-list>
+      <address uid="323111703" alias="" email="devex-alerts-noreply@devex.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946637" first-name="" last-name="" nick-name="" cn="TechRadar" >
+    <address-list>
+      <address uid="370946638" alias="" email="newsletter@techradar.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300631" first-name="" last-name="" nick-name="" cn="inac" >
+    <address-list>
+      <address uid="488300632" alias="" email="inac@inac-radio.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="316333844" first-name="" last-name="" nick-name="" cn="ICE Publishing" >
+    <address-list>
+      <address uid="316333845" alias="" email="marketing2@icepublishing.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="321605412" first-name="" last-name="" nick-name="" cn="Jody Mills" >
+    <address-list>
+      <address uid="321605413" alias="" email="jody@mcneel.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695201" first-name="" last-name="" nick-name="" cn="edX" >
+    <address-list>
+      <address uid="430695202" alias="" email="news@edx.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370946639" first-name="" last-name="" nick-name="" cn="Unixmen (Twitter)" >
+    <address-list>
+      <address uid="370946640" alias="" email="n-vasb=zwsbk.pu-ab62b@postmaster.twitter.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130505" first-name="" last-name="" nick-name="" cn="t r o n i x    s t u f f" >
+    <address-list>
+      <address uid="323130506" alias="" email="donotreply@wordpress.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="386546342" first-name="" last-name="" nick-name="" cn="InterNations" >
+    <address-list>
+      <address uid="386546343" alias="" email="mailrobot@internations.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="313927612" first-name="" last-name="" nick-name="" cn="PM4DEV Newsletter" >
+    <address-list>
+      <address uid="313927613" alias="" email="newsletter@pm4dev.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="321605414" first-name="" last-name="" nick-name="" cn="Vimentis Info" >
+    <address-list>
+      <address uid="321605415" alias="" email="kommunikation@vimentis.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300633" first-name="" last-name="" nick-name="" cn="IFTTT" >
+    <address-list>
+      <address uid="488300634" alias="" email="mail@ifttt.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="316333846" first-name="" last-name="" nick-name="" cn="Autohaus Kreutner" >
+    <address-list>
+      <address uid="316333847" alias="" email="autohauskreutner@t-online.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="263330182" first-name="" last-name="" nick-name="" cn="192.com" >
+    <address-list>
+      <address uid="263330183" alias="" email="newsletter@news.192.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695203" first-name="" last-name="" nick-name="" cn="iFixit EU Store" >
+    <address-list>
+      <address uid="430695204" alias="" email="eustore@ifixit.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300581" first-name="" last-name="" nick-name="" cn="App Store" >
+    <address-list>
+      <address uid="488300582" alias="" email="AppStore@new.itunes.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300635" first-name="" last-name="" nick-name="" cn="iFixit" >
+    <address-list>
+      <address uid="488300636" alias="" email="hello@ifixit.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130507" first-name="" last-name="" nick-name="" cn="Fotsch Christian" >
+    <address-list>
+      <address uid="323130508" alias="" email="christian@ssassa.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409046390" first-name="" last-name="" nick-name="" cn="vegrecipesofindia.com" >
+    <address-list>
+      <address uid="409046391" alias="" email="recipes@vegrecipesofindia.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="246221891" first-name="" last-name="" nick-name="" cn="The FON Team" >
+    <address-list>
+      <address uid="246221892" alias="" email="noreply@fon.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="331820115" first-name="" last-name="" nick-name="" cn="AngloINFO Zurich" >
+    <address-list>
+      <address uid="331820116" alias="" email="zurich.newsletter@n1.angloinfo.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409046392" first-name="" last-name="" nick-name="" cn="surprize E-Letter" >
+    <address-list>
+      <address uid="409046393" alias="" email="noreply@surprize.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300583" first-name="" last-name="" nick-name="" cn="Apple" >
+    <address-list>
+      <address uid="488300584" alias="" email="no_reply@email.apple.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="263330184" first-name="" last-name="" nick-name="" cn="Tempro Support" >
+    <address-list>
+      <address uid="263330185" alias="" email="tempro@hmcm.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695205" first-name="" last-name="" nick-name="" cn="noreply@bs.ch" >
+    <address-list>
+      <address uid="430695206" alias="" email="noreply@bs.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016510" first-name="" last-name="" nick-name="" cn="Thierry Sengstag" >
+    <address-list>
+      <address uid="584016511" alias="" email="thierry.sengstag@unibas.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300637" first-name="" last-name="" nick-name="" cn="Fondation Beyeler" >
+    <address-list>
+      <address uid="488300638" alias="" email="e-news@fondationbeyeler.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="323130509" first-name="" last-name="" nick-name="" cn="Data Centre World" >
+    <address-list>
+      <address uid="323130510" alias="" email="do_not_reply@turretml.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="220013392" first-name="" last-name="" nick-name="" cn="BHOLA SHRESTHA" >
+    <address-list>
+      <address uid="220013393" alias="" email="bhola.shrestha@gtiea.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="206117007" first-name="" last-name="" nick-name="" cn="ADB Media Center" >
+    <address-list>
+      <address uid="206117008" alias="" email="mediacenter@adb.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000097" first-name="" last-name="" nick-name="" cn="ricardoAktuell" >
+    <address-list>
+      <address uid="349000098" alias="" email="newsletter@mailings.ricardo.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300585" first-name="" last-name="" nick-name="" cn="Vu+ Support Forum" >
+    <address-list>
+      <address uid="488300586" alias="" email="noreply@vuplus-support.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409046394" first-name="" last-name="" nick-name="" cn="Deezer" >
+    <address-list>
+      <address uid="409046395" alias="" email="no-reply@deezer.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="319227276" first-name="" last-name="" nick-name="" cn="Dropbox" >
+    <address-list>
+      <address uid="319227277" alias="" email="no-reply@dropbox.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016514" first-name="" last-name="" nick-name="" cn="Michael Müller-Breckenridge" >
+    <address-list>
+      <address uid="584016515" alias="" email="michael.mueller@sib.swiss" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300639" first-name="" last-name="" nick-name="" cn="Cybrary Certs" >
+    <address-list>
+      <address uid="488300640" alias="" email="MicroCerts@cybrary.it" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695207" first-name="" last-name="" nick-name="" cn="The Old Reader" >
+    <address-list>
+      <address uid="430695208" alias="" email="noreply@theoldreader.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016512" first-name="" last-name="" nick-name="" cn="Pablo Escobar Lopez" >
+    <address-list>
+      <address uid="584016513" alias="" email="pablo.escobarlopez@unibas.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="376727246" first-name="" last-name="" nick-name="" cn="Institution of Civil Engineers" >
+    <address-list>
+      <address uid="376727247" alias="" email="ice@emailcc.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870343" first-name="" last-name="" nick-name="" cn="SWITCH Internet Domains" >
+    <address-list>
+      <address uid="370870344" alias="" email="helpdesk@nic.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409046396" first-name="" last-name="" nick-name="" cn="Samsung" >
+    <address-list>
+      <address uid="409046397" alias="" email="news@eu.my-samsung.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300587" first-name="" last-name="" nick-name="" cn="vuplus-images Team" >
+    <address-list>
+      <address uid="488300588" alias="" email="admin@vuplus-images.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016516" first-name="" last-name="" nick-name="" cn="Bernd Rinn" >
+    <address-list>
+      <address uid="584016517" alias="" email="brinn@ethz.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="430695209" first-name="" last-name="" nick-name="" cn="Smile Support" >
+    <address-list>
+      <address uid="430695210" alias="" email="mailer@fastspring.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="376727248" first-name="" last-name="" nick-name="" cn="Interdiscount" >
+    <address-list>
+      <address uid="376727249" alias="" email="noreply@newsletter.interdiscount.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870345" first-name="" last-name="" nick-name="" cn="switchplus ag Internet Services" >
+    <address-list>
+      <address uid="370870346" alias="" email="helpdesk@switchplus.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="409046398" first-name="" last-name="" nick-name="" cn="Wunderlist" >
+    <address-list>
+      <address uid="409046399" alias="" email="wundermail@wunderlist.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300589" first-name="" last-name="" nick-name="" cn="VioVet" >
+    <address-list>
+      <address uid="488300590" alias="" email="newsletters@viovet.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016518" first-name="" last-name="" nick-name="" cn="Katrin Crameri" >
+    <address-list>
+      <address uid="584016519" alias="" email="katrin.crameri@unibas.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="288859885" first-name="" last-name="" nick-name="" cn="Skywards" >
+    <address-list>
+      <address uid="288859886" alias="" email="skywards@e.emirates.travel" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="268421555" first-name="" last-name="" nick-name="" cn="Raisa Chowdhury" >
+    <address-list>
+      <address uid="268421556" alias="" email="raisa.chowdhury@egen.com.bd" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870347" first-name="" last-name="" nick-name="" cn="University of Tasmania Alumni" >
+    <address-list>
+      <address uid="370870348" alias="" email="groups-noreply@linkedin.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="281303750" first-name="" last-name="" nick-name="" cn="Toshiba Computer News" >
+    <address-list>
+      <address uid="281303751" alias="" email="marketing@toshiba.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="392394211" first-name="" last-name="" nick-name="" cn="Kathrin Gestach" >
+    <address-list>
+      <address uid="392394212" alias="" email="k.gestach@one-training.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="408900728" first-name="" last-name="" nick-name="" cn="Cisco Press" >
+    <address-list>
+      <address uid="408900729" alias="" email="ciscopress@e.ciscopress.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="584016468" first-name="" last-name="" nick-name="" cn="Mon Compte La Poste" >
+    <address-list>
+      <address uid="584016469" alias="" email="laposte@mail.laposte.info" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="209148433" first-name="" last-name="" nick-name="" cn="iTWire UPDATE" >
+    <address-list>
+      <address uid="209148434" alias="" email="update@itwire.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870349" first-name="" last-name="" nick-name="" cn="unixstickers" >
+    <address-list>
+      <address uid="370870350" alias="" email="info@unixstickers.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="270712071" first-name="" last-name="" nick-name="" cn="eBay.de-Team" >
+    <address-list>
+      <address uid="270712072" alias="" email="newsletters@ebay.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870297" first-name="" last-name="" nick-name="" cn="webresponse@experis.co.uk" >
+    <address-list>
+      <address uid="370870298" alias="" email="webresponse@experis.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="330679809" first-name="" last-name="" nick-name="" cn="BRACK.CH" >
+    <address-list>
+      <address uid="330679810" alias="" email="marketing@brack.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="543225628" first-name="" last-name="" nick-name="" cn="jobalert@isg.com" >
+    <address-list>
+      <address uid="543225629" alias="" email="jobalert@isg.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="283980359" first-name="" last-name="" nick-name="" cn="OfficeWorld" >
+    <address-list>
+      <address uid="283980360" alias="" email="news@newsletter.officeworld.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="320621954" first-name="" last-name="" nick-name="" cn="Dr Sophia Yin" >
+    <address-list>
+      <address uid="320621955" alias="" email="orders@nerdbook.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950410" first-name="" last-name="" nick-name="" cn="newsletter@speichermarkt.de" >
+    <address-list>
+      <address uid="208950411" alias="" email="newsletter@speichermarkt.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="270712073" first-name="" last-name="" nick-name="" cn="Architronic AG" >
+    <address-list>
+      <address uid="270712074" alias="" email="newsletter@architronic.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="322745131" first-name="" last-name="" nick-name="" cn="LinkedIn Updates" >
+    <address-list>
+      <address uid="322745132" alias="" email="updates@linkedin.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="335637686" first-name="" last-name="" nick-name="" cn="digitec AG" >
+    <address-list>
+      <address uid="335637687" alias="" email="news@digitec.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="370870299" first-name="" last-name="" nick-name="" cn="The iBox" >
+    <address-list>
+      <address uid="370870300" alias="" email="support@dog-ibox.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="266615461" first-name="" last-name="" nick-name="" cn="recruiting_center@devex.com" >
+    <address-list>
+      <address uid="266615462" alias="" email="recruiting_center@devex.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950412" first-name="" last-name="" nick-name="" cn="Novell Event Service" >
+    <address-list>
+      <address uid="208950413" alias="" email="event-service-FCBFHC@novell-online.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000840" first-name="" last-name="" nick-name="" cn="Yubico" >
+    <address-list>
+      <address uid="349000841" alias="" email="newsletter@yubico.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950414" first-name="" last-name="" nick-name="" cn="Office World - Online Shop" >
+    <address-list>
+      <address uid="208950415" alias="" email="info@office-world.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="311258354" first-name="" last-name="" nick-name="" cn="ICE Publishing" >
+    <address-list>
+      <address uid="311258355" alias="" email="marketing@icepublishing.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="290888879" first-name="" last-name="" nick-name="" cn="Emirates" >
+    <address-list>
+      <address uid="290888880" alias="" email="Emirates@e.emirates.travel" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="333797634" first-name="" last-name="" nick-name="" cn="RS Online" >
+    <address-list>
+      <address uid="333797635" alias="" email="rsonline@eu.rs-email.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000842" first-name="" last-name="" nick-name="" cn="XMind.net" >
+    <address-list>
+      <address uid="349000843" alias="" email="no-reply@mail.xmind.net" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="411265550" first-name="" last-name="" nick-name="" cn="Schuer, Christian [ITSBE Non-J&amp;J]" >
+    <address-list>
+      <address uid="411265551" alias="" email="cschuer3@its.jnj.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="304153359" first-name="" last-name="" nick-name="" cn="Vivian Yi-Ching Chen" >
+    <address-list>
+      <address uid="304153360" alias="" email="vivianychen@stanfordalumni.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950416" first-name="" last-name="" nick-name="" cn="Osec Business Network Switzerland" >
+    <address-list>
+      <address uid="208950417" alias="" email="osec@rbc-gruppe.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="311258356" first-name="" last-name="" nick-name="" cn="TeamViewer News" >
+    <address-list>
+      <address uid="311258357" alias="" email="mailings-noreply@teamviewer.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300531" first-name="" last-name="" nick-name="" cn="Adam Conrad" >
+    <address-list>
+      <address uid="488300532" alias="" email="adconrad@ubuntu.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="395590863" first-name="" last-name="" nick-name="" cn="&apos;maurizio.chirico@d-ploy.ch&apos;" >
+    <address-list>
+      <address uid="395590864" alias="" email="maurizio.chirico@d-ploy.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950364" first-name="" last-name="" nick-name="" cn="eBay" >
+    <address-list>
+      <address uid="208950365" alias="" email="watchnotice@ebay.de" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="217590908" first-name="" last-name="" nick-name="" cn="Digital Living-Newsletter" >
+    <address-list>
+      <address uid="217590909" alias="" email="news@nl.digitalliving.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="267695271" first-name="" last-name="" nick-name="" cn="MIGROL AG" >
+    <address-list>
+      <address uid="267695272" alias="" email="migrol@migrol.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="270800658" first-name="" last-name="" nick-name="" cn="noreply@rtt-news.com" >
+    <address-list>
+      <address uid="270800659" alias="" email="noreply@rtt-news.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="349000844" first-name="" last-name="" nick-name="" cn="UTAS Alumni" >
+    <address-list>
+      <address uid="349000845" alias="" email="Alumni.Office@utas.edu.au" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="375388271" first-name="" last-name="" nick-name="" cn="PeeWee" >
+    <address-list>
+      <address uid="375388272" alias="" email="psauthor@libreoffice.org" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950418" first-name="" last-name="" nick-name="" cn="Osec Business Network Switzerland" >
+    <address-list>
+      <address uid="208950419" alias="" email="osec@rbc.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="374181788" first-name="" last-name="" nick-name="" cn="leentvaar@hotmail.com" >
+    <address-list>
+      <address uid="374181789" alias="" email="leentvaar@hotmail.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="208950366" first-name="" last-name="" nick-name="" cn="Europe Registry" >
+    <address-list>
+      <address uid="208950367" alias="" email="feedback@europeregistry.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="488300533" first-name="" last-name="" nick-name="" cn="Admin" >
+    <address-list>
+      <address uid="488300534" alias="" email="admin@vuplus-images.co.uk" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="295555434" first-name="" last-name="" nick-name="" cn="Linux Journal" >
+    <address-list>
+      <address uid="295555435" alias="" email="noreply@linuxjournal.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="287219124" first-name="" last-name="" nick-name="" cn="noreply@e-pneu.ch" >
+    <address-list>
+      <address uid="287219125" alias="" email="noreply@e-pneu.ch" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="375388273" first-name="" last-name="" nick-name="" cn="Packt Publishing" >
+    <address-list>
+      <address uid="375388274" alias="" email="contactus@packtpub.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="322818466" first-name="" last-name="" nick-name="" cn="ARP" >
+    <address-list>
+      <address uid="322818467" alias="" email="newsletter_ch@arp.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+  <person uid="557701357" first-name="" last-name="" nick-name="" cn="david@macsparky.com" >
+    <address-list>
+      <address uid="557701358" alias="" email="david@macsparky.com" remarks="" />
+    </address-list>
+    <attribute-list>
+    </attribute-list>
+  </person>
+</address-book>

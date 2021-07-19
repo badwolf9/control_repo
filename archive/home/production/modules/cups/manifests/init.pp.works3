@@ -1,0 +1,61 @@
+##
+##      Currently valid puppet groups are:
+##              =>      Recipe group Systemconfig
+##              =>      Recipe group Daemons
+##              =>      Recipe group Network
+##              =>      Recipe group Filesystems
+##              =>      Recipe group Other
+##
+# WIKI START Recipe group Daemons::recipe cups
+## OS :: Redhat 5;RedHat 6;Ubuntu;Debian;Fedora 13; #Solaris; #MacOS X
+######################################
+#
+# h3. Host / Service groups affected
+#
+# * *all linux systems in group service-net-cups
+#
+# h3. Services affected
+# * *cups* configured
+#
+# h3. Files / directories / links affected
+# * CREATE : /etc/cups/printers.conf
+#
+# h3. What happens
+#
+#       The config files for cups is created
+#
+###########
+# WIKI STOP
+
+#
+####
+##### Commented out tagged, if folder not present will fail, if package cups not present will fail  20170725 on vagrant client
+####  Changed the file from template to source and used the mountpoint set in /etc/puppetlabs/puppet/fileserver.conf
+#
+class cups
+{
+        case $kernel {
+                /Linux/: {
+			if  tagged('cups')  {
+                		notify { 'tagged: service_net_cups contains class cups!' : }
+                		package { 'cups':
+                			ensure => 'installed',
+                			}
+                		file { "/etc/cups/printers.conf":
+                        	        ensure => present,
+                        	        backup => main,
+					owner => root,
+					group => lp,
+					mode => '640',
+                        	        source => "puppet:///puppetfiles/$operatingsystem/etc/cups/printers.conf",
+					alias   => cupsconf	
+                  			}
+				service { "cups":
+					ensure => running,
+                        		enable => true,
+                        		subscribe  => File[cupsconf]
+					}
+			}
+                }
+	}	
+}

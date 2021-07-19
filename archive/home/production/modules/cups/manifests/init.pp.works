@@ -1,0 +1,64 @@
+##
+##      Currently valid puppet groups are:
+##              =>      Recipe group Systemconfig
+##              =>      Recipe group Daemons
+##              =>      Recipe group Network
+##              =>      Recipe group Filesystems
+##              =>      Recipe group Other
+##
+# WIKI START Recipe group Daemons::recipe cups
+## OS :: Redhat 5;RedHat 6;Ubuntu;Debian;Fedora 13; #Solaris; #MacOS X
+######################################
+#
+# h3. Host / Service groups affected
+#
+# * *all linux systems in group service-net-cups
+#
+# h3. Services affected
+# * *cups* configured
+#
+# h3. Files / directories / links affected
+# * CREATE : /etc/cups/printers.conf
+#
+# h3. What happens
+#
+#       The config files for cups is created
+#
+###########
+# WIKI STOP
+
+#
+####
+##### Commented out tagged, if folder not present will fail, if package cups not present will fail  20170725 on vagrant client
+####  Gets the printers.conf file from a folder files under /etc/puppetlabs/code/environments/production/modules/cups
+####
+#
+class cups
+{
+        case $kernel {
+                /Linux/: {
+                notify { 'greeting':
+		  name => "the puppet files folder is ${::puppetfiles}",
+		  }
+			if ( tagged('cups') ) {
+                		package { 'cups':
+                			ensure => 'installed',
+                			}
+                		file { "/etc/cups/printers.conf":
+                        	        ensure => present,
+                        	        backup => main,
+					owner => root,
+					group => lp,
+					mode => '640',
+                        	        source => 'puppet:///modules/cups/printers.conf',
+					alias   => cupsconf	
+                  			}
+				service { "cups":
+					ensure => running,
+                        		enable => true,
+                        		subscribe  => File[cupsconf]
+					}
+			}
+                }
+	}	
+}

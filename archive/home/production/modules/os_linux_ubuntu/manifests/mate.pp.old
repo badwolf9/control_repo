@@ -1,0 +1,77 @@
+# WIKI START Ubuntu config::os_linux_ubuntu_mate
+## OS :: !Redhat ;Ubuntu LTS;!Fedora ; !Solaris; !MacOS X
+######################################
+#
+# h3. Host / Service groups affected
+#
+# * *Linux Systems*
+#
+# h3. Services affected
+# * none
+#
+# h3. Files / directories / links affected
+# * Install Mate Desktop
+#
+# h3. What happens
+#
+# * Install Mate desktop - disabled temporarily at 23.6.18 due to conflict with chrony
+#
+###########
+# WIKI STOP
+
+class os_linux_ubuntu::mate {
+    include apt
+   case $kernel {
+    'Linux':{
+	case $operatingsystem
+	{
+	   /RedHat|CentOS|Fedora/: {
+	   }
+	   /Debian|Ubuntu/: {
+	    if ( $facts['os']['release']['full'] =~ /1[678]/ )
+	    {
+	     if $my_debugflag == 'yes' {notify { "Ubuntu 16++ is different!!!" : }}
+# temp disable until sync with chrony resolved 20180623
+	    package { 'ubuntu-mate-desktop' :
+	     ensure => 'latest' ,
+             }
+	    }else{
+	    if $my_debugflag == 'yes' { notify { 'I am installing Mate desktop!!' : } }
+	    apt::ppa { 'ppa:ubuntu-mate-dev/ppa' : }
+	    apt::ppa { "ppa:ubuntu-mate-dev/${::lsbdistcodename}-mate" : }
+
+	    apt::key { "ppa:ubuntu-mate-dev/${::lsbdistcodename}-mate" : 
+		 id => '709A860A600B9A61FEF5346AFB01CC26162506E7',
+			}
+	    apt::key { "ppa:ubuntu-mate-dev/ppa" : 
+		 id => '709A860A600B9A61FEF5346AFB01CC26162506E7',
+			}
+# disable also for 14.04
+	    package { 'ubuntu-mate-core' :
+	     ensure => 'latest' ,
+	     install_options => ['--no-install-recommends'],
+	     require => [
+	        Apt::Ppa['ppa:ubuntu-mate-dev/ppa'],
+	        Apt::Ppa["ppa:ubuntu-mate-dev/${::lsbdistcodename}-mate"],
+		Class['apt::update'],
+		    ],
+	     }
+	    package { 'ubuntu-mate-desktop' :
+	     ensure => 'latest' ,
+	     install_options => ['--no-install-recommends'],
+	     require => [
+	        Apt::Ppa['ppa:ubuntu-mate-dev/ppa'],
+                Apt::Ppa["ppa:ubuntu-mate-dev/${::lsbdistcodename}-mate"],
+		Class['apt::update'],
+		    ],
+	     }
+              }
+    	       }
+                    default: { }
+                     }
+                    }
+    'SunOS': { }
+    'Darwin': { }
+    default: { }
+      }
+}
