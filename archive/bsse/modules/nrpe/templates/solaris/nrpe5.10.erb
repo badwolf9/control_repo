@@ -1,0 +1,50 @@
+log_facility=daemon
+pid_file=/var/run/nrpe.pid
+server_port=5666
+nrpe_user=<%= nrpeuser %>
+nrpe_group=<%= nrpegroup %>
+<% if has_variable?("allowed_hosts") then %>
+allowed_hosts=<%= allowed_hosts.join(",") %>
+<% else %>
+allowed_hosts=127.0.0.1
+<% end %>
+dont_blame_nrpe=0
+debug=0
+command_timeout=60
+connection_timeout=300
+# CPU and processes
+command[check_load]=/usr/nagios/libexec/check_load -w 32,16,8 -c 40,24,16
+command[check_procs]=/usr/nagios/libexec/check_procs 1000 1200
+command[check_swap]=/usr/nagios/libexec/check_solaris_swap.pl -w 80 -c 50
+command[check_smf]=/usr/nagios/libexec/check_solaris_smf.sh -e -c MNT,OFF,DGD
+command[check_ram]=/usr/nagios/libexec/check_ram.sh 99 100
+command[check_iostat]=/usr/nagios/libexec/check_cpu.sh
+command[check_arc]=/usr/nagios/libexec/check_arc.sh
+command[check_uptime]=/usr/nagios/libexec/check_uptime
+# filesystem
+command[check_disk_root]=/usr/nagios/libexec/check_disk / -w 20% -c 10%
+command[check_disk_data]=/usr/nagios/libexec/check_disk /array0/ -w 10% -c 2%
+command[check_disk_all]=/usr/nagios/libexec/check_disk -w0 -c0 -L -A -I 'root|^/home|^/mnt|nagiostest|dataPool|cdrom'
+#
+command[check_disks_swrepo]=/usr/nagios/libexec/check_disk -w 10% -c 5% -r /sw-repo
+command[check_disks_gridhomes]=/usr/nagios/libexec/check_disk -w 3% -c 0% -r /export/gridhome
+#
+command[check_zpools]=/usr/nagios/libexec/check_zpools
+command[check_users]=/usr/nagios/libexec/check_users -w 60 -c 100
+command[check_nfs_counters]=/usr/nagios/libexec/check_nfs_counters.sh
+# special
+command[check_mysql]=/usr/nagios/libexec/check_mysql -u nagios
+command[check_ntp_time]=/usr/nagios/libexec/check_ntp -H ch.pool.ntp.org -w 1 -c 30 
+command[check_dirvish]=/usr/nagios/libexec/checkDirvishnrpe.sh
+command[check_postgresql]=/usr/nagios/libexec/check_database_pgsql
+command[check_postgresql_dbsize]=/usr/nagios/libexec/check_postgres.pl --action=database_size --warning='500MB' --critical='1 GB' --showtime=0
+command[check_postgresql_connect]=/usr/nagios/libexec/check_postgres.pl --action connection
+command[check_zpool_iostat-rpool]=/usr/nagios/libexec/check_zpool_iostat rpool
+command[check_zpool_iostat-dataPool]=/usr/nagios/libexec/check_zpool_iostat dataPool
+command[check_zfs_snapshot]=/usr/nagios/libexec/check_zfs_snapshot
+command[check_puppet]=/usr/nagios/libexec/check_file_age -f /var/lib/puppet/state/state.yaml -w 5400 -c 7200
+command[check_snapmgr]=/usr/nagios/libexec/check_file_age_ifexists -f /var/run/snapshots/.manager.py.lck -w 7200 -c 43200
+command[check_logcollector_unknown]=/usr/nagios/libexec/check_log-collector -u
+command[check_logcollector_warning]=/usr/nagios/libexec/check_log-collector -w
+command[check_logcollector_error]=/usr/nagios/libexec/check_log-collector -e
+

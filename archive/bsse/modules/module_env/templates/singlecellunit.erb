@@ -1,0 +1,23 @@
+#%Module1.0#####################################################################
+##
+## scu modulefile
+##
+##
+proc ModulesHelp { } {
+        global version modroot
+
+        puts stderr "\tmodule- loads the environment for scu\n"
+}
+
+module-whatis   "provides the scu module environment"
+
+<% if @operatingsystem =~ /RedHat|CentOS/ %>
+set             modroot                 /usr/local/scu/el<%= @lsbmajdistrelease %>/etc/modulefiles
+setenv		MODULES_DISTRO		"el<%= @lsbmajdistrelease %>"
+<% else %>
+set             modroot                 /usr/local/scu/other/etc/modulefiles
+<% end %>
+
+append-path     MODULEPATH              $modroot
+
+module load repo/bsse

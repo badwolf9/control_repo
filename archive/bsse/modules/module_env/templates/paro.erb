@@ -1,0 +1,23 @@
+#%Module1.0#####################################################################
+##
+## paro modulefile
+##
+##
+proc ModulesHelp { } {
+        global version modroot
+
+        puts stderr "\tmodule- loads the environment for paro\n"
+}
+
+module-whatis   "provides the paro module environment"
+
+<% if @operatingsystem =~ /RedHat|CentOS/ %>
+set             modroot                 /usr/local/paro/el<%= @lsbmajdistrelease %>/etc/modulefiles
+setenv		MODULES_DISTRO		"el<%= @lsbmajdistrelease %>"
+<% else %>
+set             modroot                 /usr/local/paro/other/etc/modulefiles
+<% end %>
+
+append-path     MODULEPATH              $modroot
+
+module load repo/bsse

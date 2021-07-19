@@ -1,0 +1,24 @@
+#%PAM-1.0
+# This file is auto-generated.
+auth     required       pam_env.so
+auth     sufficient     pam_unix.so likeauth nullok
+auth     required       pam_access.so
+auth     sufficient     pam_krb5.so use_first_pass minimum_uid=1500
+#                       ^^^ This makes sure no one below uid 1500 is authed via kerberos
+auth     required       pam_deny.so
+
+account  sufficient     pam_unix.so
+account  required       pam_access.so
+account  sufficient     pam_krb5.so use_first_pass
+<% if @operatingsystem =~ /RedHat|CentOS/ -%>
+account  required       pam_deny.so
+<% end -%>
+password requisite      pam_cracklib.so retry=3
+password sufficient     pam_unix.so nullok use_authtok md5 shadow
+password required       pam_deny.so
+
+session  required       pam_limits.so
+session  required       pam_unix.so
+session  [success=1 default=ignore] pam_succeed_if.so service in crond quiet use_uid
+session  required       pam_access.so
+

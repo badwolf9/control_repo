@@ -1,0 +1,67 @@
+#!/bin/bash
+
+PID=$$
+PROCS=`ps ax|egrep 'check_nfs_bsse|/var/run/nrpe.nfs4'|grep -v grep`
+
+if [ ! -z "`echo $PROCS | grep -v $PID`" ]; then
+        echo $PROCS
+        echo "Detected stale check script on $HOSTNAME!."
+        exit 3
+fi
+
+if grep  /var/run/nrpe.nfs4 /proc/mounts 2>&1>/dev/null
+then
+        echo "Mount already exists. Maybe the unmount didn't work."
+        sudo /bin/umount /var/run/nrpe.nfs4 2>/dev/null
+        RETVAL=$?
+        if [ $RETVAL -ne 0 ]; then
+                echo "NFS test failed to UNmount on $HOSTNAME"
+                exit 1
+        else
+                exit 0
+        fi
+else
+
+if [ `mount|grep "/run/nrpe.nfs4"|wc -l` == 1 ];then
+    sudo /bin/umount /var/run/nrpe.nfs4 2>/dev/null
+fi
+
+[ ! -d /var/run/nrpe.nfs4 ]&& sudo mkdir /var/run/nrpe.nfs4
+
+sudo /bin/mount -oro,noexec,retry=1,retrans=1,timeo=1,port=2049 -tnfs4 $HOSTNAME:/ /var/run/nrpe.nfs4 2>/dev/null
+RETVAL=$?
+
+if [ $RETVAL -ne 0 ]; then
+        echo "NFS mount test failed on $HOSTNAME"
+        exit 2
+else
+        X=`stat -f /var/run/nrpe.nfs4/. |grep Type|grep -v grep | awk -F"Type: " '{print $2}'`
+        RETVAL=$?
+        if [ $RETVAL -ne 0 ]; then
+                echo "NFS mount could not be verified on $HOSTNAME (Stat failed)"
+                sudo /bin/umount /var/run/nrpe.nfs4 2>/dev/null
+                exit 2
+        else
+                if [ "$X" == "nfs" ]; then
+                        echo "Mount on $HOSTNAME was successful"
+                        sudo /bin/umount /var/run/nrpe.nfs4 2>/dev/null
+                        RETVAL=$?
+                        if [ $RETVAL -ne 0 ]; then
+                                echo "NFS test failed to UNmount on $HOSTNAME"
+                                exit 1
+                        else
+                                exit 0
+                        fi
+                else
+                        echo "NFS mount could not be verified on $HOSTNAME (Mount type not NFS)"
+                        sudo /bin/umount /var/run/nrpe.nfs4 2>/dev/null
+                        exit 2
+
+                fi
+
+                echo "Mount on $HOSTNAME was successful"
+                sudo /bin/umount /var/run/nrpe.nfs4 2>/dev/null
+                exit 0
+        fi
+fi
+fi

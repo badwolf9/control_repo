@@ -1,0 +1,23 @@
+#%Module1.0#####################################################################
+##
+## panke modulefile
+##
+##
+proc ModulesHelp { } {
+        global version modroot
+
+        puts stderr "\tmodule- loads the environment for panke\n"
+}
+
+module-whatis   "provides the panke module environment"
+
+<% if @operatingsystem =~ /RedHat|CentOS/ %>
+set             modroot                 /usr/local/panke/el<%= @lsbmajdistrelease %>/etc/modulefiles
+setenv		MODULES_DISTRO		"el<%= @lsbmajdistrelease %>"
+<% else %>
+set             modroot                 /usr/local/panke/other/etc/modulefiles
+<% end %>
+
+append-path     MODULEPATH              $modroot
+
+module load repo/bsse

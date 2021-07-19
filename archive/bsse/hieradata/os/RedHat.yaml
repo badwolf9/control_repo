@@ -1,0 +1,22 @@
+##
+##      Puppet D-BSSE Framework documentation
+##
+# WIKI START D-BSSE Puppet 4 Framework::Puppet config RedHat.yaml
+## OS :: Redhat;#Ubuntu;#Debian;#Solaris; #MacOS X
+######################################
+#
+# h3. Purpose of the file
+#
+# * Contains all configuration settings specific to D-BSSE
+# * Used as the default (fallback) config file for all nodes running RedHat/CentOS/Fedora
+#
+# h3. See also
+#
+#
+###########
+# WIKI STOP
+#
+my_node_classes:
+- 'yum'
+- 'bsserepo'
+- 'yum_autoupdate'

@@ -1,0 +1,67 @@
+#!/bin/bash
+
+logger postinst.service start
+
+init 2 &
+
+sleep 2
+
+plymouth hide-splash
+
+figlet Postinstall >/dev/console
+
+logger postinst.service wait for network
+
+echo -n "Waiting for network to get ready ." >/dev/console
+
+COUNT=0
+
+while [ -z "`netstat -rn | grep \"^0.0.0.0\"`" ]; do
+	echo -n "." >/dev/console
+        sleep 1
+        COUNT=$((COUNT+1))
+        if [ $(($COUNT % 60)) -eq 0  ]; then
+		echo -n "DHCP" >/dev/console
+		dhclient
+        fi
+done
+
+echo "OK" >/dev/console
+
+sleep 1
+
+if [ ! -f "/boot/postinst.done" ]; then
+	logger postinst.service: runnning puppet agent and postinst
+	puppet agent -tv
+	/root/postinst | tee -a /root/postinst.log >/dev/console
+	logger postinst.service: mark postinst is done
+	touch /boot/postinst.done
+fi
+
+logger postinst.service: install nvidia driver if applicable
+
+sleep 2
+
+if [ -f /root/bin/nvidia-install.sh ]; then
+	systemctl stop display-manager
+	logger postinst.service: call nvidia-install.sh
+	/root/bin/nvidia-install.sh  | tee -a /root/nvidia-install.log >/dev/console
+	logger postinst.service:  post nvidia-install.sh
+	exit 0
+else
+	logger postinst.service: nvidia-install.sh not found run puppet agent
+	systemctl start display-manager
+	puppet agent -tv
+fi
+
+if [ -f /boot/postinst.done ] && [ -f /root/inst_nvidia.done ]; then
+	logger postinst.service: done all installations
+	if [ -f /root/bin/nvidia.sh ]; then
+		logger postinst.service: check if nvidia driver is compiled against the current kernel
+		/root/bin/nvidia.sh
+	fi
+fi
+
+logger postinst.service: done running service
+
+exit 0

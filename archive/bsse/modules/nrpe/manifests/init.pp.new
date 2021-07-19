@@ -1,0 +1,398 @@
+# WIKI START Recipe Daemons::recipe nrpe
+## OS :: Redhat ; CentOS ; Ubuntu;Fedora; Solaris; #MacOS X
+######################################
+#
+# h3. Centreon dependencies
+##EXEC::EXEC_FIND_DEPENDENCIES ###FILEPATH###/###FILENAME###
+#
+# h3. Services affected
+# * *nrpe* enabled and started (defaultnode, without NSCA nodes)
+# * *nsca-helper* enabled and started (NSCA nodes only)
+#
+# h3. Files / directories / links affected
+# * DEPLOY : /etc/nagios/nrpe.cfg (Linux)
+# * DEPLOY : /usr/nagios/etc/nrpe.cfg (Solaris)
+# * DEPLOY : plugin
+# ** check_linux_bsse
+# ** check_nfs_bsse
+#
+# h3. What happens
+# * Generate a nrpe.cfg in subject to
+# ** the number of cores (load threshold)
+# * Install all required packages
+# * Restart nrpe service (or nsca-help for nsca hosts)
+#
+# h3. Note
+# the parameters {{my_monitor}} and {{my_puppet_server}} come from hieradata
+#
+###########
+# WIKI STOP
+# MJF 2017 08 09
+#
+define nrpeplugins (
+   String[1] $plugins_dir,
+){
+$os_source = $facts['os']['family']
+	file { "$plugins_dir":
+		ensure => directory,
+		owner => "root",
+		group => "root",
+		mode  => '0755',
+		source  => "puppet:///modules/nrpe/$os_source",
+		recurse  => true,
+		purge => true,
+		replace => true,
+	}
+
+}
+
+
+
+define nrpe($allowed_hosts){
+
+   $nrpeservice = 'nrpe'
+   $nrpeuser    = 'nrpe'
+   $nrpegroup   = 'nrpe'
+   $nagiosgroup = 'nagios'
+   $myhostname  = $::hostname
+   $cltversion  = $::clientversion
+   $svrversion  = $::serverversion
+
+   case $::processorcount {
+            1: { $load_warn = '5,5,4' $load_crit = '41,41,38' }
+            2: { $load_warn = '8,8,6' $load_crit = '10,10,8' }
+            3: { $load_warn = '32,32,30' $load_crit = '41,41,38' }
+            4: { $load_warn = '32,32,30' $load_crit = '41,41,38' }
+            5: { $load_warn = '32,32,30' $load_crit = '41,41,38' }
+            6: { $load_warn = '25,25,23' $load_crit = '36,36,38' }
+            7: { $load_warn = '28,28,26' $load_crit = '35,35,38' }
+            8: { $load_warn = '32,32,30' $load_crit = '41,41,38' }
+           16: { $load_warn = '65,65,60' $load_crit = '70,70,68' }
+           32: { $load_warn = '65,65,60' $load_crit = '70,70,68' }
+           48: { $load_warn = '97,97,95' $load_crit = '110,110,99' }
+        default: { $load_warn = '32,32,30' $load_crit = '41,41,38' }
+   }
+   case $::kernel {
+
+  'SunOS': {
+        $nrpepackage = 'nrpe'
+        $pluginsdir = '/usr/nagios/libexec'
+        $nrpedir    = '/usr/nagios/etc'
+
+        file { '/usr/nagios/etc': ensure => directory
+        }
+        file { '/usr/nagios/etc/nrpe.cfg':
+          mode       => '0644',
+          content    => epp("nrpe/nrpe_solaris.conf.epp", { 
+        		    load_warn  => $load_warn,
+    			    load_crit  => $load_crit,
+		            nrpeuser   => 'nrpe',
+		            nrpegroup  => 'nrpe',
+    			    monitors    => lookup('my_monitor'),
+    			    my_hostname => $myhostname,
+    			    puppetsvr   => lookup('my_puppet_server'),
+    			    svrver      => $svrversion,
+    			    cltver      => $cltversion,
+    			    pluginsdir  => '/usr/nagios/libexec'
+    			      }),
+          require    => [User['nrpe'] ],
+          #require   => [User["nrpe"], Package[$nrpepackage,"nagios-plugins"]],
+          alias      => nrpeconf
+        }
+        group { 'nrpe':
+          ensure => present,
+          gid    => '202'
+        }
+
+        user { 'nrpe':
+          ensure  => present,
+          uid     => '202',
+          gid     => '202',
+          groups  => 'nrpe',
+          shell   => '/bin/false',
+          home    => '/usr/nagios',
+          require => Group['nrpe'],
+        }
+
+        # Additional Plugins
+        nrpeplugins{$pluginsdir}
+
+        file { "${pluginsdir}/check_log-collector":
+          mode    => '0755',
+          owner   => root,
+          group   => root,
+          source  => "puppet:///modules/nrpe/check_log-collector",
+        }
+
+        file {  '/var/log/nagios-collector.log':
+          mode   => '0644',
+          ensure => present,
+          group  => root,
+          owner  => nrpe,
+        }
+
+        # Install routines
+        file { '/lib/svc/method/nrpe':
+          ensure => present,
+          source => "puppet:///modules/nrpe/solarisinstall/nrpe",
+          mode   => '0555',
+          owner  => 'root',
+          group  => 'bin'
+        }
+
+        file { '/var/svc/manifest/network/nrpe.xml':
+          ensure => present,
+          source => "puppet:///modules/nrpe/solarisinstall/nrpe.xml",
+          owner  => 'root',
+          group  => 'sys'
+        }
+
+
+        service { 'nrpe':
+          ensure    => running,
+          enable    => true,
+          subscribe => [ File[nrpeconf] ]
+        }
+  }
+
+  'Linux': {
+
+
+    $nrpedir = '/etc/nagios'
+
+    case $::operatingsystem {
+      /Ubuntu|Debian/:{
+
+            if 'service-nsca' in $my_classes {
+              $nrpepackage = 'nsca-client-for-ubuntu-comes-here-see-nrpe-recipe'
+            } else {
+              $nrpepackage = 'nagios-nrpe-server'
+            }
+            $pluginsrc = '/usr/lib/nagios/plugins'
+            $pluginsdir = "${baseclass::libdir}/nagios/plugins"
+
+            group { 'nrpe':
+          ensure => present,
+          gid    => '202',
+            }
+        user { 'nrpe':
+          ensure  => present,
+          uid     => '202',
+          gid     => '202',
+          groups  => 'nrpe',
+          shell   => '/bin/false',
+          home    => '/usr/nagios',
+                            require => Group['nrpe'],
+                    }
+            package { $nrpepackage: ensure => installed;
+          'nagios-plugins':       ensure => installed;
+          'nagios-plugins-standard':  ensure => installed;
+          }
+
+        nrpeplugins{$pluginsdir}
+
+      }
+      /RedHat|CentOS|Fedora/:
+      {
+          $pluginsrc = '/usr/lib64/nagios/plugins'
+          $pluginsdir = "${baseclass::libdir}/nagios/plugins"
+
+          if 'service-nsca' in $my_classes {
+            $nrpepackage = 'nsca-client'
+          } else {
+            $nrpepackage = 'nrpe'
+          }
+
+          package { $nrpepackage:   ensure => present;
+                          'nagios-plugins':   ensure => present;
+                          'nagios-plugins-disk':  ensure => installed;
+                          'nagios-plugins-users': ensure => present;
+                          'nagios-plugins-snmp':  ensure => present;
+                          'nagios-plugins-ntp':   ensure => present;
+                          'nagios-plugins-file_age': ensure => present;
+                          'nagios-plugins-flexlm': ensure => present;
+                          'nagios-plugins-load':  ensure => present;
+                          'nagios-plugins-log':   ensure => present;
+                          'nagios-plugins-mysql': ensure => present;
+                          'nagios-plugins-procs': ensure => present;
+                          'nagios-plugins-swap':  ensure => present;
+                          'perl-Nagios-Plugin':   ensure => present;
+                          'perl-version':    ensure => present;
+                          'sysstat':    ensure => present;
+                          'perl-File-Slurp':  ensure => present;
+                          'perl-Sort-Versions':  ensure => present;
+                          'perl-DBD-Pg':    ensure => present;
+                   }
+          if($::operatingsystem !~ /Fedora/){
+          if(($::operatingsystem =~ /CentOS/) and ($facts['os']['release']['major'] =~ /6/)){
+          package {
+            'nagios-addons':  ensure => installed;
+          }
+          }
+          }
+          package {
+        # FIXME : needs nagios-plugins-pgsql84 if system is not default postgres
+                          'nagios-plugins-pgsql': ensure => present;
+                          #"nagios-plugins-pgsql84": ensure => present;
+        }
+        nrpeplugins{$pluginsdir}
+
+       }
+     default: { }
+    }
+# Start of common files
+    if($::hostname =~ /bs-svn03|bs-monitor0?|bs-appsvr0?/ ){
+      $logcollectormode='0666'
+    } else {
+      $logcollectormode='0644'
+    }
+
+    file {  '/var/log/nagios-collector.log':
+      mode   => $logcollectormode,
+      owner  => nrpe,
+      group  => root,
+      ensure => present,
+
+    }
+
+    file { "${pluginsdir}/check_linux_bsse":
+      ensure => absent,
+                }
+
+        nrpeplugins{$pluginsdir}
+
+
+    file { '/etc/cron.hourly/check_linux_bsse':
+                  mode    => '0755',
+                  owner   => root,
+                  group   => root,
+                  ensure  => present,
+	          content => template("nrpe/check_linux_bsse.erb"),
+                }
+
+    file { "${pluginsdir}/check_ro_mounts.pl":
+                  mode    => '0755',
+                  owner   => root,
+                  group   => root,
+                  content => template("nrpe/check_ro_mounts.erb"),
+                  ensure  => present
+                }
+    file { "${nrpedir}/nrpe.cfg":
+      mode    => '0644',
+                  require => Package[$nrpepackage],
+                  owner   => $nrpeuser,
+                  group   => $nrpegroup,
+                  content => template("nrpe/nrpe_linux.conf.erb"),
+      alias   => nrpeconf
+                }
+
+    #
+    # Install NRPE package or NSCA stuff + addons
+    #
+    if ! 'service-nsca' in $my_classes {
+              service { $nrpepackage:
+                ensure    => running,
+                enable    => true,
+                pattern   => 'nrpe',
+                subscribe => [ File[nrpeconf], Package[$nrpepackage] ]
+            }
+    } else {
+              notice('Enabling nsca-helper for D-BSSE')
+
+      if( $::fqdn != 'bs-dsvr02.ethz.ch' )
+      {
+              service { 'nrpe':
+                ensure  => stopped,
+                enable  => false,
+                pattern => 'sbin.nrpe',
+              }
+      }
+      $nscahelper='nsca-helper'
+      $nscapackage='nsca'
+
+      package { $nscahelper:     ensure => present;
+                $nscapackage:    ensure => present;}
+
+      file { "${nrpedir}/nsca-helper.cfg":
+                                mode    => '0600',
+                                require => Package[$nscahelper],
+                                owner   => $nrpeuser,
+                                group   => $nrpegroup,
+                                content => template("nrpe/nsca_helper.cfg.erb"),
+                                alias   => nscaconf,
+                        }
+
+      file { "${nrpedir}/send_nsca.cfg":
+                                mode    => '0640',
+                                require => Package[$nscapackage],
+                                owner   => $nrpeuser,
+        # Nagios fix for send_nsca / centreon
+                                group   => $nagiosgroup,
+                                content => template("nrpe/send_nsca.erb"),
+                        }
+
+      file { '/etc/logrotate.d/nscahelper':
+                                mode    => '0640',
+                                source => file("nrpe/nscahelper"),
+                        }
+
+            service { $nscahelper:
+              ensure    => running,
+              enable    => true,
+              subscribe => [ File[nrpeconf], File[nscaconf] ]
+            }
+    }
+# ############################################################3
+# Hardware specific
+# ############################################################3
+
+#    if('hw_dell' in $my_classes){
+
+#        file { '/dev/ipmi0':
+#        mode  => '0660',
+#        group => $nrpegroup
+#        }
+#    }
+
+#    if('hw_dalco' in $my_classes){
+
+#        file { '/dev/ipmi0':
+#        mode  => '0660',
+#        group => $nrpegroup
+#        }
+#    }
+
+
+    if('hw_ibm' in $my_classes){
+
+        file { '/dev/ipmi0':
+        mode  => '0660',
+        group => $nrpegroup
+        }
+    }
+
+          if('hw_hp' in $my_classes){
+
+      file { "${pluginsdir}/check_hpasm":
+        mode   => '0755',
+        owner  => root,
+        group  => root,
+        ensure => present,
+        source => "puppet:///modules/nrpe/check_hpasm",
+        }
+      file { "${pluginsdir}/check_hplogs.sh":
+        mode   => '0755',
+        owner  => root,
+        group  => root,
+        ensure => present,
+        source => "puppet:///modules/nrpe/check_hplogs.sh",
+        }
+
+    }
+
+# ############################################################3
+# End hardware specific block
+# ############################################################3
+  }
+   }
+}

@@ -1,0 +1,63 @@
+##
+##      Puppet D-BSSE Framework documentation
+##
+# WIKI START D-BSSE Puppet 4 Framework::Puppet config Debian.yaml
+## OS :: #Redhat;Ubuntu;Debian; #Solaris; #MacOS X
+######################################
+#
+# h3. Purpose of the file
+#
+# * Contains all configuration settings specific to D-BSSE Debian/Ubuntu machines
+# * Used as the default (fallback) config file for all nodes running Ubuntu
+#
+# h3. See also
+#
+#
+###########
+# WIKI STOP
+#
+my_node_classes:
+- 'service_apt'
+
+itsc_ub_core_packages:
+- 'figlet'
+- 'apt-file'
+- 'nano'
+- 'screen'
+- 'rsync'
+- 'netcat'
+- 'htop'
+- 'openvpn'
+- 'telnet'
+- 'lsb'
+- 'bind9utils'
+- 'gawk'
+- 'moreutils'
+- 'build-essential'
+- 'mc'
+- 'dkms'
+- 'vim'
+- 'synaptic'
+- 'biosdevname'
+- 'curl'
+- 'bc'
+- 'sysstat'
+- 'finger'
+- 'mlocate'
+- 'ethtool'
+- 'sssd-tools'
+- 'libfile-slurp-perl'
+- 'apt-transport-https'
+- 'tree'
+- 'aptitude'
+- 'libpq5'
+- 'snmp'
+- 'debhelper'
+- 'dh-apparmor'
+- 'libmail-sendmail-perl'
+- 'libsys-hostname-long-perl'
+- 'po-debconf'
+- 'libgssrpc4'
+- 'mysql-common'
+- 'tshark'
+- 'git'

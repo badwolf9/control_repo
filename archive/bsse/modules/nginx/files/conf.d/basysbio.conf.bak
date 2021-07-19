@@ -1,0 +1,23 @@
+# HTTP rewrites
+    server {
+        listen       80;
+        server_name basysbio.ethz.ch;
+        rewrite ^/(.*) https://basysbio.ethz.ch/openbis/$1 permanent;
+    }
+# HTTPS server proxies
+# OpenBIS still runs on Apache
+#
+    server {
+        listen       443 ssl;
+        server_name  basysbio.ethz.ch;
+        client_max_body_size 0;
+        ssl_certificate      /etc/pki/tls/certs/basysbio.ethz.ch.crt;
+        ssl_certificate_key  /etc/pki/tls/certs/basysbio.ethz.ch.key;
+        include /etc/nginx/ssl.conf;
+        location /openbis/ {
+            proxy_pass https://bs-basysbio01.ethz.ch:443/openbis/;
+        }
+        location /datastore_server/ {
+            proxy_pass https://bs-basysbio01.ethz.ch:443/datastore_server/;
+        }
+    }

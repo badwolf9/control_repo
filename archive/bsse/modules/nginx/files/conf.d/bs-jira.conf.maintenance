@@ -1,0 +1,45 @@
+#
+# This file is managed by puppet
+# It can still be managed manually but will be overwritten on the next run.
+#
+# HTTP rewrites
+    server {
+        listen       80;
+        server_name  jira-bsse.ethz.ch;
+        rewrite ^/(.*) https://jira-bsse.ethz.ch/$1 permanent;
+    }
+    server {
+        listen       80;
+        server_name  jira.bsse.ethz.ch;
+        rewrite ^/(.*) https://jira.bsse.ethz.ch/$1 permanent;
+    }
+# HTTPS proxies
+    server {
+        listen       443 ssl;
+        server_name  jira-bsse.ethz.ch;
+        client_max_body_size 0;
+        ssl_certificate      /etc/pki/tls/certs/jira-bsse.ethz.ch.crt;
+        ssl_certificate_key  /etc/pki/tls/certs/jira-bsse.ethz.ch.key;
+        include /etc/nginx/ssl.conf;
+        error_page 403 /403.html;
+            location = /403.html {
+        }
+        location / {
+            allow 129.132.151.230/32;
+            allow 129.132.228.10/32;
+            allow 172.31.92.5/32;
+            deny all;
+            proxy_pass https://bs-jira01.ethz.ch:8443/;
+        }
+    }
+    server {
+        listen       443 ssl;
+        server_name  jira.bsse.ethz.ch;
+        client_max_body_size 0;
+        ssl_certificate      /etc/pki/tls/certs/jira-bsse.ethz.ch.crt;
+        ssl_certificate_key  /etc/pki/tls/certs/jira-bsse.ethz.ch.key;
+        include /etc/nginx/ssl.conf;
+        location / {
+            proxy_pass https://bs-jira02.ethz.ch:8443/;
+        }
+    }

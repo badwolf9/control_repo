@@ -1,0 +1,48 @@
+#
+# This file is managed by puppet
+# It can still be managed manually but will be overwritten on the next run.
+#
+[IMPORTANT] - do not change the file extension of this file to .conf
+I guess that now I said that, someone will. Please wait until I've left - John.
+
+This is a copy of what's in the Wiki at: https://wiki-bsse.ethz.ch/display/DBSSEITSC/Using+Nginx+as+a+reverse+proxy
+
+Block selected hosts for maintenance
+
+The following configuration was used to allow hosts in the ETHZ only, and deny the rest.
+The ETHZ IP list can be found from the ETHZ-Intern group in the firewall configs.
+You should also add the RFC 1918 addresses as these can only come from within the ETH anyway.
+           allow 10.0.0.0/8;
+           allow 172.16.0.0/12;
+           allow 192.168.0.0/16;
+
+The 3 lines starting with 'error_page' serve a custom 403.html error page /usr/share/nginx/html/403.html,
+that can be customized with any message you want. It's just normal HTML and is not puppetized
+
+    server {
+        listen       443 ssl;
+        server_name  crowd-bsse.ethz.ch;
+        ssl_certificate      /etc/pki/tls/certs/crowd-bsse.ethz.ch.crt;
+        ssl_certificate_key  /etc/pki/tls/certs/crowd-bsse.ethz.ch.key;
+        include /etc/nginx/ssl.conf;
++        error_page 403 /403.html;
++            location = /403.html {
++        }
+        location / {
++            allow 82.130.64.0/18;
++            allow 129.132.0.0/16;
++            allow 192.33.87.0/24;
++            allow 192.33.88.0/21;
++            allow 192.33.96.0/21;
++            allow 192.33.104.0/22;
++            allow 192.33.108.0/23;
++            allow 192.33.110.0/24;
++            allow 195.176.96.0/19;
++            allow 148.187.192.0/19;
++            allow 10.0.0.0/8;
++            allow 172.16.0.0/12;
++            allow 192.168.0.0/16;
++            deny  all;
+            proxy_pass https://bs-crowd01.ethz.ch/;
+        }
+    }

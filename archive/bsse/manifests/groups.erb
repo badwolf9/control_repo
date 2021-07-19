@@ -1,0 +1,7 @@
+<%# 
+This file loops over the classes object and filters out
+all classes starting with ou-groups.
+Out of these a comma separated string is generated
+which can be simply splited into an array in a puppet recipe 
+Make sure it stays in 1 line! and that this comment ends in the same line!
+%><% a=0; classes.each do |c| %><% if c.to_s =~ /^ou-groups/ then %><% if a > 0 then %><%= ',' %><% else a=1 %><% end %><%= c.to_s.sub(/^ou-groups-/, '') %><% end %><% end %><% notify { "groups.erb file was parsed" : } %>

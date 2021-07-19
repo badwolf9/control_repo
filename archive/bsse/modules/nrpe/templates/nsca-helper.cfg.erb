@@ -1,0 +1,58 @@
+[general]
+#	Interval for the checks (default = 3.5min)
+interval		= 210
+#	Servers to connect to, colon separated
+servers			= bs-nagios01.ethz.ch
+#	Where to log to
+#	Logtype can be file or syslog
+logtype			= file
+logdir			= "/var/log"
+logfile			= "nsca.log"
+#	send_nsca config
+sendnsca		= /usr/sbin/send_nsca
+nscaconf		= /etc/nagios/send_nsca.cfg
+#	the config holding all the commands (usually nrpe.cfg)
+nrpeconf		= /etc/nagios/nrpe.cfg
+#	turn on debugging (0/1)
+debug			= 0
+
+#
+#	This section defines the relation between service names and check_commands
+#	Furthermore only services defined here are executed. The check_commands are defined in /etc/nagios/nrpe.conf
+#
+[commands]
+check_zombie_procs	= linux-procs-zombie
+check_ntp_time		= linux-ntp		
+check_disk_data		= linux-disk-local0	
+check_disk_root		= linux-disk-root		
+check_swap		= linux-check-swap	
+check_procs_nscd	= linux-proc-nscd	
+check_procs_nslcd	= linux-proc-nslcd	
+check_connections	= linux-connections
+check_load		= linux-cpuload		
+check_users		= linux-users		
+check_uptime		= linux-uptime
+check_total_procs	= linux-procs-total	
+<% if classes.include?("hw-dell") %>
+check_dell_openmanage	= dell_openmanage		
+check_dell_openmanage_fans	= dell_openmanage_fans
+check_dell_openmanage_temp	= dell_openmanage_temp		
+check_dell_openmanage_amperage	= dell_openmanage_amperage		
+<% end %>
+check_users_adv		= linux-users_adv
+check_disk_data		= linux-disk-local0
+check_iostat		= linux-iostat
+check_ram		= linux-memory
+check_linux_bsse	= linux-bsse-misc
+check_puppet		= service-puppet
+check_autofs_bsse       = autofs
+check_logcollector_warning = logcollector_warning
+check_logcollector_unknown = logcollector_unknown
+check_logcollector_error = logcollector_error
+<% if classes.include?("service-db-postgresql") %><% end %>
+<% if classes.include?("service-db-mysql") or classes.include?("service-db-mysql_pasv") %>
+check_mysql		= mysql
+check_proc_mysql	= linux-proc-mysql
+<% end %>
+
+#check_virsh

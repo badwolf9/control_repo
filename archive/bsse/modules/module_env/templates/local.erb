@@ -1,0 +1,26 @@
+#%Module1.0#####################################################################
+##
+## local modulefile
+##
+##
+proc ModulesHelp { } {
+        global version modroot
+
+        puts stderr "\tmodule- loads the environment for a local repo in /local0/etc/modulefiles\n"
+}
+
+module-whatis   "provides the local module environment"
+
+setenv MODULES_MACH [uname machine]
+setenv MODULES_OS [uname sysname]
+setenv MODULES_REL [uname release]
+
+<% if @operatingsystem =~ /RedHat|CentOS/ %>
+set             modroot                 /local0/el<%= @lsbmajdistrelease %>/etc/modulefiles
+setenv		MODULES_DISTRO		"el<%= @lsbmajdistrelease %>"
+<% else %>
+set             modroot                 /local0/etc/modulefiles
+setenv		MODULES_DISTRO		"other"
+<% end %>
+
+append-path     MODULEPATH              $modroot

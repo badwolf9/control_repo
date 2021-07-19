@@ -1,0 +1,34 @@
+#!/sbin/sh
+#
+
+LD_LIBRARY_PATH=/usr/local/ssl/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH
+PIDFILE=/var/run/nrpe.pid
+NRPE_BIN=/usr/nagios/bin/nrpe
+CONFIG_FILE=/usr/nagios/etc/nrpe.cfg
+
+case $1 in
+        # SMF arguments (start and restart [really "refresh"])
+'start')
+        $NRPE_BIN -d -c $CONFIG_FILE
+        ;;
+
+'restart')
+        if [ -f "$PIDFILE" ]; then
+                /usr/bin/kill -HUP `/usr/bin/cat $PIDFILE`
+        fi
+        ;;
+
+'stop')
+        if [ -f "$PIDFILE" ]; then
+                /usr/bin/kill `/usr/bin/cat $PIDFILE`
+        fi
+        ;;
+*)
+        echo "Usage: $0 { start | stop | restart }"
+        exit 1
+        ;;
+esac
+
+exit $?
+

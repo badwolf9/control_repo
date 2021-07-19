@@ -1,0 +1,33 @@
+# use visual bell
+vbell off
+# replace ctrl-A by ctrl-O
+escape ^Oo
+# set a big scrolling buffer
+defscrollback 5000
+# Set a shell to run so we source /etc/profile
+shell -/bin/bash
+# Set the caption on the bottom line
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %c"
+#
+screen -t .
+screen -t .
+screen -t .
+screen -t .
+screen -t .
+screen -t .
+screen -t .
+
+##    Keybindings    ##
+
+# bind F7  to detach screen session from this terminal
+# bind F8  to kill current screen window.
+# bind F9  to create a new screen
+# bind F10 to rename current screen window
+# bind F11 to move to previous window
+# bind F12 to move to next window
+bindkey -k k7 detach
+bindkey -k k8 kill
+bindkey -k k9 screen
+bindkey -k k; title
+bindkey -k F1 prev
+bindkey -k F2 next

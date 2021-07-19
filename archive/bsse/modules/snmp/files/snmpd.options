@@ -1,0 +1,2 @@
+# snmpd command line options
+OPTIONS="-Lf /var/log/snmpd.log -p /var/run/snmpd.pid"

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!DOCTYPE service_bundle SYSTEM '/usr/share/lib/xml/dtd/service_bundle.dtd.1'>
+
+<service_bundle type='manifest' name='nrpe'>
+
+<service
+        name='network/nrpe'
+        type='service'
+        version='1'>
+
+        <create_default_instance enabled='false' />
+
+        <single_instance />
+
+        <dependency name='fs-local'
+                grouping='require_all'
+                restart_on='none'
+                type='service'>
+                <service_fmri
+                        value='svc:/system/filesystem/local' />
+        </dependency>
+
+        <dependency name='net-physical'
+                grouping='require_all'
+                restart_on='none'
+                type='service'>
+                <service_fmri value='svc:/network/physical' />
+        </dependency>
+
+        <exec_method
+                type='method'
+                name='start'
+                exec='/lib/svc/method/nrpe start'
+                timeout_seconds='60'/>
+
+        <exec_method
+                type='method'
+                name='stop'
+                exec='/lib/svc/method/nrpe stop'
+                timeout_seconds='60' />
+        <exec_method
+                type='method'
+                name='restart'
+                exec='/lib/svc/method/nrpe restart'
+                timeout_seconds='60' />
+
+        <property_group name='startd'
+                type='framework'>
+                <!-- sub-process core dumps shouldn't restart session -->
+                <propval name='ignore_error'
+                    type='astring' value='core,signal' />
+        </property_group>
+
+        <property_group name='general' type='framework'>
+                <!-- to start stop sshd -->
+                <propval name='action_authorization' type='astring'
+                        value='solaris.smf.manage.nrpe' />
+        </property_group>
+
+        <stability value='Unstable' />
+
+        <template>
+                <common_name>
+                        <loctext xml:lang='C'>
+                        Nagios Remote Plugin Executor
+                        </loctext>
+                </common_name>
+        </template>
+
+</service>
+
+</service_bundle>
+

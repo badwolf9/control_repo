@@ -1,0 +1,37 @@
+#!/bin/bash
+
+
+function Usage()
+{
+	echo "This tools clears the given error state for the program <source>"
+	echo "Usage : $0 <-w|-e|-u> <source>"
+}
+
+function setCentreonLogState(){
+	SRC=$1
+	LVL=$2
+	LOG=$3
+	LOGFILE=$4
+	TIME=`date "+%s"`
+        LOGDEST="/var/log/nagios-collector.log";
+	echo "$SRC:$TIME:$LVL:$LOGFILE:$LOG" >>$LOGDEST
+}
+
+if [ -z "$2" ]; then
+	Usage;
+	exit 1
+fi
+
+if [ "$1" == "-w" ]; then
+	LEVEL=1
+elif [ "$1" == "-e" ]; then
+	LEVEL=2
+elif [ "$1" == "-u" ]; then
+	LEVEL=3
+else
+	echo "Error state $1 not valid! Please use -w,-e or -u"
+	Usage;
+	exit 1
+fi
+
+setCentreonLogState $2 $LEVEL "CLEAR"

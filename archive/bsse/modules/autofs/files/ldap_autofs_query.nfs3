@@ -1,0 +1,222 @@
+#! /usr/bin/perl
+#
+# $Id: ldap_autofs_query,v 1.1 2006/03/31 11:42:31 kethgen Exp $
+#
+# 2018-04-21: removed -T flag as tainted mode breaks socket.pm on RedHat 7
+
+=head1 NAME
+
+ldap_autofs_query - Query the ldap system for the releated map export
+
+=cut
+
+use strict;
+use warnings;
+
+use Getopt::Long qw(:config gnu_getopt);
+use Pod::Usage;
+use Net::LDAPS;
+
+use vars qw($RCS_VERSION $VERSION $opt);
+use vars qw($ssl $ldap $base $binddn $pass @hosts $host $port $attr $cert);
+
+#my $root_bases = "dc=agrl,dc=ethz,dc=ch ou=agrl,ou=auth,o=ethz,c=ch";
+my $root_bases = "ou=automount,ou=bsse,ou=auth,o=ethz,c=ch";
+my $allowed_maps = "auto_home auto_master auto_nas auto_hima";
+my @hosts;
+
+$RCS_VERSION = '$Id: ldap_autofs_query,v 1.1 2006/03/31 11:42:31 kethgen Exp $';
+($VERSION = '$Revision: 1.1 $') =~ s/^\D*([\d.]*)\D*$/$1/;
+
+BEGIN
+{
+   delete @ENV{qw(IFS CDPATH ENV BASH_ENV)};
+   $ENV{PATH} = "/sbin:/usr/sbin:/bin:/usr/bin";
+}
+
+# Handle options
+$opt = {};
+GetOptions($opt, qw(help|h version)) || pod2usage 2;
+
+=head1 SYNOPSIS
+
+B<ldap_autofs_query> [I<options>] key
+
+ -h, --help		A short help
+     --version		The version (CVS)
+
+=cut
+
+pod2usage(1) if $opt->{help};
+if ($opt->{version}) { print "Version: $VERSION\n"; exit 0; }
+my $arg = shift @ARGV or die "Error: You must specify a map entry!\n";
+
+# Cleanup $arg
+$arg =~ /^([-a-zA-Z0-9_\.]+)$/ and $arg = $1 or die "Error: Malformed map entry '$arg'!\n";
+
+sub ToLower
+{
+        my $str=shift;
+        $str=~ tr/A-Z/a-z/;
+        return $str;
+}
+
+# Read the ldap configuration from /etc/ldap.conf
+open CONFIG,"< /etc/openldap/ldap.conf" or die "Error: Unable to read '/etc/ldap.conf'!";
+while (<CONFIG>)
+{
+   chomp;
+   my @confline = split();
+   next unless $confline[0];
+   if (&ToLower($confline[0]) eq "uri") { 
+		shift @confline;
+		foreach(@confline){
+			my ($prot,$host);
+			($prot,$host,$port) = split /:/;
+			$host =~s/\///g;
+			push @hosts,$host;
+			}
+		}
+   if (&ToLower($confline[0]) eq "tls_cacert" 	) { $cert = $confline[1]; }
+   if (&ToLower($confline[0]) eq "binddn"	) { $binddn  = $confline[1]; }
+   if (&ToLower($confline[0]) eq "autobase"	) { $base  = $confline[1]; }
+   if (&ToLower($confline[0]) eq "bindpw"	) { $pass  = $confline[1]; }
+}
+close CONFIG;
+
+# Check which automounter map should be read
+(my $map = $0) =~ s#^.*/##;
+$map =~ /^([a-z_]+)$/ and $map = $1 or die "Error: Map not allowed : '$map'!\n";
+die "Error: Map not allowed: '$map'!\n" unless $allowed_maps =~ /\b$map\b/;
+
+# Connect to the LDAP server, take the first one that answers or die
+do
+{
+  my $host = shift @hosts or die "Error: Could not connect to any host!\n";
+  #print "$host : $cert : $binddn : $base : $pass\n";
+  $host =~ /^([-a-zA-Z0-9.]+)$/ and $host = $1 or die "Error: Malformed host '$host'!\n";
+
+     $ldap = Net::LDAPS->new (
+        $host,
+        port => $port,
+        sslversion => 'tlsv1', 
+        ciphers => 'HIGH:MEDIUM',
+        cafile => $cert,
+        verify => 'require',
+        version => 3,
+        timeout => 5
+     );
+}
+until($ldap);
+
+# Bind if neccessary
+if (defined $binddn)
+{
+    $ldap->bind( $binddn , password => $pass ? $pass : '' )
+      or die $@;
+}
+
+
+# Use the first entry we find while searching upward
+while ($base)
+{
+   my $mesg = $ldap->search (
+      base   => "automountMapName=$map,$base",
+      attrs  => [qw(automount)],
+      scope  => "sub",
+      filter => "&(objectClass=automount)(automountKey=$arg)"
+   );
+
+   foreach my $entry ($mesg->entries)
+   {
+      $attr = $entry->get_value("automountInformation");
+	if($attr =~ /fstype/){
+      		print("$attr\n"), last if $attr;
+	} else {
+		if($attr =~ / /){
+      			print("-fstype=nfs,vers=3,rw,port=2049,$attr\n"), last if $attr;
+		} else {
+      			print("-fstype=nfs,vers=3,rw,port=2049 $attr\n"), last if $attr;
+		}
+	}
+   }
+
+   last if $attr;
+
+   last if $root_bases =~ /\b$base\b/;
+   $base =~ /^[^=]+=[^,]+,(.+)/ or last;
+   $base = $1; 
+}
+
+$ldap->unbind;
+
+__END__
+
+=head1 DESCRIPTION
+
+This script is used by the system to query LDAP for the path to mount on a map
+specified by the script name ($0).
+
+This script was original written by Susana Soriano in a C style manner. Upgraded
+to handle SSL by Stefan Walter.
+
+=head1 CHANGES by ISG D-AGRL
+
+kicked out non-ssl code. changed the code for the bindpw, so the pw is get from 
+the conf-file too instead of supposed to be equal as the binddn. 
+put a new vale autobase to be used here instead of the base from the ldap.conf, so 
+the base can be different than the base for nss (as the situation is in our environment).
+
+=head1 CHANGES by ISG D-BSSE (Jan 2010)
+
+- changed schema to the new auto_master LDAP schema to make transistion to native autofs mode easier, once this is implemented, 
+
+ see also : /etc/sysconfig/autofs (RedHat etc...)
+ see also : http://www.redhat.com/docs/en-US/Red_Hat_Enterprise_Linux/5.4/html/Deployment_Guide/s2-nfs-config-autofs-LDAP.html
+
+- replaced deprecated HOST+PORT format by the URI (assuming that all URIs use the same port), required fields in /etc/openldap/ldap.conf now are :
+
+ uri
+ tls_cacert
+ binddn
+ bindpw
+ autobase
+
+- removed the case sensitivity on the config keys of ldap.conf
+
+=head1 COPYRIGHT
+
+Copyright (c) 2005 by ETH Zurich. All rights reserved.
+
+=head1 LICENSE
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program; if not, write to the Free Software Foundation, Inc., 675 Mass
+Ave, Cambridge, MA 02139, USA.
+
+=head1 BUGS
+
+As the script runns with -T flag the Pod::Usage::pod2usage will not work for the
+manpage.
+
+=head1 AUTHOR
+
+S<Kai Mosebach E<lt>kai.mosebach@bsse.ethz.chE<gt>>
+S<Stefan Walter E<lt>walteste@inf.ethz.chE<gt>>
+S<Klaus Ethgen E<lt>klaus.ethgen@inf.ethz.chE<gt>>
+S<Marc Schmitt>
+S<Susana Soriano>
+
+=cut
+
+# vim: foldlevel=0
+

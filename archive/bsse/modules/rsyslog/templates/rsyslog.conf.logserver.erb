@@ -1,0 +1,85 @@
+#rsyslog v3 config file
+
+# if you experience problems, check
+# http://www.rsyslog.com/troubleshoot for assistance
+
+#### MODULES ####
+
+$ModLoad imuxsock.so	# provides support for local system logging (e.g. via logger command)
+$ModLoad imklog.so	# provides kernel logging support (previously done by rklogd)
+$ModLoad immark.so	# provides --MARK-- message capability
+
+#			Enable reliable syslog protocol
+#$ModLoad imrelp.so
+#$InputRELPServerRun 	2514
+
+# Provides UDP syslog reception
+$ModLoad imudp.so
+$UDPServerRun 514
+
+# Provides TCP syslog reception
+$ModLoad imtcp.so  
+$InputTCPServerRun 514
+
+
+#### GLOBAL DIRECTIVES ####
+
+# Use default timestamp format
+$ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
+
+# File syncing capability is disabled by default. This feature is usually not required, 
+# not useful and an extreme performance hit
+#$ActionFileEnableSync on
+
+$template DailyPerHostLogs,"/local0/logs/%HOSTNAME%/%$YEAR%/%$MONTH%/%$DAY%/messages.log"
+
+$template messages, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/messages"
+$template auth, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/auth.log" 
+$template syslog, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/syslog" 
+$template cron, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/cron.log" 
+$template daemon, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/daemon.log" 
+$template kern, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/kern.log" 
+$template lpr, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/lpr.log" 
+$template mail, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/mail.log" 
+$template user, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/user.log" 
+$template mail.info, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/mail.info" 
+$template mail.warn, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/mail.warn" 
+$template mail.err, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/mail.err" 
+$template news.crit, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/news/news.crit" 
+$template news.err, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/news/news.err" 
+$template news.notice, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/news/news.notice" 
+$template debug, "/local0/logs/%HOSTNAME%/%$YEAR%-%$MONTH%-%$DAY%/debug"
+
+#### RULES ####
+
+auth,authpriv.*			?auth
+*.*;auth,authpriv.none		?syslog
+#cron.*                      	?cron
+daemon.* 			?daemon
+kern.*                         	?kern
+lpr.*                          	?lpr
+mail.*                         	?mail
+user.*                         	?user
+mail.info                      	?mail.info
+mail.warn                      	?mail.warn
+mail.err                       	?mail.err
+
+$ActionQueueFileName 		queue
+
+# ### begin forwarding rule ###
+# The statement between the begin ... end define a SINGLE forwarding
+# rule. They belong together, do NOT split them. If you create multiple
+# forwarding rules, duplicate the whole block!
+# Remote Logging (we use TCP for reliable delivery)
+#
+# An on-disk queue is created for this action. If the remote host is
+# down, messages are spooled to disk and sent when it is up again.
+#$WorkDirectory /var/spppl/rsyslog # where to place spool files
+#$ActionQueueFileName fwdRule1 # unique name prefix for spool files
+#$ActionQueueMaxDiskSpace 1g   # 1gb space limit (use as much as possible)
+#$ActionQueueSaveOnShutdown on # save messages to disk on shutdown
+#$ActionQueueType LinkedList   # run asynchronously
+#$ActionResumeRetryCount -1    # infinite retries if host is down
+# remote host is: name/ip:port, e.g. 192.168.0.1:514, port optional
+#*.* @@remote-host:514
+# ### end of the forwarding rule ###

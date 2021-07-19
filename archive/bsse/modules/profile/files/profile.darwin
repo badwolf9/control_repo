@@ -1,0 +1,13 @@
+# System-wide .profile for sh(1)
+
+if [ -x /usr/libexec/path_helper ]; then
+        eval `/usr/libexec/path_helper -s`
+fi
+
+if [ "${BASH-no}" != "no" ]; then
+        [ -r /etc/bashrc ] && . /etc/bashrc
+fi
+
+alias ll="ls -la"
+export PATH=$PATH:/opt/local/bin
+echo "\033]0;`hostname -s`\007" | tr -d "\n"

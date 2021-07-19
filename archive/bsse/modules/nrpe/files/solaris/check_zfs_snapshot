@@ -1,0 +1,37 @@
+#/bin/bash
+# ZFS Snapshot Plugin for Solaris
+# 05/10/2010
+
+ERROR_LOG=/var/log/zfsSnapshotError.log
+
+if [ !  -f $ERROR_LOG ] ; then
+	echo "Logfile $ERROR_LOG doesn't exist!"
+	exit 1
+fi
+
+VAR1=`cat $ERROR_LOG | wc -l`
+if [ $VAR1 = 0 ] ; then
+	echo 'ZFS snapshot works (Logfile empty)'
+	exit 0
+fi
+
+VAR_ERROR=`grep \^2 $ERROR_LOG`
+if [ -n "$VAR_ERROR" ] ; then
+	echo $VAR_ERROR  | nawk -F\, ' { print $3 " TIME: " $2 }'
+	exit 2
+fi
+
+VAR_WARN=`grep \^1 $ERROR_LOG`
+if [ -n "$VAR_WARN" ] ; then
+	echo $VAR_WARN  | nawk -F\, ' { print $3 " TIME: " $2 }'
+	exit 1
+fi
+
+VAR_UNKOWN=`grep \^3 $ERROR_LOG`
+if [ -n "$VAR_UNKOWN" ] ; then
+	echo $VAR_UNKOWN  | nawk -F\, ' { print $3 " TIME: " $2 }'
+	exit 3
+fi
+
+echo `tail -1 $ERROR_LOG | nawk -F\, ' { print $3 " TIME: " $2 }'`
+exit 0

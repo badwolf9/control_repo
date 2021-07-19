@@ -1,0 +1,86 @@
+#!/usr/bin/perl
+
+use strict;
+
+my $logcollectfile="/var/log/nagios-collector.log";
+my $mode;
+my $exit=0;
+my $hostname=$ENV{'HOSTNAME'} || `hostname`;
+my %loghash;
+my %logbak;
+
+sub hashSorter {
+	my %h = %{$_[0]};
+   	$h{$a}[1] <=> $h{$b}[1];
+}
+
+
+sub compressLogFile{
+        #       Try to compress the log, if its writeable
+	my $logbakptr = shift;
+        my $logfile = shift;
+        my(%logbak) = %$logbakptr;
+        open(FH,">$logfile") || return;
+        foreach(sort (sort { $logbak {$a} <=> $logbak {$b}} keys %logbak)){
+		my $logentry=$logbak{$_};
+               	print FH "$logentry\n";
+        }
+        close FH;
+}
+
+if ($ARGV[0] eq "-w") {
+	$mode=1;
+} elsif ($ARGV[0] eq "-e"){
+	$mode=2;
+} elsif ($ARGV[0] eq "-u"){
+	$mode=3;
+} else {
+	print "Usage : $0 <-w|-e|-u>\nWhere the flags defines what codes to look (WARN,ERR,UNKNOWN) for.\n";
+	exit 1;
+}
+
+if ( -f $logcollectfile ) {
+	open(FH, "<$logcollectfile");
+	while (<FH>){
+		#	backup.pl:TS+0:2:/var/log/backup.log:Backup failed.
+		chomp;
+		my ($source,$time,$code,$logfile,@log)=split /:/;
+                my $logkey="$time::$source";
+		$logbak{$logkey}=$_;
+		next if($code ne $mode);
+		my $log = join (':',@log);
+		$hostname=~s/.ethz.ch//;
+		$hostname=~s/\r|\n//g;
+		if($log eq "CLEAR") { 
+			$loghash{"$source"}="CLEAR";
+		} else {
+			my $logfileinfo ="<br>";
+			if($logfile){
+				$logfileinfo = "( See $hostname:$logfile for details. )<br>";
+			}
+			$loghash{"$source"}="$source : $log $logfileinfo";
+		}
+	}
+	close FH;
+	my $full_log="";
+	foreach(keys %loghash){
+		my $logentry=$loghash{$_};
+		if($logentry eq "CLEAR"){
+			# do nothin
+		} else {
+			$exit=$mode;
+			$full_log=$full_log.$logentry;
+		}
+	}
+	$full_log=~s/<br>$//;
+	$full_log=~s/^$/OK\n/;
+	print $full_log;
+	#print "::".(keys %loghash)."\n";
+#
+#	&compressLogFile(\%logbak,$logcollectfile);
+#
+} else {
+	print "OK - No collector file found";
+}
+
+exit $exit;

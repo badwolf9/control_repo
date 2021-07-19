@@ -1,0 +1,2 @@
+sbsuser    -fstype=nfs4,soft,intr,nosuid    bs-gridhome:/export/gridhome/&
+*	-fstype=nfs4,soft,intr,nosuid	bs-home:/export/home/&

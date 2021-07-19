@@ -1,0 +1,26 @@
+#%Module1.0#####################################################################
+##
+## itsc modulefile
+##
+##
+proc ModulesHelp { } {
+        global version modroot
+
+        puts stderr "\tmodule- loads the environment for itsc\n"
+}
+
+module-whatis   "provides the itsc module environment"
+
+<% if @operatingsystem =~ /RedHat|CentOS/ %>
+set             modroot                 /usr/local/itsc/el<%= @lsbmajdistrelease %>/etc/modulefiles
+setenv		MODULES_DISTRO		"el<%= @lsbmajdistrelease %>"
+<% elsif @operatingsystem =~ /Ubuntu/ %>
+set             modroot                 /usr/local/itsc/ub<%= @lsbmajdistrelease %>/etc/modulefiles
+setenv		MODULES_DISTRO		"ub<%= @lsbmajdistrelease %>"
+<% else %>
+set             modroot                 /usr/local/itsc/other/etc/modulefiles
+<% end %>
+
+append-path     MODULEPATH              $modroot
+
+module load repo/bsse

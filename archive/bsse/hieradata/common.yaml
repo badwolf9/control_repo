@@ -1,0 +1,304 @@
+# Common.yaml D-BSSE configurations
+#
+##
+##      Puppet D-BSSE Framework documentation
+##
+# WIKI START D-BSSE Puppet 4 Framework::Puppet config common.yaml
+## OS :: Redhat;Ubuntu;Debian;Solaris; #MacOS X
+## REGEX::AAA.*::++++++PUBKEYHERE+++++++
+######################################
+#
+# h3. Purpose of the file
+#
+# * Contains all configuration settings specific to D-BSSE
+# * Used as the default (fallback) config file for all nodes
+#
+# h3. See also
+#
+#
+###########
+# WIKI STOP
+#
+my_networks: 
+  specialServerNets: ["172.31.45.0/24"]
+  nonroutableServerNets: ["10.20.8.0/22", "172.31.27.128/26", "172.31.92.0/24"]
+  routableServerNets: ["129.132.27.0/25","129.132.151.0/26","195.176.122.0/24","129.132.76.128/26", "2001:67c:10ec:2643::/118"]
+  dockNets: ["129.132.228.0/23","129.132.128.64/26","129.132.97.128/25","129.132.42.0/25","129.132.151.192/26"]
+  specNets:  ["172.31.52.128/25","172.31.72.128/25"]
+  dmzNets:  ["129.132.14.128/26","129.132.0.192/28","2001:67c:10ec:3c42::/118"]
+  idNets: ["129.132.178.128/27", "129.132.199.16/28", "129.132.77.96/27", "129.132.168.224/27"]
+
+my_project: "bsse"
+my_puppet_server: "bs-puppet.ethz.ch"
+dns_servers: ["129.132.98.12","129.132.250.2"]
+domain: ["ethz.ch", "d.ethz.ch"]
+searchpath:  ['ethz.ch', 'd.ethz.ch']
+syslog_servers: ["10.20.8.169"]
+rsyslog_servers: ["10.20.8.169"]
+my_timezone: "Europe/Zurich"
+my_ntp_server: "time.ethz.ch"
+my_update: "yes"
+my_monitor: "bs-nagios03.ethz.ch,green-l-7.ethz.ch,idwebhost-22-22.ethz.ch"
+bssescripts::bssescriptbin: "/root/bin"
+rootgroup: "root"
+roothome: "/root"
+shallIdebug: "no"
+
+ssh::keys:
+  ryanj:
+    ensure: present
+    user: root
+    type: rsa
+    key:  AAAAB3NzaC1yc2EAAAABJQAAAQEApEh8V5qi0q2bvZAir1ugyZTVewUwMgOJAhvvbdnc/0AiaC45n+GjUFjPeQpp8D0Kdf5lec/Cic9jCrEFYVo18ZIfZn1RPLVgqfxNMDo925oeHvvBdd/9IWWWSFBIe73o6CPKe7l4KVEsQGr7qUmWYpW1Iiqtw7EbcJcObWCeZzM3ZbTAgY7XKO5PJZFg9ZBdBwVi1he9al1PjllRGADHQlrgpYX5jc0TIaO2AOc6PB5ndFhiD+5YSKwzVYiBI6OzpQxSCIm8YvXh2QuvBshlj0LP5/x+OfraRnc4l1fugAtPuqI5rlIlGYPeZLk6m/h7k5hREHHutAIlEKjcLFL+/Q==
+  reuvend:
+    ensure: present
+    user: root
+    type: rsa
+    key: AAAAB3NzaC1yc2EAAAABJQAAAQEAtL138WJ1Khs3W4Yi46LH1sOc9/BhWISGTCa7QvH4RdZDps8hY2QX+N+cYrHuls8megRGluJRZiWVMsDuZO3qRE02Qb1VvtYDTqGj8J8dQ43AfZILIE9fdmkEdQ9g1IjiNiyj+8H9Di91sl5s3Pjt7oKzxGYAgWJwpJpqOmoklD6Q4DoG1d8AHm1DyjkqARB8O2vxjAX/PGlMjFBUUq0R5ZhACUNoksqO3M5i8R50l711aeZiPT4ruSHyfzLgS3dizGlL+MhNg91Z+DXjgAKlIXJsw2Losr/484+/Oun6R9nmWIPIz410o7KuP6OB+X47dl2iKVfKp1UAwDcpnomvSw==
+  dirvish:
+    ensure: present
+    user: root
+    type: rsa
+    key:  'AAAAB3NzaC1yc2EAAAABIwAAAQEAtfQnjucX9odK+x7ii/1Lzkb7PxD+tl/ChNwNwqblXINMp6SHxOOaV1mV8AqSdz+HhKqV+EtfGjBqBzkTM+ohH2xwuvRfm6t1dlUhu4afr0StucQ0uy2dBj0miJeolyJQrHgheIE3/3T2jG3ZZxDxDUcrbHxfjGJwJb6XwpyWcTfmkahAhcX2ETaBuTAcOydy6TdMLYgGRMeES1IK5IleXNshA75TRTFba4IhlnIsh58F8di0+Zc3gTItUl4cfkYfBSKMnLXeJGKq9e0p1GbnsVNv1YVO8idVQXcLSfepbOZdncPirnaIPFaC/95Ujy1S50DisGQ0q630cDUoxQ5DcQ=='
+    options: 'command="/root/bin/sshCommandWrapper.sh"'
+  placzekc:
+    ensure: present
+    user: root
+    type: rsa
+    key:  AAAAB3NzaC1yc2EAAAABIwAAAQEAxL/FT0PGPkc5VzQ9oVrl0P30smUAfXtJRxO1ON5XngBunjq0kFV5Zvn/VVtfqOhP2TS6rcJZAQjCeLgYB+Ye/Fb7N89P5DG4CGM11FbRg2C0I1W1u7miHsZJnB4N2QzSooZIw+E1kHPVoPpGE23K6ig+jFHqElvIlXadpw9+roxTwRlnEEekoIoAyz1ZqyXSYvHIh4KSUVOB7+w1Zycx62EaNfjPYshmKPpFoZbtlD38RtIXexxEeYa8SMUmo7P9pv0qLYW8ujrfHcn8DEswQAFJ0X9OonV3OjsMDr7FITjjk4yBjW26XJoWLKvZ8V6jez7TT/bNPlstm1CABj8Cew==
+  mafox:
+    ensure: present
+    user: root
+    type: rsa
+    key:  AAAAB3NzaC1yc2EAAAABIwAAAQEA2s1UuCvlUdzvzzwbZJOLx9xK0J+4zeZp7k62ZIzsDJ896rA5jDV3mYCTYwlyUVZnsBDiXfxE0Fdxe6Cx4tXgj2wqUqYcc47kKe5CtM0J9ajO/mHDK0XuNjiBnhRatkdIkYTfgx3X2x/Z4v40tYoBW2e9oC4JQ0vAcQheKN9HfkdrS1UkGf5hjA3rVzf+AOY2cWysKaV+INR6iIjZdewolxTnYjg+pdRmRQhTvPdqbyYKkXhuM36Mzo79K6mOqpgZIphU96r2hK0DPdmvIoHQ487HHN8OCQblshjWPF/wxSxBjkHuQh38CcQ+VHjuTpf8jdgFr/gSha87n9kh/qNC3w==
+  vbailey:
+    ensure: present
+    user: root
+    type: rsa
+    key:  AAAAB3NzaC1yc2EAAAADAQABAAABAQCwPzp46ZsHvGcJWdB7lXeBL9ZWvPfmiQ/9fQhsoN9PJk7aikghbTWnbpKcCHXqz+BZOy5wjouyzrE4FvlEvoxqIUH90iTsZhhoHQoGpYCvtguychilWM+206Jt5qpWstBr3V8iD/K00h4JY9yr7hOWCmNYjeq59+Lt0EGMNvR/XIEcyEGNSErQiLcg0UaW9YTcv5n9LL2f2WLngpnxvOp1oBHcJE1twjTBDqDWfzFkzcXkZ3pBtc/YfnewKZY4t5K3f55q3ePx9Nz3eVo3lCFVcnP7YpzrwlauTGUvfee2unwe/9KnJjDE8HooL79al5VQaRyum9xxM7lahlFEXhaP
+  galaura:
+    ensure: present
+    user: root
+    type: rsa
+    key:  AAAAB3NzaC1yc2EAAAABJQAAAQEAhDUKuW/Fj35EWH42dcmxQvbgmoQlKcgbb58BmN8BecWbfuZSwfH/tfVTkbzYAoIomAlvqB3xR5o/k++Q58YhAa3+wfD3gyBXIUDY5lYIWilzcxduYP9dk/UsflR0hIpl4ElLTgH081KrFpiTWYOsal6MYfWrm0kk8cvh9Jtzwo1+lwdjU3dWYQ61RGm4Mri/I92FY872obVdxxnT+IwWbZ9zpPaRqVJ4ticWwnDau4BeYKaodoOt6giiFdj38aHJSMduhfyQJZOcrgqNe8PlLJ/xPDa3GQnWmyYzoQyaonlypbYwXhEL6mL2oEq48gSPaaQ3959EcKoHWNvWW8zNpw==
+  ahendriks:
+    ensure: present
+    user: root
+    type: rsa
+    key:  AAAAB3NzaC1yc2EAAAABJQAAAQEAkDW0yX4IMzQAfKEA+vezIJKmBoiPIgKyTzh0wZLzXBf9g9CUHDQDuIhE2TrKdVZffdlqpb7QpdhrJaJhSRquem9HFcopIz3L31BbLQJJckbpnSMXbETI7Qcpn2mFbTJLpWEOVLA8AkM2Nd8H648MnZ68J7EPGJ05Bgwc8fNJgYjzFuCkM1Yg9qjV1UI7HTfeYZXTDrKPs1gbcV+bxYrX/xKPP7kAd0r+QRsUqT0XgdczdA2KDG53AGmBEdCkihosKEbjeH9A92scHzOws3iNT/Gu/NDYLzxk3A6JVWFt58F9C2sHA0fdv1PuT6Uo0A+hVb/w1IiqFJ0278XlVmaZhw==
+  mpaganin:
+    ensure: present
+    user: root
+    type: rsa
+    key:  AAAAB3NzaC1yc2EAAAADAQABAAABAQDpFK1ioX/6vm1/ZxjflRpRPufdlXfVCLSDh3pcTs1uydCcYzHzAedKn2qzEhvfCLKGkDldE0Hlp5L+MacXZMwKmwLSTf0PH9oxoLBl+1K7LsRQ7TsKANwzXfhzf1KsQ3YM/vMNQYWbsA3/0pDFH9u9ZeDVSpZvdJe4oMBIVvxftRhJvfsceVfUOg5IwVMIc8fpzUDNoxXrjSF9K3pzcGR4sPQFO0zNAAaSYlCV6vsWJvmc42YltyCjwx1U/Zfmm+P8ujkZfvMy1M9Q1U0q63a1uicZ5zjidWZ67WZ+mBaJMuZvHxOkfOilx3/gFFlRFpbifylYdxxoktTwCW+IkcJz
+  kstaub:
+    ensure: absent
+    user: root
+  dodirk:
+    ensure: absent
+    user: root
+  pjanos:
+    ensure: absent
+    user: root
+  czmarcel:
+    ensure: absent
+    user: root
+  nicof:
+    ensure: absent
+    user: root
+  landoltb:
+    ensure: absent
+    user: root
+  tjelk:
+    ensure: absent
+    user: root
+  mokai:
+    ensure: absent
+    user: root
+
+
+ssh_itsc::special_keys:
+  hpc:
+    ssh_key_type: ssh-rsa
+    ssh_key:      AAAAB3NzaC1yc2EAAAABIwAAAQEAthBEsIDwvB3GxorNsF6iZTerXR/rPUiNHBDaDMNwfnkhuXnoKkcPkHbXX1kmYnYcs8cAcAVrcc4imGVPI6Uhdq4Ve8LpBNO0vZWiykgVTo9VPCq4TWW75xmSg/gnrpRb4AjKVxdWaKPVNZYUYnHzC8H+q/tZ3wAwSn/GLrvI+qxaY7fbe5qFwzTNqRnRBiC3QFxKMJ10UQEnkgIC0m7zP/5xTXxKVS3etqPIfW48cXuYKpFQc4/dZZs/XuvEff0dCIXQvqEo/V5S5ZOWrqa4IkljdDF5JsUpziwAtQTGeoobTU6fetRVZa0gQjKiR3CnUqjMDjpnCE6xcqJDf0/6Qw==
+    ssh_user:     root
+    ssh_ensure:   present
+    ssh_options:  []
+  bneff:
+    ssh_key_type: ssh-rsa
+    ssh_key:      AAAAB3NzaC1yc2EAAAABIwAAAQEAtnDJ8sUWn7bAgZTfCon45XGSiu4qpeaZVXSQ37fpJ6c8GTHMIzum87W0w7aXqsti4L/Hng9zkFX7ct8RhqgwuXTe/8ob/v00HyX6buwvZSLm244vN8TLIs+o8Vrua4IP4cZh3rro+tDelookYXcGsqrkjxNDIsnyr0Y+a1jD7QroroWdrEQKiufLJK0loViSdt727/lfW/0RgvzHEkcECB74vr5aRQ28yLiJJVK6tAsuMbEFM9T5+sjzf4IzJ8XNjL5JFQBUbtQaYzYLtnRd2vQ0YxJ+oQ7tCeAI+uQq+jqd5lJm4h9hhTfFMeVl3OGy9WFWStRU0DkODuO3GvroeQ==
+    ssh_user:     root
+    ssh_ensure:   present
+    ssh_options:  []
+  brinn:
+    ssh_key_type: ssh-rsa
+    ssh_key:      AAAAB3NzaC1yc2EAAAABIwAAAQEAo0vZzxEsXE/JpzYEA99Ov5BswirVAeBWQ1RBjoNrQ+osozKQixclVAz7Pb2s3VHciNgDGwgUx/oWbgZ7Vanzw4H4ERMNKdAN097yz+Ki/9nIJhKkBo8f8Vexseksd2CgNkzieiVoKswIOHE9m3szOiNHAcP2pAJSDazH1bxPDGBzm6KA3+AEo0scL8aTr5LWxWoE1UmAX+Nxe+K0SHsVxYBRuzwKkUPMIk6bxmJ4bI37jz+9/I3qxc+yb0K5hXErxI2vIEXTZf0SldMz8AqrjVvUVghgFVJLDD6lnC0ncS6KQvIuhHBXHa/tyK9cy4koVWwtIMQa1IG97RA/vbvULQ==
+    ssh_user:     root
+    ssh_ensure:   present
+    ssh_options:  []
+  svnsync:
+    ssh_key_type: ssh-rsa
+    ssh_key:      AAAAB3NzaC1yc2EAAAABIwAAAQEAxdcyOFRcrZdQ2pxg4lPHjr8rc3g1pBapvUVJ/hoZjy0BeZKKNowzS/4Iq6KFe6W/zWABgq+8Oh3Mo5ZOeuwAOi5wNJo3qQIaMwjzjLD1BdT2LrNxlT1PkM+Bx4J015VNuqqsYYINEWIfJFnYr7rkuIc+b789hJqhYHDlnfwLwCbTZSvgH8U9WRdPDwZvgZkBJPDkbHdqvnnBqnIsui4Q8drLNvmS0Yu5knjmc+Iw9MYGteZXtQpwDMwzR39cCuJBAtNp+cpCY83uAe2XLr6+LIksRHRTmrsofWsN40COqShljjQ+0aj4/OlJQp7nY3axrieo73Hl0a2eL3eyJEsXrQ==
+    ssh_user:     root
+    ssh_ensure:   present
+    ssh_options:  []
+  puppetAutoSignKey:
+    ssh_key_type: ssh-rsa
+    ssh_key:      AAAAB3NzaC1yc2EAAAABIwAAAMEAxrSoxbCYSGjdvYVcovbN+2N1n/knt9MlH56t/gzWaQPwAwN3p4KY7z4NooU3d4kYVizEUiySHGnz8j1s4e4D8K0vZ4YLyJy8blIjn4xPT68Hgbw0IWcylq2xzLn8q/scibLLK4n982MWNnsyNVuShSai+U9bgEZU8NUvoy+Ghm2uw4QWHdQW9L5fBc3lp/JwfPXxwIaWVguO9agjhKhuazLB3sWTCYoR6KJS5cusu8yvtA7FdRDnJRkcV1c61LpJ
+    ssh_options:  ['command="/etc/puppet/bin/autoSign.sh"','no-port-forwarding','no-X11-forwarding','no-agent-forwarding','no-pty']
+    ssh_user:     root
+    ssh_ensure:   present
+  usermanager:
+    ssh_key_type: ssh-rsa
+    ssh_key:      AAAAB3NzaC1yc2EAAAABIwAAAQEA4E2fZNCJ2s3SyETGLHxELIApjPvGGyjCXkrIkzsQxDafmZbooKxc3dj7/i/og14RtO4FsFRPfYz6tbTJeRPAMvvQCprZedJOMqat00TXMq7l0/qqBLkB9M0tEu/yQs8rNmbOrz981e+uvYp6g+/qUN26GJvwF6k0VVuUHpcy95An8NJcPpl/swLVmAL3MZSYMvRn7CkE8DgMhLvFFpOsCjaoHPuLYIyMnda3DqQQFt36nsBEBY3NDRB8HckrrjHUfN5mWMstFKUPxtN1eYU8U8Qdc7zhnZWy3qRLQJPvxOHUJc5lN/8vYVVfzSnHvQvIfSzVTfaCnBk5GFkg+UPalQ==
+    ssh_user:     root
+    ssh_ensure:   present
+    ssh_options:  []
+  kvmhosts:
+    ssh_key_type: ssh-rsa
+    ssh_key:      AAAAB3NzaC1yc2EAAAABIwAAAQEAtMjhjQlhlyECqai0tqLnxLH60jLYfzzwf6D7OuwcMVUgm2z6363Qw4TzpD27abc6VgYYP1Xz71LnvYY/pGYRiiNOnXyzNHC1bvWD223Lxe4J50qlxUwEKRrlD3IEc4hmXTgdi8bJNBLPuyd+tNia5NUnMRqRtZbeAs6fmwZbX1oXbSnoDWqVajeBmexyCtS0SGk8G9TvJ54PjZFGaGCcBAieXUGI8rFwuPC7dJJVZjpXvgrg9DOcBNVGRMQngWroF5gGBsgpP4pyP2FdOFssCdF0Ijvqy9l7pvTknMwvt8cNeQqSx4kuDifgrX0+oO+vmqU9Aoyk1FKa4q27tKIVuQ==
+    ssh_user:     root
+    ssh_ensure:   present
+    ssh_options:  []
+  RRDPickup:
+    ssh_key_type: ssh-rsa
+    ssh_key:      AAAAB3NzaC1yc2EAAAABIwAAAQEAsUmGhg9o4a/FkeBEZesWxKgllrfspdYrKPJjwHp/IupnexgqZFgOrKcVvzVr91E5ovN92kywafb7DotDwRS1kn8073dHaqyjiR2rA3Xky/wh+F1iKN0GhJNX0e6+DG+6gdj7iLLCe96RIC7dXzimYh9dwiifwBAwnUD9/+4Q5dbWiJJ/gPAufPaIKEhcEmxgIl/H9ghsWZgfToMxsTcV8TFMtd+bcGGCfrwTujcfuYEY0XqSCu60nmhXubKolyXFX//m+7ZheTPOX33tCV38lgasd4AdhR58FMIs3hsf+6SduaxlJhKjOklYJ3ynCvEX0usENRzi9PbKdWRoixg2nw==
+    ssh_user:     root
+    ssh_ensure:   present
+    ssh_options:  []
+
+
+ssh_itsc::backup:
+  bs-ubup4client001:
+    ssh_backup_host:  [ "usermanager", "kvmhosts", "bs-ubup4client001", "RRDPickup" , "bs-jira01", "pnerks", ]
+  bs-ubup4client002:
+    ssh_backup_host:  [ "usermanager", "kvmhosts", "bs-ubup4client001", "RRDPickup" , "bs-jira01", "pnerks", ]
+  bs-rhel7p4client:
+    ssh_backup_host:  [ "usermanager", "kvmhosts", "bs-ubup4client001", "RRDPickup" , "bs-jira01", "pnerks", ]
+  bs-rhel6p4client:
+    ssh_backup_host:  [ "usermanager", "kvmhosts", "bs-ubup4client001", "RRDPickup" , "bs-jira01", "pnerks", ]
+  bs-solaris42:
+    ssh_backup_host:  [ "usermanager", "kvmhosts", "bs-ubup4client001", "RRDPickup" , "bs-jira01", "pnerks", ]
+  bs-openindiana42:
+    ssh_backup_host:  [ "usermanager", "kvmhosts", "bs-ubup4client001", "RRDPickup" , "bs-jira01", "pnerks", ]
+  bs-nagios01:
+    ssh_backup_host:  [ "kvmhosts",]
+  bs-nagios02:
+    ssh_backup_host:  [ "kvmhosts",]
+  bs-sysxcrowd01:
+    ssh_backup_host:  [ "bs-sysxcrowd02", ]
+  bs-sysxcrowd02:
+    ssh_backup_host:  [ "bs-sysxcrowd01", ]
+  bs-crowd01:
+    ssh_backup_host:  [ "bs-crowd02", ]
+  bs-crowd02:
+    ssh_backup_host:  [ "bs-crowd01", ]
+  bs-jira01:
+    ssh_backup_host:  [ "bs-jira02", ]
+  bs-jira02:
+    ssh_backup_host:  [ "bs-jira01", ]
+  bs-linboot02:
+    ssh_backup_host:  [ "bs-linboot01", ]
+  bs-sysxwiki01:
+    ssh_backup_host:  [ "bs-sysxwiki02",]
+  bs-sysxwiki02:
+    ssh_backup_host:  [ "bs-sysxwiki01",]
+  bs-dbsvr02:
+    ssh_backup_host:  [ "bs-appsvr01",]
+  bs-wiki01:
+    ssh_backup_host:  [ "bs-wiki02", "bs-wiki02-el6", "bs-wiki05",]
+  bs-wiki02:
+    ssh_backup_host:  [ "bs-wiki01",]
+  bs-dsvr53:
+    ssh_backup_host:  [ "bs-dsvr33", "bs-dsvr43", "bs-dsvr44",]
+  bs-dsvr33:
+    ssh_backup_host:  [ "bs-dsvr53", "bs-dsvr43", "bs-dsvr44",]
+  bs-ssvr01:
+    ssh_backup_host:  [ "bs-dsvr33",]
+  bs-ssvr02:
+    ssh_backup_host:  [ "bs-ssvr04", "bs-dsvr30", "bs-dsvr37", "bs-dsvr68",]
+  bs-ssvr03:
+    ssh_backup_host:  [ "bs-dsvr33",]
+  bs-ssvr04:
+    ssh_backup_host:  [ "bs-dsvr30", "bs-dsvr37", "bs-dsvr68", "bs-dsvr86",] 
+  bs-ssvr05:
+    ssh_backup_host:  [ "bs-dsvr33",]
+  bs-ssvr06:
+    ssh_backup_host:  [ "bs-dsvr44",]
+  bs-ssvr07:
+    ssh_backup_host:  [ "bs-dsvr33",]
+  bs-ssvr09:
+    ssh_backup_host:  [ "bs-dsvr33",]
+  bs-dsvr30:
+    ssh_backup_host:  [ "bs-dsvr44",]
+  bs-dsvr68:
+    ssh_backup_host:  [ "bs-dsvr44",]
+  bs-dsvr86:
+    ssh_backup_host:  [ "bs-dsvr37",]
+  bs-dsvr37:
+    ssh_backup_host:  [ "usermanager",]
+  bs-dsvr43:
+    ssh_backup_host:  [ "usermanager" ]
+  bs-dsvr44:
+    ssh_backup_host:  [ "usermanager" ]
+  bs-headnode01:
+    ssh_backup_host:  [ "usermanager" ]
+  bs-appsvr01:
+    ssh_backup_host:  [ "usermanager" ]
+  bs-dsvr15:
+    ssh_backup_host:  [ "RRDPickup" ]
+  bs-dsvr17:
+    ssh_backup_host:  [ "RRDPickup" ]
+  bs-dsvr18:
+    ssh_backup_host:  [ "RRDPickup" ]
+  cina-gpu01:
+    ssh_backup_host:  [ "RRDPickup" ]
+
+
+nfs_exports::shares:
+  bs-linboot01:
+    share01:
+      my_networks:  [ "nonroutableServerNets", "routableServerNets", "dockNets", "specNets" ]
+      my_share:     "/local0/linboot14"
+      my_shareparams:  "(fsid=0,rw,no_root_squash,sync,insecure)"
+  bs-hpws19:
+    share01:
+      my_networks:  [ "nonroutableServerNets", "routableServerNets", "dockNets" ]
+      my_share:     "/local1"
+      my_shareparams:  "(fsid=0,rw,no_root_squash,sync,insecure)"
+  bs-gpu04:
+    share01:
+      my_networks:  [ "specNets" ]
+      my_share:     "/local0"
+      my_shareparams:  "(fsid=0,rw,no_root_squash,sync,insecure)"
+  bs-dsvr13:
+    share01:
+      my_networks:  ["172.31.45.0/24"]
+      my_share:     "/export0/Volume01"
+      my_shareparams:  "(fsid=0,rw,no_subtree_check,no_root_squash,mountpoint)"
+    share02:
+      my_networks: ["172.31.45.0/24"]
+      my_share:     "/export1/Volume02"
+      my_shareparams:  "(fsid=0,rw,no_subtree_check,no_root_squash,mountpoint)"
+    share03:
+      my_networks: ["172.31.45.0/24"]
+      my_share:     "/export1/Volume03"
+      my_shareparams:  "(fsid=0,rw,no_subtree_check,no_root_squash,mountpoint)"
+    share04:
+      my_networks: ["172.31.45.0/24"]
+      my_share:     "/export1/Volume04"
+      my_shareparams:  "(fsid=0,rw,no_subtree_check,no_root_squash,mountpoint)"
+  bs-smsvr:
+    share01:
+      my_networks:  ["129.132.27.0/24"]
+      my_share:     "/local0"
+      my_shareparams:  "(fsid=0,rw,no_subtree_check,no_root_squash,mountpoint)"
+    share02:
+      my_networks: ["129.132.228.0/23"]
+      my_share:     "/local1"
+      my_shareparams:  "(fsid=0,rw,no_subtree_check,no_root_squash,mountpoint)"
+  defaults:
+    share01:
+      my_networks:  [ "nonroutableServerNets", "routableServerNets", "dockNets", "specNets" ]
+      my_share:     "/local0"
+      my_shareparams:  "(fsid=0,rw,no_root_squash,sync,insecure)"

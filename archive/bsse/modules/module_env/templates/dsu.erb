@@ -1,0 +1,23 @@
+#%Module1.0#####################################################################
+##
+## dsu modulefile
+##
+##
+proc ModulesHelp { } {
+        global version modroot
+
+        puts stderr "\tmodule- loads the environment for dsu\n"
+}
+
+module-whatis   "provides the dsu module environment"
+
+<% if @operatingsystem =~ /RedHat|CentOS/ %>
+set             modroot                 /usr/local/dsu/el<%= @lsbmajdistrelease %>/etc/modulefiles
+setenv		MODULES_DISTRO		"el<%= @lsbmajdistrelease %>"
+<% else %>
+set             modroot                 /usr/local/dsu/other/etc/modulefiles
+<% end %>
+
+append-path     MODULEPATH              $modroot
+
+module load repo/bsse

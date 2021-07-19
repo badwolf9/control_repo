@@ -1,0 +1,242 @@
+#!/bin/bash
+
+#
+#	Note : ALL clients execute this, therefore this script should not throw warnings and/or errors
+#
+
+EXIT=0
+PID=$$
+PROCS=`ps ax | grep check_autofs_bsse |grep -v grep`
+
+# Test for these processes if they run
+UNWANTED_PROCS="pcscd hplip krb5-auth-dialog winbindd"
+
+if [ ! -z "`echo $PROCS | grep -v $PID`" ]; then
+        echo $PROCS
+        echo -n "Detected stale check script on $HOSTNAME!. $$ $PID $PID2"
+        exit 3
+else
+
+	FACTEROUT=`facter |sed "s/ => /=/g"|sed "s/$/:::/g" `
+
+	#
+	# Determine parameters
+	#
+	# See http://aplawrence.com/Unix/getopts.html for getopts tutorial
+	args=`getopt apo $*`
+	if test $? != 0
+	     then
+	         echo 'Usage: $0 [-p to check for portmap][-a to check autofs stuff]'
+	         exit 1
+	fi
+	set -- $args
+	for i
+	do
+	  case "$i" in
+	        -p) shift;export PMAP=1;shift;;
+	        -a) shift;export AUTOFS=1;shift;;
+	        -o) shift;export OSTEST=1;shift;;
+	  esac
+	done
+
+	ISKVM=`grep Virtual /proc/cpuinfo |grep model.name`
+	if [ ! -z "$ISKVM" ]; then
+		UNWANTED_PROCS="$UNWANTED_PROCS smartd"
+	fi
+
+	if [ -e /opt/dell/srvadmin/etc/omreg.cfg ]; then
+		OMVER=`grep openmanage.version /opt/dell/srvadmin/etc/omreg.cfg | awk -F= '{print $2}'`
+		if [ "$OMVER" != "6.3.0" ];then
+			echo -n "This server runs an old OpenManage (V$OMVER). Please update to 6.3.0.<br>"
+			EXIT=3
+		fi
+	fi
+
+	#	Check for even broadcast adresses (which is faulty)
+
+	OUT=`/sbin/ifconfig |grep Bcast | sed "s/.*Bcast://"|sed "s/ .*//"|awk -F\. '{ if( $4%2 ==0 ){print "Broadcast adress "$1"."$2"."$3"."$4" not valid."}}'`
+	if [ ! -z "$OUT" ]; then
+		echo $OUT
+		EXIT=3
+	fi
+
+	OUT=`echo $IFCFG| grep inet6`
+	if [ ! -z "$OUT" ]; then
+		echo -n "This system has IPv6 enabled. Please disable.<BR>"
+		EXIT=3
+	fi
+
+	# Check for portmapper on all ports
+
+	if [ "$PMAP" == "1" ]; then
+		OUT=`grep PMAP_ARGS /etc/sysconfig/network`
+		if [ -z "$OUT" ]; then
+			ENABLED=`chkconfig --list|grep portmap|grep :on`
+			if [ ! -z "$ENABLED" ]; then
+				echo -n "Portmapper listens on *.*:111 and is enabled."
+			fi
+			EXIT=3
+		fi
+	fi
+
+	#	Check for autofs stuff
+	#
+	if [ "$AUTOFS" == 1 ]; then
+	   AUTOFS_OUT=`ps ax|grep automount|grep -v grep`
+	   if [ ! -z "$AUTOFS_OUT" ]; then
+		OUT=`file /nas|grep symbolic`
+		if [ -z "$OUT" ]; then
+			echo -n "Please replace /nas with a link to /home and remove auto.nas from auto.master"
+			EXIT=3
+		fi
+	   fi
+	fi
+
+	NAS="1"
+	NAS2="1"
+
+	if [ -h /nas-bsse ]; then
+		NAS=`ls -la /nas-bsse | grep net3`
+	fi
+	if [ -h /nas-bsse-full-path ]; then
+		NAS2=`ls -la /nas-bsse-full-path | grep net3`
+	fi
+	if [ -z "$NAS" ]; then
+		echo -n "/nas-bsse does not point to /net3<br>"
+		EXIT=3
+	fi
+	if [ -z "$NAS2" ]; then
+		echo -n "/nas-bsse-full-path does not point to /net3<br>"
+		EXIT=3
+	fi
+
+#	OSNAME=`facter operatingsystem`
+
+	OSNAME=`echo $FACTEROUT|sed "s/:::./\n/g"|grep "operatingsystem="|sed "s/operatingsystem=//"`
+	if [ ! -f /etc/samba/secrets.tdb ]; then
+                if [ -e /etc/debian_version ]; then
+                        if [ ! -f /var/lib/samba/secrets.tdb ]; then
+                                echo -n "Host not joined to the AD! krb5 services not available.<br>"
+                                EXIT=3
+                        fi
+                else
+			# Feodra core
+			if [ "$OSNAME" != "Fedora" ]; then
+				echo -n "Host not joined to the AD! krb5 services not available.<br>"
+				EXIT=3
+			fi
+		fi
+	fi
+	if [ -z "`grep security /etc/samba/smb.conf | grep ads |grep -v '^#'`" ]; then
+		echo -n "Samba config not bound to AD.<br>"
+		EXIT=3
+	fi
+
+	if [ ! -z "`grep net /etc/auto.master|grep -v net3|grep hosts`" ]; then
+		if [ -z "`grep SC.headnodes /etc/auto.master`" ]; then
+			echo -n "auto.master config still uses /net via NFS3. Please update.\n"
+			EXIT=3
+		fi
+	fi
+	if [ ! -z "`cat /proc/cpuinfo | grep QEMU`" ]; then
+		if [ ! -z "`cat /proc/diskstats |grep hda1`" ]; then
+			echo -n "This KVM still uses IDE emulation. Please replace by virtio.<br>"
+			EXIT=3
+		fi
+		if [ -e /sbin/lspci ]; then 
+			LSPCI=/sbin/lspci
+		else 
+			LSPCI=/usr/bin/lspci
+		fi
+		if [ ! -z "`$LSPCI |grep RTL-8139`" ]; then
+			echo -n "This KVM still uses emulated network driver. Please replace by virtio.<br>"
+			EXIT=3
+		fi
+	fi
+
+	#
+	#	RedHat stuff only
+	#
+
+	if [ -f /etc/redhat-release ]; then
+		if [ -z "`uname -a |egrep '(2.6.3|bsse|lustre)'`" ]; then
+			if [ "`uname -p`" == "x86_64" ]; then
+				echo -n "This system is not running a BSSE patched NFS4 kernel. Please update.<br>"
+				EXIT=3
+			fi
+		fi	
+		if [ ! -z "`/sbin/chkconfig --list|grep puppet|grep 3:on`" ]; then
+			echo -n "This system runs puppet as a service. Please change to crontab.<br>"
+			EXIT=3
+		fi
+
+		SMBSUBVER=`smbclient --version|awk -F. '{print $2}'`
+		if [ $SMBSUBVER -lt 5 ]; then
+			echo -n "Samba is still on V3.$SMBSUBVER! Please update to Version 3.5 or higher<br>"
+			EXIT=3
+		fi
+
+		if [ -f "/var/log/yum.cron.failed.lock" ]; then
+			WHEN=`stat /var/log/yum.cron.failed.lock | grep Change | awk '{print $2" "$3}' | sed "s/\..*//"`
+			echo -n "The last yum update failed at $WHEN <br>"
+			EXIT=3
+		fi
+
+#		if [ -d /opt/dell/srvadmin/ ]; then
+#			DELLOM=`/bin/netstat -lanpt|grep LIST|grep 1311 | grep -v 127.0.0.1`
+#			if [ ! -z "$DELLOM" ]; then
+#			 	echo -n "This system has the Dell OM Webservice enabled globally. Please change to localhost or disable"
+#				EXIT=3
+#			fi
+#		fi
+        fi
+
+        #FACTER=`which facter`
+	FW=`echo $FACTEROUT|sed "s/:::./\n/g"|grep "facterversion="|sed "s/facterversion=//"`
+	PV=`echo $FACTEROUT|sed "s/:::./\n/g"|grep "puppetversion="|sed "s/puppetversion=//"`
+
+        if [ ! -z "$FACTEROUT" ]; then
+                FSUBVERS=`echo $FW | awk -F. '{print $2$3}'`
+                if [ "$FSUBVERS" -lt 56 ]; then
+                                echo -n "Facter version $FW is too old. Please update to 1.5.6 or higher."
+                                EXIT=3
+                fi
+                FSUBVERS=`echo $PV | awk -F. '{print $1$2}'`
+                if [ "$FSUBVERS" -lt 26 ]; then
+                                echo -n "Puppet version $PV is too old. Please update to 2.6.0 or higher."
+                                EXIT=3
+                fi
+        fi
+
+
+	for i in `echo $UNWANTED_PROCS`; do
+		if [ ! -z "`ps ax|grep -v grep |grep $i`" ]; then
+			echo -n "Unwanted process $i is running. Please stop and remove.<br>"
+			EXIT=3
+		fi
+	done
+
+	if [ ! -z "$ISKVM" ]; then
+#		if [ -z "`grep console /boot/grub/menu.lst |grep ttyS0`" ]; then
+#			echo -n "This KVM has no kernel serial console enabled.<br>"
+#			EXIT=3
+#		fi
+		if [ ! -e /etc/debian_version ]; then
+			if [ -z "`grep ttyS0 /etc/inittab`" ]; then
+				if [ -z "`test -e /etc/redhat-release && grep Fedora /etc/redhat-release`" ]; then
+					echo -n "This KVM has no serial console in the /etc/inittab<br>"
+					EXIT=3
+				fi
+			fi
+		fi
+	fi
+
+fi
+
+if [ "$EXIT" == "0" ]; then
+	echo -n "No problems found.<br>"
+fi
+
+echo ""
+
+exit $EXIT

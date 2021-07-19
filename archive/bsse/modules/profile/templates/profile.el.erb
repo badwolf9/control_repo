@@ -1,0 +1,97 @@
+# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc
+
+pathmunge () {
+        if ! echo $PATH | /bin/egrep -q "(^|:)$1($|:)" ; then
+           if [ "$2" = "after" ] ; then
+              PATH=$PATH:$1
+           else
+              PATH=$1:$PATH
+           fi
+        fi
+}
+
+# ksh workaround
+if [ -z "$EUID" -a -x /usr/bin/id ]; then
+        EUID=`id -u`
+        UID=`id -ru`
+fi
+
+# Path manipulation
+if [ "$EUID" = "0" ]; then
+        pathmunge /sbin
+        pathmunge /usr/sbin
+        pathmunge /usr/local/sbin
+fi
+
+# No core files by default
+ulimit -S -c 0 > /dev/null 2>&1
+
+if [ -x /usr/bin/id ]; then
+        USER="`id -un`"
+        LOGNAME=$USER
+        MAIL="/var/spool/mail/$USER"
+fi
+
+HOSTNAME=`/bin/hostname`
+HISTSIZE=10000
+HISTFILESIZE=10000
+HISTTIMEFORMAT="%F %T "
+
+if [ -z "$INPUTRC" -a ! -f "$HOME/.inputrc" ]; then
+    INPUTRC=/etc/inputrc
+fi
+<% if @ipaddress =~ /^10\.20\.*|^172\.31\.*/ -%>http_proxy=http://proxy.ethz.ch:3128
+https_proxy=http://proxy.ethz.ch:3128
+no_proxy=localhost,127.0.0.0/8,ethz.ch,systemsx.ch
+export http_proxy https_proxy no_proxy
+<% else %><% end -%>
+<% if @hostname =~ /bs-svn01|bs-svn03/ %>PATH=/opt/CollabNet_Subversion/bin:$PATH
+export MANPATH=/opt/CollabNet_Subversion/share/man:$MANPATH
+<% else %><% end %>
+export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE HISTFILESIZE HISTTIMEFORMAT INPUTRC
+
+for i in /etc/profile.d/*.sh ; do
+    if [ -r "$i" ]; then
+        if [ "$PS1" ]; then
+            . $i
+        else
+            . $i >/dev/null 2>&1
+        fi
+    fi
+done
+
+unset i
+unset pathmunge
+
+#	BSSE addons
+if [ -f /etc/svninfo ];then
+	alias vi="cat /etc/svninfo && vim -N"
+else
+	alias vi="vim -N"
+fi
+
+# BSSE Puppet information at login
+if [ -f /etc/motd.sh ];then
+	WHOAMI=`whoami`
+	if [ "${WHOAMI}" == "root" ];then
+		/bin/sh /etc/motd.sh
+	fi
+fi
+
+#
+#	avoid conflicts
+#
+export KDEHOME=~/.kde4
+
+if [ "`whoami`" != "root" ]; then
+	alias chmod='echo "WARNING : Please do not use chmod on the BSSE NFS Servers. See : https://wiki-bsse.ethz.ch/display/DBSSEPUBLIC/Why+chmod+under+Linux+changed for further details. Ignored arguments :"'
+	alias chmod.force='/bin/chmod'
+fi
+
+MODULEPATH="/etc/modulefiles"
+export MODULEPATH
+
+LS_COLORS='no=00:fi=00:di=94:ln=00;36:pi=40;33:so=00;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:ex=00;32:*.cmd=00;32:*.exe=00;32:*.com=00;32:*.btm=00;32:*.bat=00;32:*.sh=00;32:*.csh=00;32:*.tar=00;31:*.tgz=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.bz=00;31:*.tz=00;31:*.rpm=00;31:*.cpio=00;31:*.jpg=00;35:*.gif=00;35:*.bmp=00;35:*.xbm=00;35:*.xpm=00;35:*.png=00;35:*.tif=00;35:'

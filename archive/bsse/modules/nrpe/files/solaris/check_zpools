@@ -1,0 +1,59 @@
+#!/bin/sh
+#
+# By Aldo Fabi 01-09-2006
+# LTP: 04-10-2006
+#
+# Nagios solaris 10 zpools Checker
+#
+
+### Begin vars
+exit_code=0
+exit_text=""
+### End vars
+
+POOLS=`/usr/sbin/zpool list -Ho name`
+if [ $1 ]
+then
+	THRESHOLD=$1
+else
+	THRESHOLD=90
+fi
+
+errors_checker(){
+
+        if [ "${exit_text}" ]
+        then
+		if [ $2 -gt ${THRESHOLD} -o $3 != "ONLINE" ]
+		then
+			exit_code=2
+                	exit_text=${exit_text}" NOK:$1:$2%:$3"
+		else
+			exit_text=${exit_text}" OK:$1:$2%:$3"
+		fi
+        else
+		if [ $2 -gt ${THRESHOLD} -o $3 != "ONLINE" ]
+		then
+			exit_code=2
+			exit_text="NOK:$1:$2%:$3"
+		else
+                	exit_text="OK:$1:$2%:$3"
+		fi
+        fi
+
+        if [ "${perf_data}" ]
+        then
+		perf_data=${perf_data}" $1=$2%"
+	else
+		perf_data="$1=$2%"
+	fi
+}
+
+for POOL in `echo ${POOLS}`
+do
+	CAPACITY=`/usr/sbin/zpool list -Ho capacity ${POOL}|cut -d"%" -f1`
+	HEALTH=`/usr/sbin/zpool list -Ho health ${POOL}`
+	errors_checker ${POOL} ${CAPACITY} ${HEALTH}
+done
+
+echo ${exit_text}"|"${perf_data}
+exit ${exit_code}

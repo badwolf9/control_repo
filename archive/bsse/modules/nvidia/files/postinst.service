@@ -1,0 +1,10 @@
+[Unit]
+Description=Start action after complete install and restart
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/systemd/scripts/postinst
+
+[Install]
+WantedBy=multi-user.target
+

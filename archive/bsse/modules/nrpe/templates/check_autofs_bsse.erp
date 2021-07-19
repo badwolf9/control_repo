@@ -1,0 +1,47 @@
+#!/bin/bash
+
+ERR=0
+
+PID=$$
+PROCS=`ps ax | grep check_autofs_bsse |grep -v grep`
+
+if [ ! -z "`echo $PROCS | grep -v $PID`" ]; then
+	echo $PROCS
+        echo "Detected stale check script on $HOSTNAME!. $$ $PID $PID2"
+        exit 3
+fi
+
+COUNT=0
+TOTCOUNT=0
+<% if classes.include?("ou-service-gridnodes") %>
+for i in /usr/local/beerenwinkel /usr/local/bsse /usr/local/cina /usr/local/cisd /usr/local/dsu /usr/local/hierlemann /usr/local/iber /usr/local/panke /usr/local/paro /usr/local/stelling /usr/local/grid; do
+<% else %>
+for i in /usr/local/beerenwinkel /usr/local/bsse /usr/local/cina /usr/local/cisd /usr/local/dsu /usr/local/hierlemann /usr/local/iber /usr/local/panke /usr/local/paro /usr/local/stelling; do
+<% end %>
+	F=`file $i | grep broken`
+	let TOTCOUNT=$TOTCOUNT+1
+	if [ ! -z "$F" ]; then
+		let COUNT=$COUNT+1
+		ERR=2
+	fi
+done
+if [ "$COUNT" -gt 0 ]; then
+	echo -n "$COUNT of $TOTCOUNT links in /usr/local are broken! Please try to restart autofs.<br>"
+fi
+
+AUTOFS=`ps ax|grep -v grep |grep automount`
+if [ -z "$AUTOFS" ]; then
+	echo -n "automount daemon not running"
+	exit 2
+fi
+
+<% if do_bkp_check then %>
+	if [ ! -d /local0/.bkup ]; then
+		echo This host has no .bkup folder in /local0
+		ERR=3
+	fi
+<% end %>
+
+[ "$ERR" == 0 ] && echo OK
+
+exit $ERR

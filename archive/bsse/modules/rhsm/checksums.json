@@ -1,0 +1,15 @@
+{
+  "LICENSE": "fa818a259cbed7ce8bc2a22d35a464fc",
+  "README.md": "62f41e715615345f2f5784e05f662289",
+  "Rakefile": "20b80e526e351a74df2001f504e756d2",
+  "lib/puppet/provider/rh_repo/redhat.rb": "b9314597b5538c3db04309c12cb96c5c",
+  "lib/puppet/provider/rh_subscription/redhat.rb": "3958de80b25551f4c831e0d138651ea0",
+  "lib/puppet/type/rh_repo.rb": "0929bb91360a24297e16687088122263",
+  "lib/puppet/type/rh_subscription.rb": "5530cfc24242040406fe969f922de73f",
+  "manifests/init.pp": "b0a0f1cf6e6a591786483a8c012ddcb0",
+  "manifests/named_subscription.pp": "bb11326f06c4fb2cef690ae081cffc89",
+  "metadata.json": "3d1a65382c7d96fa8d86fe7e903c7fa1",
+  "spec/classes/init_spec.rb": "adc537611befdb6239fd8ae203d9c553",
+  "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+  "tests/init.pp": "76383d35d394cae9f8688fbe6f850f43"
+}
