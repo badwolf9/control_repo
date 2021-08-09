@@ -4,4 +4,3 @@ mod 'puppetlabs/concat'
 mod 'pltraining/dockeragent'
 mod 'garethr/docker'
 mod 'ipcrm/echo', :latest
-mod 'puppet/r10k'
