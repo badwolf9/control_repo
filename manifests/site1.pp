@@ -14,7 +14,6 @@ echo {'TestMessageNoPath':
 
 $mess1 = " === $hostname P7 run (OS : $operatingsystem ($lsbdistrelease) / InstType : $installtype / OS family : $osfamily). ==="
 
-
 #echo 'Next Message'
 #  message => $mess1
 #  withpath => false
